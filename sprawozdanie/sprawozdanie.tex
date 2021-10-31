@@ -1,3 +1,4 @@
+%! TEX encoding = utf8
 \documentclass[a4paper,titlepage,11pt,twosides,floatssmall]{mwrep}
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
 \usepackage[OT1]{fontenc}
@@ -12,7 +13,7 @@
 \usetikzlibrary{arrows,calc,decorations.markings,math,arrows.meta}
 \usepackage{rotating}
 \usepackage[percent]{overpic}
-\usepackage[cp1250]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{xcolor}
 \usepackage{colortbl}
 \usepackage{pgfplots}
@@ -61,7 +62,7 @@
 	stringstyle=\color{orange},
 }
 
-%wymiar tekstu (bez ¿ywej paginy)
+%wymiar tekstu (bez ï¿½ywej paginy)
 \textwidth 160mm \textheight 247mm
 
 %ustawienia pakietu pgfplots
@@ -75,7 +76,7 @@ title style={font=\small}
 \def\figurename{Rys.}
 \def\tablename{Tab.}
 
-%konfiguracja liczby p³ywaj¹cych elementów
+%konfiguracja liczby pï¿½ywajï¿½cych elementï¿½w
 \setcounter{topnumber}{0}%2
 \setcounter{bottomnumber}{3}%1
 \setcounter{totalnumber}{5}%3
@@ -88,22 +89,22 @@ title style={font=\small}
 \frenchspacing
 \pagestyle{uheadings}
 
-%strona tytu³owa
-\title{\bf Sprawozdanie z projektu i æwiczenia laboratoryjnego nr 1, zadanie nr 1\vskip 0.1cm}
-\author{Stanislau Stankevich, Rafa? Bednarz, Ostrysz Jakub}
+%strona tytuï¿½owa
+\title{\bf Sprawozdanie z projektu i Ä‡wiczenia laboratoryjnego nr 1, zadanie nr 1\vskip 0.1cm}
+\author{Stanislau Stankevich, RafaÅ‚ Bednarz, Ostrysz Jakub}
 \date{2021}
 
 \makeatletter
 \renewcommand{\maketitle}{\begin{titlepage}
 \begin{center}{\LARGE {\bf
-Wydzia³ Elektroniki i Technik Informacyjnych}}\\
+WydziaÅ‚ Elektroniki i Technik Informacyjnych}}\\
 \vspace{0.4cm}
 {\LARGE {\bf Politechnika Warszawska}}\\
 \vspace{0.3cm}
 \end{center}
 \vspace{5cm}
 \begin{center}
-{\bf \LARGE Projektowanie uk³adów sterowania\\ (projekt grupowy) \vskip 0.1cm}
+{\bf \LARGE Projektowanie ukÅ‚adÃ³w sterowania\\ (projekt grupowy) \vskip 0.1cm}
 \end{center}
 \vspace{1cm}
 \begin{center}
@@ -124,12 +125,7 @@ Wydzia³ Elektroniki i Technik Informacyjnych}}\\
 \maketitle
 
 \tableofcontents
-\input{wstep}
-\input{wzory}
-\input{tabele}
-\input{rysunki}
-\input{listingi}
-\input{uwagi}
-\input{literatura}
+\input{sprawdzenie}
+\input{char_stat}
 \end{document}
 

@@ -1,0 +1,5 @@
+\contentsline {chapter}{\numberline {1\relax .\kern .5em }Sprawdzenie poprawno\IeC {\'s}ci podanych warto\IeC {\'s}ci}{2}
+\contentsline {chapter}{\numberline {2\relax .\kern .5em }Odpowiedzi skokowe}{3}
+\contentsline {section}{\numberline {2.1\relax .\kern .5em }Opowiedzi skokowe}{3}
+\contentsline {section}{\numberline {2.2\relax .\kern .5em }Charakterystyka statyczna}{3}
+\contentsline {section}{\numberline {2.3\relax .\kern .5em }Wzmocnienie statyczne}{4}

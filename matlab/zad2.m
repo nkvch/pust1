@@ -20,23 +20,19 @@ for i=1:5
         Y(k) = symulacja_obiektu10Y_p1(U(k-10), U(k-11), Y(k-1), Y(k-2));
     end
     stairs(Y);
-    marks(i) = sprintf('Skok U z %f do %f', U0, U0 + steps(i));
+    marks(i) = sprintf('Skok U z %.2f do %.2f', U0, U0 + steps(i));
     responses(i + 1) = Y(N);
     hold on;
 end
 
 ylim([0.8 1.5]);
-title('Odpowiedzi skokowe');
-legend(marks,'Location', 'Best');
+legend(marks,'Location', 'southeast');
 set(gcf,'Units','centimeters','Position', [ 1 1 15 10]);
-print('zad2.png','-dpng','-r400');
-matlab2tikz('wykres_odp_skokowe.tex');
+matlab2tikz('../sprawozdanie/rysunki/wykres_odp_skokowe.tex');
 
 figure;
 plot(inputs, responses);
-title('Charakterystyka statyczna y(u)');
 set(gcf,'Units','centimeters','Position', [ 1 1 15 15]);
-print('zad2_char_stat.png','-dpng','-r400');
-matlab2tikz('wykres_char_stat.tex');
+matlab2tikz('../sprawozdanie/rysunki/wykres_char_stat.tex');
 
 K_stat=(responses(6) - responses(1))/(inputs(6) - inputs(1))
