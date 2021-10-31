@@ -13,3 +13,4 @@ ylim([0 1]);
 title('Sprawdzenie punktu pracy');
 set(gcf,'Units','centimeters','Position', [ 1 1 15 10]);
 print('zad1.png','-dpng','-r400');
+matlab2tikz('wykres_punkt_pracy.tex');

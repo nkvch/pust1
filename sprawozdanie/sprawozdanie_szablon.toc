@@ -1,0 +1,36 @@
+\contentsline {chapter}{\numberline {1\relax .\kern .5em }Sprawdzenie poprawno?ci podanych warto?ci}{2}
+\contentsline {chapter}{\numberline {2\relax .\kern .5em }Wzory matematyczne}{3}
+\contentsline {section}{\numberline {2.1\relax .\kern .5em }Sta\IeC {\l }e i\nobreakspace {}zmienne, indeksowanie}{3}
+\contentsline {section}{\numberline {2.2\relax .\kern .5em }Wektory}{3}
+\contentsline {section}{\numberline {2.3\relax .\kern .5em }Macierze}{4}
+\contentsline {section}{\numberline {2.4\relax .\kern .5em }Wi\k eksze wyra\.zenia matematyczne}{4}
+\contentsline {chapter}{\numberline {3\relax .\kern .5em }Tabele}{5}
+\contentsline {chapter}{\numberline {4\relax .\kern .5em }Rysunki}{7}
+\contentsline {section}{\numberline {4.1\relax .\kern .5em }Schematy blokowe}{7}
+\contentsline {section}{\numberline {4.2\relax .\kern .5em }Kolory}{8}
+\contentsline {section}{\numberline {4.3\relax .\kern .5em }Funkcje statyczne}{8}
+\contentsline {section}{\numberline {4.4\relax .\kern .5em }Wyniki symulacji i\nobreakspace {}eksperyment\'ow}{11}
+\contentsline {subsection}{\numberline {4.4.1\relax .\kern .5em }Procesy jednowymiarowe}{11}
+\contentsline {subsection}{\numberline {4.4.2\relax .\kern .5em }Procesy wielowymiarowe}{15}
+\contentsline {section}{\numberline {4.5\relax .\kern .5em }Zapis wielu rysunk\'ow do jednego pliku \texttt {pdf}}{20}
+\contentsline {section}{\numberline {4.6\relax .\kern .5em }Prosty eksport wykres\'ow: skrypt \texttt {matlab2tikz}}{21}
+\contentsline {subsection}{\numberline {4.6.1\relax .\kern .5em }MATLAB i\nobreakspace {}dob\'or kolor\'ow}{23}
+\contentsline {section}{\numberline {4.7\relax .\kern .5em }Lokalizacja rysunk\'ow i\nobreakspace {}tabel}{26}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Listingi program\'ow}{27}
+\contentsline {chapter}{\numberline {6\relax .\kern .5em }Uwagi do wykonywania sprawozda\'n}{28}
+\contentsline {section}{\numberline {6.1\relax .\kern .5em }Kodowanie znak\'ow}{28}
+\contentsline {section}{\numberline {6.2\relax .\kern .5em }Niemerytoryczne powody niepowodzenia}{28}
+\contentsline {section}{\numberline {6.3\relax .\kern .5em }Styl j\k ezykowy sprawozdania}{28}
+\contentsline {section}{\numberline {6.4\relax .\kern .5em }Zgodno\'s\'c z polskimi normami dotycz\k acymi przygotowywania publikacji}{28}
+\contentsline {section}{\numberline {6.5\relax .\kern .5em }U\.zywanie zwrot\'ow w\nobreakspace {}cudzys\IeC {\l }owie}{29}
+\contentsline {section}{\numberline {6.6\relax .\kern .5em }Separator dziesi\k etny}{29}
+\contentsline {section}{\numberline {6.7\relax .\kern .5em }Odwo\IeC {\l }ania do rysunk\'ow i\nobreakspace {}tabel}{29}
+\contentsline {section}{\numberline {6.8\relax .\kern .5em }Jednostki}{30}
+\contentsline {section}{\numberline {6.9\relax .\kern .5em }Wstawianie kodu programu i\nobreakspace {}jego zasadno\'s\'c}{30}
+\contentsline {section}{\numberline {6.10\relax .\kern .5em }Warunki stosowania \texttt {plot} i\nobreakspace {}\texttt {stairs}}{30}
+\contentsline {section}{\numberline {6.11\relax .\kern .5em }Dodatkowe uwagi dotycz\k ace wykres\'ow}{31}
+\contentsline {section}{\numberline {6.12\relax .\kern .5em }Przeprowadzanie eksperyment\'ow}{31}
+\contentsline {section}{\numberline {6.13\relax .\kern .5em }Krytyczne podej\'scie do om\'owienia wynik\'ow}{32}
+\contentsline {section}{\numberline {6.14\relax .\kern .5em }Cykliczna archiwizacja i\nobreakspace {}analiza wynik\'ow po laboratorium}{32}
+\contentsline {section}{\numberline {6.15\relax .\kern .5em }Om\'owienie wynik\'ow a\nobreakspace {}dobieranie parametr\'ow}{32}
+\contentsline {chapter}{Bibliografia}{33}

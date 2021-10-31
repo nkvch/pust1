@@ -30,11 +30,13 @@ title('Odpowiedzi skokowe');
 legend(marks,'Location', 'Best');
 set(gcf,'Units','centimeters','Position', [ 1 1 15 10]);
 print('zad2.png','-dpng','-r400');
+matlab2tikz('wykres_odp_skokowe.tex');
 
 figure;
 plot(inputs, responses);
 title('Charakterystyka statyczna y(u)');
 set(gcf,'Units','centimeters','Position', [ 1 1 15 15]);
 print('zad2_char_stat.png','-dpng','-r400');
+matlab2tikz('wykres_char_stat.tex');
 
 K_stat=(responses(6) - responses(1))/(inputs(6) - inputs(1))

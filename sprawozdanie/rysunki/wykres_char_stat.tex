@@ -1,0 +1,34 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=4.658in,
+height=4.814in,
+at={(0.781in,0.65in)},
+scale only axis,
+xmin=3,
+xmax=3.3,
+ymin=0.9,
+ymax=1.4,
+axis background/.style={fill=white},
+title style={font=\bfseries},
+title={Charakterystyka statyczna y(u)}
+]
+\addplot [color=mycolor1, forget plot]
+  table[row sep=crcr]{%
+3	0.9\\
+3.1	1.06084843677736\\
+3.15	1.14127265516605\\
+3.2	1.22169687355474\\
+3.25	1.30212109194342\\
+3.3	1.38254531033211\\
+};
+\end{axis}
+\end{tikzpicture}%
