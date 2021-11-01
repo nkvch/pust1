@@ -1,0 +1,26 @@
+%! TEX encoding = utf8
+\chapter{Przekształcenie odpowiedzi skokowej na potrzeby algorytmu DMC}
+
+\section{Przekształcenie odpowiedzi}
+Odpowiedź skokowa wykorzystywana w algorytmach DMC tworzona jest przy skoku jednostkowym od chwili k=0 (od $k\geq0$ sygnał sterujący ma wartość 1 ,a dla $k<0$  wartość 0).
+Żadna z odpowiedzi skokowych z podpunktu 2 nie posiada tej własności, dlatego też należy skorzystać z poniższego wzoru:
+
+\begin{equation}
+S_i=\frac{Y(i)-Y_{pp}}{\delta U} \textrm{ ,dla } i=1,2 \ldots D
+\label{step_norm}
+\end{equation}
+
+Przy jego pomocy można wyznaczyć kolejne zestawy liczb $s_1, s_2  \ldots$, które są kolejnymi wartościami wyznaczanej odpowiedzi skokowej. We wzorze $Y_{pp}$ oznacza wyjście w punkcie pracy, $\delta U$ wartość skoku sygnału sterującego. Natomiast $Y(i)$ to wartości przekształcanej odpowiedzi skokowej, dla kolejnych chwil od momentu wystąpienia skoku sygnału sterującego.
+Do przekształcenia odpowiedzi skokowej według powyższego wzoru wybrano odpowiedź procesu dla zmiany sygnału sterującego o $\delta U=0,3$ (skok z $U_{pp}=3$ do $U=3,3$). Skok sygnału sterującego zadany był w chwili k=12.
+
+
+\section{Wykres odpowiedzi skokowej}
+Po wyliczeniu kolejnych współczynników s i naniesieniu ich na wykres odpowiedź skokowa wygląda następująco:
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/podpunkt3_odpowiedzSkokowa.tex}
+\caption{Charakterystyka statyczna $y(u)$}
+\end{figure}
+
