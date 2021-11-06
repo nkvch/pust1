@@ -1,3 +1,7 @@
+%wyznaczenie wektora wspó³czynników s
+zad3; 
+s=s(1:175);
+
 n = 300; %czas symulacji
 %punkt pracy
 Upp = 3;
@@ -10,17 +14,35 @@ U(12:n) = 0;
 Y(1:11) = Ypp;
 Y(12:n) = 0;
 
-
 %ograniczenia
 Umax = 3.3;
 Umin = 2.7;
-dU = 0.075;
-%nastawy regulatora PID w wersji ci¹g³ej
-K = 1.3; Ti = 10; Td = 3; T=0.5;
-%wyliczenie nastawów regulatora PID w wersji dyskretnej
-r2 = K*Td/T;
-r1 = K*(T/(2*Ti)-2*Td/T-1);
-r0 = K*(1+T/(2*Ti)+Td/T);
+dU = 0.075; %maksymalna zmiana
+%horyzont dynamiki
+D=175;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%parametry regulatora DMC: N-horyzont predykcji Nu-horyzont sterowania
+%lambda-wspolczynnik kary
+N=80; Nu=20; lambda=60;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+s(D+1:D+N)=s(D);
+
+%wyznaczenie macierzy MP
+MP=zeros(N,D-1);
+for i=1:(D-1)
+    MP(1:N,i)=s(i+1:N+i)-s(i);
+end
+
+%wyznaczenie macierzy M
+M=zeros(N,Nu);
+for i=1:Nu
+    M(i:N,i)=s(1:N-i+1);
+end
+
+%wyznaczenie macierzy K
+I=eye(Nu);
+K=((M'*M+lambda*I)^(-1))*M';
 
 %wartoœci zadane
 Yzad(1:11)=0.9;
@@ -30,6 +52,7 @@ Yzad(100:n)=0.7;
 %by³y w okolicach 0
 u = U- Upp;
 y = Y - Ypp;
+yzad = Yzad - Ypp;
 y(12:n)=0;
 u(12:n)=0;
 e(1:n)=0;
@@ -37,13 +60,26 @@ umin = Umin-Upp;
 umax = Umax-Upp;
 E = 0; %wskaŸnik jakoœci regulacji
 
+%zdefiniowanie innych potrzebnych zmiennych
+DUP=zeros(D-1,1);
+DU=zeros(Nu,1);
+Y0=zeros(N,1);
+YK=zeros(N,1);
+YzadK=zeros(N,1);
+
 for k=12:n
     Y(k) = symulacja_obiektu10Y_p1(U(k-10), U(k-11), Y(k-1), Y(k-2)); %symulacja obiektu
     y(k) = Y(k)-Ypp;
-    e(k) = Yzad(k)-Ypp-y(k); %uchyb
+    e(k) = yzad(k)-y(k); %uchyb
     
-    u(k) = r2*e(k-2)+r1*e(k-1)+r0*e(k)+u(k-1); %wyliczenie wartoœci sterowania dla chwili k
-    du = u(k)-u(k-1); %wyznaczenie zmiany sygna³u steruj¹cego du
+    %wektory obecnej i zadanej wartoœci wyjœcia
+    YK(1:N,1)=y(k);
+    YzadK(1:N,1)=yzad(k);
+
+    
+    Y0 = YK+MP*DUP;
+    DU = K*(YzadK-Y0);
+    du = DU(1);
     
     %uwzglêdnienie ograniczeñ zmian sygna³u steruj¹cego
     if du>dU
@@ -54,6 +90,12 @@ for k=12:n
     end
     
     u(k) = du+u(k-1);
+    
+    %wyznaczenie nowego wektora deltaUP
+    for j=D-1:-1:2
+        DUP(j)=DUP(j-1);
+    end
+    DUP(1) = du;
     
     %uwzglêdnienie ograniczeñ wartoœci sygna³u steruj¹cego
     if u(k)>umax
@@ -79,9 +121,12 @@ subplot(2,1,2);
 stairs(Y);
 xlabel('k');
 ylabel('Y(k)');
-title(sprintf('Wyjœcie, b³¹d %d',E));
+title(sprintf('Wyjœcie- algorytm DMC, b³¹d %d',E));
 hold on;
 stairs(Yzad);
 legend('Y','Yzad')
 hold off;
+
+
+
 

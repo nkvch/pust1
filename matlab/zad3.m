@@ -26,10 +26,6 @@ ylabel('Y(k)');
 title('OdpowiedŸ skokowa');
 %matlab2tikz('../sprawozdanie/rysunki/podpunkt3_przeksztalcana.tex');
 
-for k=12:N
-    Y(k) = symulacja_obiektu10Y_p1(U(k-10), U(k-11), Y(k-1), Y(k-2));
-end
-
 %D=175- gdy¿ wartoœæ odpowiedzi skokowej dla k=175 siê stabilizuje
 for k=13:N
     s(k-12)=(Y(k)-0.9)/0.3; %przesuniêcie wspo³czynników bo odpowiedŸ skokowa jest w chwili k=12
@@ -39,7 +35,7 @@ stairs(s(1:250));
 xlabel('k');
 ylabel('Y(k)');
 title('OdpowiedŸ skokowa');
-matlab2tikz('../sprawozdanie/rysunki/podpunkt3_odpowiedzSkokowa.tex');
+%matlab2tikz('../sprawozdanie/rysunki/podpunkt3_odpowiedzSkokowa.tex');
 
 
 
