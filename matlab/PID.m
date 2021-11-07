@@ -1,4 +1,4 @@
-n = 300; %czas symulacji
+n = 1000; %czas symulacji
 %punkt pracy
 Upp = 3;
 Ypp = 0.9;
@@ -6,26 +6,37 @@ Ypp = 0.9;
 U = zeros(1, n);
 Y = zeros(1, n);
 U(1:11) = Upp;
-U(12:n) = 0;
 Y(1:11) = Ypp;
-Y(12:n) = 0;
 
 
 %ograniczenia
 Umax = 3.3;
 Umin = 2.7;
 dU = 0.075;
+T=0.5;
 %nastawy regulatora PID w wersji ci¹g³ej
-K = 1.3; Ti = 10; Td = 3; T=0.5;
+%K = 1.3; Ti = 10; Td = 3; 
+K = 1.212; Ti = 25; Td = 6; % Parametry ZN
 %wyliczenie nastawów regulatora PID w wersji dyskretnej
 r2 = K*Td/T;
 r1 = K*(T/(2*Ti)-2*Td/T-1);
 r0 = K*(1+T/(2*Ti)+Td/T);
 
-%wartoœci zadane
+%wartosœci zadane
 Yzad(1:11)=0.9;
-Yzad(12:n)=1.3;
-Yzad(100:n)=0.7;
+%Yzad(12:n)=1.1;
+Yzad(12:150)=1.35;
+Yzad(151:300)=0.8;
+Yzad(301:500)=1.0;
+Yzad(501:550)=1.05;
+Yzad(551:600)=1.1;
+Yzad(601:650)=1.15;
+Yzad(651:700)=1.2;
+Yzad(701:750)=1.15;
+Yzad(751:800)=1.1;
+Yzad(751:800)=1.05;
+Yzad(801:850)=1.0;
+Yzad(851:n)=0.6;
 %pomniejszenuie zmiennych regulatora o wartoœci w punkcie pracy tak y,u
 %by³y w okolicach 0
 u = U- Upp;
@@ -69,19 +80,21 @@ end
 
 
 %wykres
-subplot(2,1,1);
+figure;
 stairs(U);
-ylim([2.5 3.4]);
+ylim([2.7 3.3]);
 xlabel('k');
 ylabel('U(k)');
-title('Sygna³ steruj¹cy');
-subplot(2,1,2);
+%title('Sygna³ steruj¹cy');
+set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+figure;
 stairs(Y);
 xlabel('k');
 ylabel('Y(k)');
-title(sprintf('Wyjœcie, b³¹d %d',E));
+%title(sprintf('Wyjœcie, b³¹d %d',E));
 hold on;
 stairs(Yzad);
+ylim([0.5 1.4]);
 legend('Y','Yzad')
 hold off;
-
+set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);

@@ -1,0 +1,26 @@
+%! TEX encoding = utf8
+\chapter{Algorytmy regulacji}
+
+\section{Algorytm cyfrowy regulacji PID}
+
+Prawo regulacji cyfrowego PID:
+
+\begin{equation}
+u(k)=r_2e(k-2) + r_1e(k-1) + r_0e(k) + u(k-1) \textrm{, dla } k=12, 13  \ldots N
+\label{control_rule}
+\end{equation}
+
+Współczynniki regulacji $r_i$ są wyliczane ze standardowych wzorów i zależą od wzmocnienia członu proporcjonalnego $K_p$, parametru całkowania $T_i$, parametru różniczkowania $T_d$, które są parametrami dostrojalnymi regulatora, oraz od wartości okresu próbkowania $T = 0,5s$.
+
+Wartości wejścia i wyjścia będą wystawiane na $U_{PP}$ i $Y_{PP}$ dla $k = 1,2 \ldots 11 $, a dla następnych chwil czasu wejście będzie liczone z prawa regulacji, uwzględniając ograniczenia $u_{min}$, $u_{max}$, $\triangle u^{max}$.
+
+\section{Algorytm DMC w wersji analitycznej}
+
+Prawo regulacji DMC:
+
+\begin{equation}
+\triangle U(k)=K(Y^{zad}(k)-Y^0(k))
+\end{equation}
+
+Gdzie $\triangle U(k)$ to wektor $N_u$ (horyzont sterowania) przyszłych wartości sterowania, $Y^0(k)$ to przewidywana odpowiedź z modelu procesu, $K$ - macierz policzona raz na początku ze współczynników odpowiedzi skokowej, uwzględniając wybrany współczynnik $\lambda$ oraz horyzonty predykcji i sterowania.
+

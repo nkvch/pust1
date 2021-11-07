@@ -1,0 +1,70 @@
+%! TEX encoding = utf8
+\chapter{Strojenie regulatorów}
+
+\section{Strojenie regulatora PID}
+
+Otrzymane metodą ZN nastawy regulatora PID: $K_p = 1.212$, $T_i = 25$, $T_d = 6$.
+
+Wyniki symulacji o długości $n = 1000$ dla parametrów:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/PID_ZN_ster.tex}
+\caption{Sterowanie PID dla parametrów ZN}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/PID_ZN.tex}
+\caption{Śledzenie wartości zadanej dla parametrów ZN}
+\end{figure}
+
+Wskaźnik jakości regulacji:
+
+\begin{equation}
+E = 36,0711
+\end{equation}
+
+Zmieniając $T_i$ i $T_d$ na $15$ i $4$ odpowiednio:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/PID_ster_1.tex}
+\caption{Sterowanie PID dla parametrów $K = 1,212$, $T_i = 15$, $T_d = 4$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/PID_1.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $K = 1,212$, $T_i = 15$, $T_d = 4$}
+\end{figure}
+
+Wskaźnik jakości regulacji:
+
+\begin{equation}
+E = 25,6710
+\end{equation}
+
+Wartości parametrów dla których wartość wyjścia najlepiej śledzi wartość zadaną (na oko) to:
+
+\begin{equation}
+K = 1,3; T_i = 10; T_d = 3;
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/PID_ster_2.tex}
+\caption{Sterowanie PID dla parametrów $K = 1,3$, $T_i = 10$, $T_d = 3$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/PID_2.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $K = 1,3$, $T_i = 10$, $T_d = 3$}
+\end{figure}
+
+Wskaźnik jakości regulacji:
+
+\begin{equation}
+E = 20,5988
+\end{equation}

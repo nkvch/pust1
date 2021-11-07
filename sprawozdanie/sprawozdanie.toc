@@ -3,3 +3,11 @@
 \contentsline {section}{\numberline {2.1\relax .\kern .5em }Opowiedzi skokowe}{3}
 \contentsline {section}{\numberline {2.2\relax .\kern .5em }Charakterystyka statyczna}{3}
 \contentsline {section}{\numberline {2.3\relax .\kern .5em }Wzmocnienie statyczne}{4}
+\contentsline {chapter}{\numberline {3\relax .\kern .5em }Przekszta\IeC {\l }cenie odpowiedzi skokowej na potrzeby algorytmu DMC}{5}
+\contentsline {section}{\numberline {3.1\relax .\kern .5em }Przekszta\IeC {\l }cenie odpowiedzi}{5}
+\contentsline {section}{\numberline {3.2\relax .\kern .5em }Wykres odpowiedzi skokowej}{5}
+\contentsline {chapter}{\numberline {4\relax .\kern .5em }Algorytmy regulacji}{7}
+\contentsline {section}{\numberline {4.1\relax .\kern .5em }Algorytm cyfrowy regulacji PID}{7}
+\contentsline {section}{\numberline {4.2\relax .\kern .5em }Algorytm DMC w wersji analitycznej}{7}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Strojenie regulator\IeC {\'o}w}{8}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Strojenie regulatora PID}{8}
