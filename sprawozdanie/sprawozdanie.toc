@@ -15,3 +15,8 @@
 \contentsline {chapter}{\numberline {6\relax .\kern .5em }Optymalizacja wska\IeC {\'z}nik\IeC {\'o}w jako\IeC {\'s}ci}{15}
 \contentsline {section}{\numberline {6.1\relax .\kern .5em }Regulator PID}{15}
 \contentsline {section}{\numberline {6.2\relax .\kern .5em }Regulator DMC}{18}
+\contentsline {chapter}{\numberline {7\relax .\kern .5em }Laboratorium}{19}
+\contentsline {section}{\numberline {7.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{19}
+\contentsline {section}{\numberline {7.2\relax .\kern .5em }Wyznaczenie odpowiedzi skokowych}{19}
+\contentsline {section}{\numberline {7.3\relax .\kern .5em }Aproksymacja odpowiedzi skokowej}{21}
+\contentsline {section}{\numberline {7.4\relax .\kern .5em }Dobranie nastaw regulatora PID i parametr\IeC {\'o}w algorytmu DMC}{22}
