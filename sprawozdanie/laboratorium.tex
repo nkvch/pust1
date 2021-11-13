@@ -1,0 +1,64 @@
+%! TEX encoding = utf8
+\chapter{Laboratorium}
+
+\section{Określenie wartości pomiaru temperatury w punkcie pracy}
+
+W celu określenia wartości pomiaru temperatury w punkcie pracy ustawiono moc wentylatora  $W1 = 50\%$,a moc grzałki $G1 = 25\%$.
+Po czasie około 5 minut temperatura odczytywana przez czujnik temperatury zaczeła się stabilizować  na poziomie  $T1 = 28,4^{\circ} C$. 
+Niestety z powodu ciągłego ruchu powietrza związanego z przemieszczaniem się osób w sali i dużej ilości tych osób wpływających na temperaturę sali oraz czułość stanowiska pomiarowego temperatura odczytywana przez czujnik zaczeła odbiegać i lekko oscylować od tej temperatury.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/stabiliz.tex}
+\caption{Pomiar temperatury w punkcie pracy}
+\end{figure}
+
+\section{Wyznaczenie odpowiedzi skokowych}
+
+Rozpoczynając z punktu pracy wyznaczono odpowiedzi skokowe dla trzech różnych wartości sygnału sterującego  $G1 = 35\%$  $G1 = 45\%$ i $G1 = 55\%$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/odpskok3.tex}
+\caption{Odpowiedzi skokowe dla trzech różnych wartości sygnału sterującego}
+\end{figure}
+
+Analizując otrzymane wykresy można wywnioskować że właściwości statyczne procesu są w przybliżeniu liniowe, zmiany wartości odpowiedzi skokowej dla tych samych chwil są w przybliżeniu proporcjonalne jak również sam kształt wykresów jest w przybliżeniu podobny. W konsekwencji postanowiono wyznaczyć wzmocnienie statyczne procesu.
+
+\begin{equation}
+K_s_t_a_t = 0.3303
+\end{equation}
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/kstatproc.tex}
+\caption{Charakterystyka statyczna procesu}
+\end{figure}
+
+\section{Aproksymacja odpowiedzi skokowej}
+
+Dokonano aproksymacji odpowiedzi skokowej dla wartości sygnału starującego $G1 = 35\%$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/aprok.tex}
+\caption{Aproksymacja odpowiedzi skokowej}
+\end{figure}
+
+W celu wyznaczenia optymalnych parametrów optymalizacji posłużono się algorytmem genetycznym o losowej populacji początkowej
+
+\section{Dobranie nastaw regulatora PID i parametrów algorytmu DMC}
+ 
+Wartości nastaw regulatora PID
+
+\begin{equation}
+K = 30  T_i = 35  T_d = 4.5  T_p = 1
+\end{equation}
+
+Wskaźnik jakości regulacji:
+
+\begin{equation}
+E = 20,5988
+\end{equation}
+
