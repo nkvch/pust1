@@ -2,7 +2,7 @@
 zad3; 
 s=s(1:175);
 
-n = 300; %czas symulacji
+n = 1000; %czas symulacji
 %punkt pracy
 Upp = 3;
 Ypp = 0.9;
@@ -44,10 +44,15 @@ end
 I=eye(Nu);
 K=((M'*M+lambda*I)^(-1))*M';
 
-%wartoœci zadane
+%wartosœci zadane
 Yzad(1:11)=0.9;
-Yzad(12:n)=1.3;
-Yzad(100:n)=0.7;
+%Yzad(12:n)=1.1;
+Yzad(12:150)=1.35;
+Yzad(151:300)=0.8;
+Yzad(301:500)=1.0;
+Yzad(501:600)=1.3;
+Yzad(601:800)=0.6;
+Yzad(801:n)=1.2;
 %pomniejszenuie zmiennych regulatora o wartoœci w punkcie pracy tak y,u
 %by³y w okolicach 0
 u = U- Upp;
@@ -111,21 +116,25 @@ end
 
 
 %wykres
-subplot(2,1,1);
+figure;
 stairs(U);
 ylim([2.5 3.4]);
 xlabel('k');
 ylabel('U(k)');
-title('Sygna³ steruj¹cy');
-subplot(2,1,2);
+set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+matlab2tikz('../sprawozdanie/rysunki/strojenie_DMC_petla_U.tex');
+
+figure;
 stairs(Y);
 xlabel('k');
 ylabel('Y(k)');
-title(sprintf('Wyjœcie- algorytm DMC, b³¹d %d',E));
+
 hold on;
 stairs(Yzad);
 legend('Y','Yzad')
 hold off;
+set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+matlab2tikz('../sprawozdanie/rysunki/strojenie_DMC_petla.tex');
 
 
 

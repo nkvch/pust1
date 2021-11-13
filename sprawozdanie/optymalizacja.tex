@@ -1,0 +1,97 @@
+%! TEX encoding = utf8
+\chapter{Optymalizacja wskaźników jakości}
+
+\section{Regulator PID}
+
+Dla tego zadania zastosowaliśmy inną trajektorię zadaną. Wynik działania regulacji PID o wcześniej dobranych parametrach dla nowej trajektorii:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_0_U.tex}
+\caption{Sterowanie PID dla parametrów $K = 1,3$, $T_i = 10$, $T_d = 3$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_0.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $K = 1,3$, $T_i = 10$, $T_d = 3$}
+\end{figure}
+
+\begin{equation}
+E = 42,3494
+\end{equation}
+
+W wyniku działania programu, który szukał lepszych parametrów regulatorów, patrząc na wskaźnik jakości $E$, dostaliśmy wartości, przy których regulacja jest bardzo oscylacyjna, przy czym wskaźnik jakości był tym mniejszy, im większe było wzmocnienie. Na przykład dla wartości $K=1,4$, $T_i=1,35$, $T_d=19,55$ regulacja wyglądała następująco:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_1_U.tex}
+\caption{Sterowanie PID dla parametrów $K=1,4$, $T_i=1,35$,  $T_d=19,55$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_1.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $K=1,4$, $T_i=1,35$,  $T_d=19,55$}
+\end{figure}
+
+\begin{equation}
+E = 34,7839
+\end{equation}
+
+Spróbowaliśmy inny wskaźnik jakości - średniomodułowy zamiast średniokwadratowego:
+
+\begin{equation}
+E_{abs} = \sum_{k=1}^{k_{konc}} |y^{zad}(k) - y(k)|
+\end{equation}
+
+Taki wskaźnik dawał bardziej sensowne wyniki. Dla parametrów z poprzedniego zadania $K=1,3$, $T_i=10$, $T_d=3$ wzkaźnik jest równy $E_{abs} = 97,4954$, a dla wartości otrzymanych w wyniku optymalizacji wskaźnika średniokwadratowego (wykres powyżej) wskaźnik nowy pokazuje $E_{abs} = 125,6801$.
+Dla rozpatrzonych wartości wzmocnienia od $K=1,0$ do $K=1,6$ oraz wartościami $T_i$ i $T_d$ od $1$ do $20$, najlepsze okazały się $K=1,6$, $T_i=8,95$, $T_d=3,05$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_2_U.tex}
+\caption{Sterowanie PID dla parametrów $K=1,6$, $T_i=8,95$,  $T_d=3,05$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_2.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $K=1,6$, $T_i=8,95$,  $T_d=3,05$}
+\end{figure}
+
+\begin{equation}
+E = 39,9123 
+\end{equation}
+\begin{equation}
+E_{abs} = 93,4427
+\end{equation}
+
+Regulacja wygląda lepiej, ale nadal są małe oscylacje. Parametry $T_i$ i $T_d$ dobrze się zoptymalizowały, natomiast wzmocnienie nadal jest zbyt duże.
+
+Żeby tego uniknąć można nie rozpatrywać wartości $K$ większe od $1,3$. Przyjmując takie założenie, optymalne parametry to $K=1,3$, $T_i = 9,75$, $T_d=2,85$, czyli prawie takie same jak w poprzednim zadaniu.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_3_U.tex}
+\caption{Sterowanie PID dla parametrów $K=1,3$, $T_i=9,75$,  $T_d=2,85$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_PID_3.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $K=1,3$, $T_i=9,75$,  $T_d=2,85$}
+\end{figure}
+
+\begin{equation}
+E = 42,1248
+\end{equation}
+\begin{equation}
+E_{abs} = 97,2766
+\end{equation}
+
+\section{Regulator DMC}
+
+
+
+

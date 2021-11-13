@@ -11,3 +11,7 @@
 \contentsline {section}{\numberline {4.2\relax .\kern .5em }Algorytm DMC w wersji analitycznej}{7}
 \contentsline {chapter}{\numberline {5\relax .\kern .5em }Strojenie regulator\IeC {\'o}w}{8}
 \contentsline {section}{\numberline {5.1\relax .\kern .5em }Strojenie regulatora PID}{8}
+\contentsline {section}{\numberline {5.2\relax .\kern .5em }Strojenie regulatora DMC}{10}
+\contentsline {chapter}{\numberline {6\relax .\kern .5em }Optymalizacja wska\IeC {\'z}nik\IeC {\'o}w jako\IeC {\'s}ci}{15}
+\contentsline {section}{\numberline {6.1\relax .\kern .5em }Regulator PID}{15}
+\contentsline {section}{\numberline {6.2\relax .\kern .5em }Regulator DMC}{18}

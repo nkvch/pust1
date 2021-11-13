@@ -68,3 +68,80 @@ Wskaźnik jakości regulacji:
 \begin{equation}
 E = 20,5988
 \end{equation}
+
+\section{Strojenie regulatora DMC}
+
+Dostrojenie regulatora zaczynamy od losowy wybranych parametrów: $N=100$, $N_u=10$, $\lambda=1$.
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_1_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=100$, $N_u=10$, $\lambda=1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_1.tex}
+\caption{Wyjście DMC dla parametrów $N=100$, $N_u=10$, $\lambda=1$}
+\end{figure}
+
+\begin{equation}
+E = 22,3271
+\end{equation}
+
+Zwiększjąc $\lambda$ do $50$ otrzymujemy dużo lepsze śledzenie na wyjściu.
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_2_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=100$, $N_u=10$, $\lambda=50$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_2.tex}
+\caption{Wyjście DMC dla parametrów $N=100$, $N_u=10$, $\lambda=50$}
+\end{figure}
+
+\begin{equation}
+E = 18,4148
+\end{equation}
+
+Zwiększając jeszcze bardziej $\lambda$ widzimy że regulacja przy dużym skoku jest szybsza, natomiast przy częstych małych zmianach wartości zadanej regulacjia działą gorzej.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_3_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=100$, $N_u=10$, $\lambda=200$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_3.tex}
+\caption{Wyjście DMC dla parametrów $N=100$, $N_u=10$, $\lambda=200$}
+\end{figure}
+
+\begin{equation}
+E = 20,9602
+\end{equation}
+
+Najlepszy wynik eksperymentu dały parametry: $N=80$, $N_u=20$, $\lambda=60$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_4_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=80$, $N_u=20$, $\lambda=60$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/strojenie_DMC_4.tex}
+\caption{Wyjście DMC dla parametrów $N=80$, $N_u=20$, $\lambda=60$}
+\end{figure}
+
+\begin{equation}
+E = 18,3800
+\end{equation}
+

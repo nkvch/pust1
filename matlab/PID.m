@@ -15,12 +15,13 @@ Umin = 2.7;
 dU = 0.075;
 T=0.5;
 %nastawy regulatora PID w wersji ciπg≥ej
-%K = 1.3; Ti = 10; Td = 3; 
-K = 1.212; Ti = 25; Td = 6; % Parametry ZN
+K = 1.1; Ti = 9.9; Td = 2.8; 
+%K = 1.212; Ti = 25; Td = 6; % Parametry ZN
 %wyliczenie nastawÛw regulatora PID w wersji dyskretnej
 r2 = K*Td/T;
 r1 = K*(T/(2*Ti)-2*Td/T-1);
 r0 = K*(1+T/(2*Ti)+Td/T);
+
 
 %wartosúci zadane
 Yzad(1:11)=0.9;
@@ -28,15 +29,9 @@ Yzad(1:11)=0.9;
 Yzad(12:150)=1.35;
 Yzad(151:300)=0.8;
 Yzad(301:500)=1.0;
-Yzad(501:550)=1.05;
-Yzad(551:600)=1.1;
-Yzad(601:650)=1.15;
-Yzad(651:700)=1.2;
-Yzad(701:750)=1.15;
-Yzad(751:800)=1.1;
-Yzad(751:800)=1.05;
-Yzad(801:850)=1.0;
-Yzad(851:n)=0.6;
+Yzad(501:600)=1.3;
+Yzad(601:800)=0.6;
+Yzad(801:n)=1.2;
 %pomniejszenuie zmiennych regulatora o wartoúci w punkcie pracy tak y,u
 %by≥y w okolicach 0
 u = U- Upp;
@@ -46,7 +41,8 @@ u(12:n)=0;
 e(1:n)=0;
 umin = Umin-Upp;
 umax = Umax-Upp;
-E = 0; %wskaünik jakoúci regulacji
+E = 0;%wskaünik jakoúci regulacji
+E_abs = 0;
 
 for k=12:n
     Y(k) = symulacja_obiektu10Y_p1(U(k-10), U(k-11), Y(k-1), Y(k-2)); %symulacja obiektu
@@ -75,6 +71,7 @@ for k=12:n
     end
     
     U(k) = u(k)+Upp;
+    E_abs = E_abs + abs(e(k));
     E = E + e(k)^2; %zwiÍkszanie wskaünika
 end
 
@@ -87,6 +84,7 @@ xlabel('k');
 ylabel('U(k)');
 %title('Sygna≥ sterujπcy');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+matlab2tikz('../sprawozdanie/rysunki/opt_PID_4_U.tex');
 figure;
 stairs(Y);
 xlabel('k');
@@ -98,3 +96,4 @@ ylim([0.5 1.4]);
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+matlab2tikz('../sprawozdanie/rysunki/opt_PID_4.tex');
