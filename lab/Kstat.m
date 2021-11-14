@@ -14,5 +14,6 @@ Y=[28.4 Yskok1(350) Yskok2(350) Yskok3(350)];
 plot(U,Y);
 xlabel('u');
 ylabel('y');
+% title("Charakterystyka statyczna procesu");
 
 kstat=(Yskok3(350)-28.4)/(55-25)

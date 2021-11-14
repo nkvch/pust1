@@ -17,6 +17,7 @@ T=0.5;
 %nastawy regulatora PID w wersji ci¹g³ej
 K = 1.1; Ti = 9.9; Td = 2.8; 
 %K = 1.212; Ti = 25; Td = 6; % Parametry ZN
+%K=1.822183; Ti=8.660225; Td=3.195053; %Parametry uzyskane algorytmem genetycznym
 %wyliczenie nastawów regulatora PID w wersji dyskretnej
 r2 = K*Td/T;
 r1 = K*(T/(2*Ti)-2*Td/T-1);

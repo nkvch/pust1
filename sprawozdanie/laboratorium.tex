@@ -5,7 +5,7 @@
 
 W celu określenia wartości pomiaru temperatury w punkcie pracy ustawiono moc wentylatora  $W1 = 50\%$,a moc grzałki $G1 = 25\%$.
 Po czasie około 5 minut temperatura odczytywana przez czujnik temperatury zaczeła się stabilizować  na poziomie  $T1 = 28,4^{\circ} C$. 
-Niestety z powodu ciągłego ruchu powietrza związanego z przemieszczaniem się osób w sali i dużej ilości tych osóbs wpływających na temperaturę sali oraz czułość stanowiska pomiarowego temperatura odczytywana przez czujnik zaczeła odbiegać i lekko oscylować od tej temperatury.
+Niestety z powodu ciągłego ruchu powietrza związanego z przemieszczaniem się osób w sali i dużej ilości tych osób wpływających na temperaturę sali oraz czułość stanowiska pomiarowego temperatura odczytywana przez czujnik zaczeła odbiegać i lekko oscylować wokół tej temperatury.
 
 \begin{figure}[H]
 \centering
@@ -23,12 +23,7 @@ Rozpoczynając z punktu pracy wyznaczono odpowiedzi skokowe dla trzech różnych
 \caption{Odpowiedzi skokowe dla trzech różnych wartości sygnału sterującego}
 \end{figure}
 
-Analizując otrzymane wykresy można wywnioskować że właściwości statyczne procesu są w przybliżeniu liniowe, zmiany wartości odpowiedzi skokowej dla tych samych chwil są w przybliżeniu proporcjonalne jak również sam kształt wykresów jest w przybliżeniu podobny. W konsekwencji postanowiono wyznaczyć wzmocnienie statyczne procesu.
-
-\begin{equation}
-K_{stat} = 0.3303
-\end{equation}
-
+Analizując otrzymane wykresy można wywnioskować, że właściwości statyczne procesu są w przybliżeniu liniowe, zmiany wartości odpowiedzi skokowej dla tych samych chwil są w przybliżeniu proporcjonalne jak również sam kształt wykresów jest w przybliżeniu podobny. W celu sprawdzenia założeń narysowano charakterystykę statyczną procesu.
 
 \begin{figure}[H]
 \centering
@@ -36,9 +31,22 @@ K_{stat} = 0.3303
 \caption{Charakterystyka statyczna procesu}
 \end{figure}
 
-\section{Aproksymacja odpowiedzi skokowej}
+Która potwierdziła przypuszczenia, na jej podstawie można stwierdzić, że właściwości statyczne procesu są w dobrym przybliżeniu liniowe i w konsekwencji postanowiono wyznaczyć wzmocnienie statyczne procesu.
 
-Dokonano aproksymacji odpowiedzi skokowej dla wartości sygnału starującego $G1 = 35\%$.
+\begin{equation}
+K_{stat} = 0.3303
+\end{equation}
+
+\section{Przekształcenie i aproksymacja odpowiedzi skokowej}
+
+W celu przekształcenia odpowiedzi skokowej w taki sposób aby można ją było wykorzystać w algorytmie DMC skorzystano z poniższego wzoru: 
+
+\begin{equation}
+S_i=\frac{Y(i)-Y_{pp}}{\triangle U} \textrm{ ,dla } i=1,2 \ldots D
+\label{step_norm}
+\end{equation}
+
+Dla odpowiedzi skokowej otrzymanej w wyniku zmiany sygnału sterującego z $G1 = 25\%$ na $G1 = 35\%$ a następnie dokonano jej aproksymacji używając członu inercyjnego drugiego rzędu z opóźnieniem.
 
 \begin{figure}[H]
 \centering
@@ -46,19 +54,47 @@ Dokonano aproksymacji odpowiedzi skokowej dla wartości sygnału starującego $G
 \caption{Aproksymacja odpowiedzi skokowej}
 \end{figure}
 
-W celu wyznaczenia optymalnych parametrów optymalizacji posłużono się algorytmem genetycznym o losowej populacji początkowej
+Do wyznaczenia optymalnych parametrów aproksymacji posłużono się algorytmem genetycznym o losowej populacji początkowej tak aby zminimalizować błąd dopasowania.
 
 \section{Dobranie nastaw regulatora PID i parametrów algorytmu DMC}
  
-Wartości nastaw regulatora PID
+Dla zmian sygnału zadanego w dwóch skokach z wartości  $T1 = 28,4^{\circ} C$ do wartości  $T1 = 35^{\circ} C$ i następnie  $T1 = 30^{\circ} C$ metodą eksperymantalną starano się dobrać nastawy regulatora PID i paramtery algorytmu DMC tak aby zminimalizować błedy dopasowania.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/spPID.tex}
+\caption{Wyjście procesu z regulatorem PID dla parametrów $K = 30$, $ T_i = 35$,  $T_d = 4.5$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/wpPID.tex}
+\caption{Sterowanie procesu z regulatorem PID dla parametrów $K = 30$,  $T_i = 35$,  $T_d = 4.5$}
+\end{figure}
+
+Wskaźnik jakości regulacji dla PID:
 
 \begin{equation}
-K = 30  T_i = 35  T_d = 4.5  T_p = 1
+E = 3,043e+3
 \end{equation}
 
-Wskaźnik jakości regulacji:
+\begin{figure}[H]
+\centering
+\input{./rysunki/spDMC.tex}
+\caption{Wyjście procesu z zastosowanym algorytmem DMC dla parametrów $D = 300$, $N = 90$, $N_u = 10$, $\lambda= 0.4$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/wpDMC.tex}
+\caption{Sterowanie procesu z zastosowanym algorytmem DMC dla parametrów $D = 300$, $N = 90$, $N_u = 10$, $\lambda= 0.4$}
+\end{figure}
+
+Wskaźnik jakości regulacji dla DMC:
 
 \begin{equation}
-E = 20,5988
+E = 2.4302e+3
 \end{equation}
 
+Porównując wskaźnik jakości regulacji dla obu pomiarów można stwierdzić że algorytm DMC lepiej poradził sobie z regulacją, jednakże w ocenie jakościowej porównując przebiegi sygnałów  wyjściowych regulator PID dokonał lepszej regulacji. Natomiast porównując sygnały wejściowe można stwierdzić że algorytm DMC radzi sobie lepiej z wyznaczaniem sygnału sterującego $U$
+ponieważ nie ulega on tak nagłym i dużym zmianom jak w przypadku regulatora PID. W celu poprawy jakości regulacji obu regulatorów należałoby dobrać ich parametry w taki sposób aby wyeliminować oscylację wokół wartości zadanych a wzmocnienia były większe. 
