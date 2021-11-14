@@ -84,7 +84,6 @@ xlabel('k');
 ylabel('U(k)');
 %title('Sygna³ steruj¹cy');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-matlab2tikz('../sprawozdanie/rysunki/opt_PID_4_U.tex');
 figure;
 stairs(Y);
 xlabel('k');
@@ -96,4 +95,3 @@ ylim([0.5 1.4]);
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-matlab2tikz('../sprawozdanie/rysunki/opt_PID_4.tex');

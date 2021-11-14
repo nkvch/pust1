@@ -1,4 +1,4 @@
-function [N, Nu, lambda, E] = DMC_func(N, Nu, lambda)
+function [N, Nu, lambda, E, E_abs] = DMC_func(N, Nu, lambda, s)
 
 s=s(1:175);
 
@@ -48,15 +48,9 @@ Yzad(1:11)=0.9;
 Yzad(12:150)=1.35;
 Yzad(151:300)=0.8;
 Yzad(301:500)=1.0;
-Yzad(501:550)=1.05;
-Yzad(551:600)=1.1;
-Yzad(601:650)=1.15;
-Yzad(651:700)=1.2;
-Yzad(701:750)=1.15;
-Yzad(751:800)=1.1;
-Yzad(751:800)=1.05;
-Yzad(801:850)=1.0;
-Yzad(851:n)=0.6;
+Yzad(501:600)=1.3;
+Yzad(601:800)=0.6;
+Yzad(801:n)=1.2;
 %pomniejszenuie zmiennych regulatora o wartoci w punkcie pracy tak y,u
 %by³y w okolicach 0
 u = U- Upp;
@@ -68,6 +62,7 @@ e(1:n)=0;
 umin = Umin-Upp;
 umax = Umax-Upp;
 E = 0; %wskanik jakoci regulacji
+E_abs = 0;
 
 %zdefiniowanie innych potrzebnych zmiennych
 DUP=zeros(D-1,1);
@@ -116,6 +111,7 @@ for k=12:n
     
     U(k) = u(k)+Upp;
     E = E + e(k)^2; %zwiêkszanie wskanika
+    E_abs = E_abs + abs(e(k));
 end
 
 

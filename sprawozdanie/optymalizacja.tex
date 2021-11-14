@@ -92,6 +92,67 @@ E_{abs} = 97,2766
 
 \section{Regulator DMC}
 
+Optymalizując w ten sam sposób wskaźnik $E_{abs}$ regulatora DMC można zauważyć że optymalny wskaźnik zawsze będzię w okolicach $~88,7$. Na przykład dla horyzontu predykcji $N=60$ horyzont sterowania i lambda będą odpowiednio $N_u=5$ i $\lambda=35$:
 
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_DMC_0_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=60$, $N_u=5$,  $\lambda=35$}
+\end{figure}
 
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_DMC_0.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $N=60$, $N_u=5$,  $\lambda=35$}
+\end{figure}
 
+\begin{equation}
+E = 36,7364
+\end{equation}
+\begin{equation}
+E_{abs} = 88,7732
+\end{equation}
+
+Dla horyzontu predykcji $N=200$ horyzont sterowania i lambda będą odpowiednio $N_u=5$ i $\lambda=22$:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_DMC_1_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=200$, $N_u=5$,  $\lambda=22$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_DMC_1.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $N=200$, $N_u=5$,  $\lambda=22$}
+\end{figure}
+
+\begin{equation}
+E = 36,7296
+\end{equation}
+\begin{equation}
+E_{abs} = 88,6051
+\end{equation}
+
+Dla porównania, optymalizacja względem błędu średniokwadratowego daje następujące wyniki: dla $N=200$ pozostałe parametry przyjmują wartości $N_u=5$, $\lambda=15$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_DMC_2_U.tex}
+\caption{Sterowanie DMC dla parametrów $N=200$, $N_u=5$,  $\lambda=15$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/opt_DMC_2.tex}
+\caption{Śledzenie wartości zadanej dla parametrów $N=200$, $N_u=5$,  $\lambda=15$}
+\end{figure}
+
+\begin{equation}
+E = 36,4930
+\end{equation}
+\begin{equation}
+E_{abs} = 90,6210
+\end{equation}
+
+Widzimy że regulacja jest troszkę gorsza.

@@ -1,4 +1,4 @@
-%wyznaczenie wektora wspó³czynników s
+%wyznaczenie wektora wspï¿½czynnikï¿½w s
 zad3; 
 s=s(1:175);
 
@@ -6,7 +6,7 @@ n = 1000; %czas symulacji
 %punkt pracy
 Upp = 3;
 Ypp = 0.9;
-% wstêpna definicja wektorów
+% wstï¿½pna definicja wektorï¿½w
 U = zeros(1, n);
 Y = zeros(1, n);
 U(1:11) = Upp;
@@ -23,7 +23,7 @@ D=175;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %parametry regulatora DMC: N-horyzont predykcji Nu-horyzont sterowania
 %lambda-wspolczynnik kary
-N=80; Nu=20; lambda=60;
+N=200; Nu=5; lambda=15;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 s(D+1:D+N)=s(D);
@@ -44,7 +44,7 @@ end
 I=eye(Nu);
 K=((M'*M+lambda*I)^(-1))*M';
 
-%wartosœci zadane
+%wartosï¿½ci zadane
 Yzad(1:11)=0.9;
 %Yzad(12:n)=1.1;
 Yzad(12:150)=1.35;
@@ -53,8 +53,8 @@ Yzad(301:500)=1.0;
 Yzad(501:600)=1.3;
 Yzad(601:800)=0.6;
 Yzad(801:n)=1.2;
-%pomniejszenuie zmiennych regulatora o wartoœci w punkcie pracy tak y,u
-%by³y w okolicach 0
+%pomniejszenuie zmiennych regulatora o wartoï¿½ci w punkcie pracy tak y,u
+%byï¿½y w okolicach 0
 u = U- Upp;
 y = Y - Ypp;
 yzad = Yzad - Ypp;
@@ -63,7 +63,8 @@ u(12:n)=0;
 e(1:n)=0;
 umin = Umin-Upp;
 umax = Umax-Upp;
-E = 0; %wskaŸnik jakoœci regulacji
+E = 0; %wskaï¿½nik jakoï¿½ci regulacji
+E_abs = 0;
 
 %zdefiniowanie innych potrzebnych zmiennych
 DUP=zeros(D-1,1);
@@ -77,7 +78,7 @@ for k=12:n
     y(k) = Y(k)-Ypp;
     e(k) = yzad(k)-y(k); %uchyb
     
-    %wektory obecnej i zadanej wartoœci wyjœcia
+    %wektory obecnej i zadanej wartoï¿½ci wyjï¿½cia
     YK(1:N,1)=y(k);
     YzadK(1:N,1)=yzad(k);
 
@@ -86,7 +87,7 @@ for k=12:n
     DU = K*(YzadK-Y0);
     du = DU(1);
     
-    %uwzglêdnienie ograniczeñ zmian sygna³u steruj¹cego
+    %uwzglï¿½dnienie ograniczeï¿½ zmian sygnaï¿½u sterujï¿½cego
     if du>dU
         du=dU;
     end
@@ -102,7 +103,7 @@ for k=12:n
     end
     DUP(1) = du;
     
-    %uwzglêdnienie ograniczeñ wartoœci sygna³u steruj¹cego
+    %uwzglï¿½dnienie ograniczeï¿½ wartoï¿½ci sygnaï¿½u sterujï¿½cego
     if u(k)>umax
         u(k)=umax;
     end
@@ -111,7 +112,8 @@ for k=12:n
     end
     
     U(k) = u(k)+Upp;
-    E = E + e(k)^2; %zwiêkszanie wskaŸnika
+    E = E + e(k)^2; %zwiï¿½kszanie wskaï¿½nika
+    E_abs = E_abs + abs(e(k));
 end
 
 
@@ -122,9 +124,9 @@ ylim([2.5 3.4]);
 xlabel('k');
 ylabel('U(k)');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-matlab2tikz('../sprawozdanie/rysunki/strojenie_DMC_petla_U.tex');
 
 figure;
+ylim([0.5 1.4]);
 stairs(Y);
 xlabel('k');
 ylabel('Y(k)');
@@ -134,7 +136,6 @@ stairs(Yzad);
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-matlab2tikz('../sprawozdanie/rysunki/strojenie_DMC_petla.tex');
 
 
 

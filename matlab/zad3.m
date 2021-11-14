@@ -34,7 +34,7 @@ figure;
 stairs(s(1:250));
 xlabel('k');
 ylabel('Y(k)');
-matlab2tikz('../sprawozdanie/rysunki/podpunkt3_odpowiedzSkokowa.tex');
+%matlab2tikz('../sprawozdanie/rysunki/podpunkt3_odpowiedzSkokowa.tex');
 
 
 
