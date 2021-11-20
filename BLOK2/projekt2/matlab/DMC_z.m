@@ -4,7 +4,7 @@ s=s(1:175);
 sz=s;
 %sz = ...;
 
-n = 300; %czas symulacji
+n = 100; %czas symulacji
 %punkt pracy
 Upp = 0;
 Zpp = 0;
@@ -20,7 +20,7 @@ D=158; Dz=68;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %parametry regulatora DMC: N-horyzont predykcji Nu-horyzont sterowania
 %lambda-wspolczynnik kary
-N=60; Nu=1; lambda=200;
+N=50; Nu=2; lambda=0.3;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
