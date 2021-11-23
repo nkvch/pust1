@@ -76,13 +76,13 @@ matlab2tikz('../sprawozdanie/rysunki/wykres_char_stat_zy.tex');
 K_stat2=(responses(6) - responses(1))/(inputs(6) - inputs(1))
 
 %charakterystyka statyczna y(u,z)
-Y_uz(101:101) = 0;
+Y_uz(51:51) = 0;
 
 
-for i=1:101
+for i=1:51
     U(10:n) = (i-1)*0.01;
     Z(10:n) = i;
-    for j=1:101
+    for j=1:51
     Z(10:n) = (i-1)*0.01;
         for k = 10:n
             Y(k) = symulacja_obiektu10y_p2(U(k-7),U(k-8),Z(k-3),Z(k-4),Y(k-1),Y(k-2)); %symulacja obiektu;
@@ -90,7 +90,7 @@ for i=1:101
         Y_uz(i,j) = Y(n);
     end
 end
-[wu,wz] = meshgrid(0:0.01:1);
+[wu,wz] = meshgrid(0:0.02:1);
 figure;
 surf(wu,wz,Y_uz);
 xlabel('U');
