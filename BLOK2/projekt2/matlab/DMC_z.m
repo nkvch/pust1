@@ -14,9 +14,9 @@ U = zeros(1, n);
 Y = zeros(1, n);
 Z = zeros(1, n); %ZAK£ÓCENIE MIERZALNE
 Z(60:n) = 1;
-Z(60:n)=0.5*sin(25*linspace(0,1,n-59));
-szum = wgn(1,n,-20);
-Z = Z + szum;
+Z(60:n)=0.5*sin(25*linspace(0,1,n-59)); %zak³ócenie sinusoidalne
+szum = wgn(1,n,-20); %szum pomiarowy
+Z = Z + szum; %dodanie do pomiaru zak³ócenia szumu
 %horyzont dynamiki
 D=155; Dz=68;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -27,7 +27,7 @@ N=50; Nu=2; lambda=0.4;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 s(D+1:D+N) = s(D); %uzupelnienie wektora wspó³czynników s
-sz(Dz+1:Dz+N) = sz(Dz);
+sz(Dz+1:Dz+N) = sz(Dz);%uzupelnienie wektora wspó³czynników sz
 
 %wyznaczenie macierzy MP
 MP=zeros(N,D-1);
@@ -81,7 +81,7 @@ for k=12:n
 
     
     Y0 = YK+MP*DUP+MzP*dzP;
-    %Y0 = YK+MP*DUP;
+    %Y0 = YK+MP*DUP; %bez pomiaru zak³ócenia
     DU = K*(YzadK-Y0);
     du = DU(1);
     
