@@ -80,10 +80,10 @@ Y_uz(51:51) = 0;
 
 
 for i=1:51
-    U(10:n) = (i-1)*0.01;
+    U(10:n) = (i-1)*0.02;
     Z(10:n) = i;
     for j=1:51
-    Z(10:n) = (i-1)*0.01;
+    Z(10:n) = (j-1)*0.02;
         for k = 10:n
             Y(k) = symulacja_obiektu10y_p2(U(k-7),U(k-8),Z(k-3),Z(k-4),Y(k-1),Y(k-2)); %symulacja obiektu;
         end
