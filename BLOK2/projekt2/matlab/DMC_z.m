@@ -1,10 +1,10 @@
 %wyznaczenie wektora wspó³czynników s
 %zad3;  %naleze wykonaæ przed uruchomieniem
 s=s(1:175);
-sz=s;
+sz=sz(1:68);
 %sz = ...;
 
-n = 100; %czas symulacji
+n = 150; %czas symulacji
 %punkt pracy
 Upp = 0;
 Zpp = 0;
@@ -13,15 +13,17 @@ Ypp = 0;
 U = zeros(1, n);
 Y = zeros(1, n);
 Z = zeros(1, n); %ZAK£ÓCENIE MIERZALNE
-
-
+Z(60:n) = 1;
+Z(60:n)=0.5*sin(25*linspace(0,1,n-59));
+szum = wgn(1,n,-20);
+Z = Z + szum;
 %horyzont dynamiki
-D=158; Dz=68;
+D=155; Dz=68;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %parametry regulatora DMC: N-horyzont predykcji Nu-horyzont sterowania
 %lambda-wspolczynnik kary
-N=50; Nu=2; lambda=0.3;
-
+%N=50; Nu=2; lambda=0.5;
+N=50; Nu=2; lambda=0.4;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 s(D+1:D+N) = s(D); %uzupelnienie wektora wspó³czynników s
@@ -53,9 +55,9 @@ I=eye(Nu);
 K=((M'*M+lambda*I)^(-1))*M';
 
 %wartosœci zadane
-Yzad(1:30)=0;
+Yzad(1:29)=0;
 %Yzad(12:n)=1.1;
-Yzad(31:n)=1;
+Yzad(30:n)=1;
 
 e(1:n)=0;
 E = 0; %wskaŸnik jakoœci regulacji
@@ -79,6 +81,7 @@ for k=12:n
 
     
     Y0 = YK+MP*DUP+MzP*dzP;
+    %Y0 = YK+MP*DUP;
     DU = K*(YzadK-Y0);
     du = DU(1);
     
@@ -114,8 +117,9 @@ stairs(Z);
 xlabel('k');
 ylabel('Z(k)');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-%matlab2tikz('../sprawozdanie/rysunki/strojenie_DMC_petla_U.tex');
-
+%matlab2tikz(sprintf('../sprawozdanie/rysunki/strojenie_u_%d_%d_%d_%d.tex',N,Nu,lambda,E));
+%matlab2tikz(sprintf('../sprawozdanie/rysunki/podpunkt6_bez_u_%d.tex',E));
+%matlab2tikz(sprintf('../sprawozdanie/rysunki/podpunkt7_6_u.tex'));
 figure;
 stairs(Y);
 xlabel('k');
@@ -127,8 +131,6 @@ stairs(Yzad);
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-%matlab2tikz('../sprawozdanie/rysunki/strojenie_DMC_petla.tex');
-
-
-
-
+%matlab2tikz(sprintf('../sprawozdanie/rysunki/strojenie_%d_%d_%d_%d.tex',N,Nu,lambda,E));
+%matlab2tikz(sprintf('../sprawozdanie/rysunki/podpunkt6_bez_%d.tex',E));
+%matlab2tikz(sprintf('../sprawozdanie/rysunki/podpunkt7_6.tex'));
