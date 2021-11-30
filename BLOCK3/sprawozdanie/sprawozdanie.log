@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  30 NOV 2021 09:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  30 NOV 2021 09:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1684,13 +1684,8 @@ Rozdzia\PlPrIeC {\l } 1.
 
 ]
 Rozdzia\PlPrIeC {\l } 2.
-(./rysunki/skokowe_zad2.tex)
-Overfull \hbox (38.78818pt too wide) in paragraph at lines 2162--11
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+(./rysunki/skokowe_zad2.tex) (./rysunki/wykres_char_stat.tex)
+Underfull \vbox (badness 8038) has occurred while \output is active []
 
  [3
 
@@ -1737,18 +1732,14 @@ Underfull \vbox (badness 4229) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16])
-[17] (./sprawozdanie.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[17] (./sprawozdanie.aux) ) 
 Here is how much of TeX's memory you used:
- 37981 strings out of 492983
- 907787 string characters out of 6134921
- 1386038 words of memory out of 5000000
- 40938 multiletter control sequences out of 15000+600000
+ 37987 strings out of 492983
+ 907928 string characters out of 6134921
+ 1366434 words of memory out of 5000000
+ 40941 multiletter control sequences out of 15000+600000
  551091 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,96p,10384b,2145s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,96p,10384b,2144s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sprawozdanie.dvi (18 pages, 1358372 bytes).
+Output written on sprawozdanie.dvi (18 pages, 1345816 bytes).

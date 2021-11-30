@@ -5,20 +5,20 @@ Upp = 0;
 Ypp = 0;
 n = 300; %d³ugosc symulacji
 
-inputs = zeros(1, 7);
+inputs = zeros(1, 21);
 inputs(1) = 0;
-responses = zeros(1, 7);
+responses = zeros(1, 21);
 responses(1) = 0;
 
 U(1:n) = 0;
 Y(1:n) = 0;
 
-marks(1:7) = string();
+marks(1:21) = string();
 figure;
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %tor wejœcie-wyjœcie skok sygnalu w chwili k=10
 nrskoku = 1;
-for i=-0.5:0.25:1
+for i=-1:0.1:1
     inputs(nrskoku) = i
     U(10:n) = i;
     for k = 10:n
@@ -34,16 +34,18 @@ end
 xlabel('k');
 ylabel('Y(k)');
 legend(marks,'Location', 'southeast');
-set(gcf,'Units','centimeters','Position', [ 1 1 20 20]);
-matlab2tikz('../sprawozdanie/rysunki/skokowe_zad2.tex');
+set(gcf,'Units','centimeters','Position', [ 1 1 15 10]);
+% matlab2tikz('../sprawozdanie/rysunki/skokowe_zad2_DRAFT.tex');
 
-% 
-% %charakterystyka statyczna
-% figure;
-% plot(inputs, responses);
-% set(gcf,'Units','centimeters','Position', [ 1 1 15 15]);
-% matlab2tikz('../sprawozdanie/rysunki/wykres_char_stat_uy.tex');
-% 
+
+%charakterystyka statyczna
+figure;
+plot(inputs, responses);
+set(gcf,'Units','centimeters','Position', [ 1 1 15 10]);
+xlabel('u');
+ylabel('y');
+matlab2tikz('../sprawozdanie/rysunki/wykres_char_stat.tex');
+
 % K_stat1=(responses(6) - responses(1))/(inputs(6) - inputs(1))
 
 % xlabel('k');

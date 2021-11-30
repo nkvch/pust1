@@ -1,5 +1,5 @@
 clear all;
-fileID1 = fopen('./dane/z1.txt', 'r');
+fileID1 = fopen('./dane/z1prob2.txt', 'r');
 formatSpec = '%f';
 y1 = fscanf(fileID1,formatSpec);
 figure;
