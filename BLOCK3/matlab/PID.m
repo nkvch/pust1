@@ -15,9 +15,9 @@ Umin = -1;
 dU = 0.075;
 T=0.5;
 %nastawy regulatora PID w wersji ci¹g³ej
-K = 1.1; Ti = 9.9; Td = 2.8; 
+%K = 1.1; Ti = 9.9; Td = 2.8; 
 %K = 1.212; Ti = 25; Td = 6; % Parametry ZN
-%K=1.822183; Ti=8.660225; Td=3.195053; %Parametry uzyskane algorytmem genetycznym
+K=0.332613; Ti=1.931338; Td=1.784287; %Parametry uzyskane algorytmem genetycznym
 %wyliczenie nastawów regulatora PID w wersji dyskretnej
 r2 = K*Td/T;
 r1 = K*(T/(2*Ti)-2*Td/T-1);
@@ -28,10 +28,10 @@ r0 = K*(1+T/(2*Ti)+Td/T);
 Yzad(1:11)=0;
 %Yzad(12:n)=1.1;
 Yzad(12:150)=0.09;
-Yzad(151:300)=-0.5;
-Yzad(301:500)=-0.7;
-Yzad(501:600)=-1.5;
-Yzad(601:800)=-1;
+Yzad(151:300)=0.05;
+Yzad(301:500)=-0.1;
+Yzad(501:600)=-0.5;
+Yzad(601:800)=-0.3;
 Yzad(801:n)=0.1;
 %pomniejszenuie zmiennych regulatora o wartoœci w punkcie pracy tak y,u
 %by³y w okolicach 0
