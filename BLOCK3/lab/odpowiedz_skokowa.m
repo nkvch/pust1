@@ -1,11 +1,11 @@
 clear all;
-fileID1 = fopen('zadanie2_20.txt', 'r');
-fileID2 = fopen('zadanie2_30.txt', 'r');
-fileID3 = fopen('zadanie2_40.txt', 'r');
-fileID4 = fopen('zadanie2_50.txt', 'r');
-fileID5 = fopen('zadanie2_60.txt', 'r');
-fileID6 = fopen('zadanie2_70.txt', 'r');
-fileID7 = fopen('zadanie2_80.txt', 'r');
+fileID1 = fopen('./dane/z2_20.txt', 'r');
+fileID2 = fopen('./dane/z2_30.txt', 'r');
+fileID3 = fopen('./dane/z2_40.txt', 'r');
+fileID4 = fopen('./dane/z2_50.txt', 'r');
+fileID5 = fopen('./dane/z2_60.txt', 'r');
+fileID6 = fopen('./dane/z2_70.txt', 'r');
+fileID7 = fopen('./dane/z2_80.txt', 'r');
 
 formatSpec = '%f';
 y1 = fscanf(fileID1,formatSpec);
@@ -24,6 +24,16 @@ fclose(fileID5);
 fclose(fileID6);
 fclose(fileID7);
 
+marks = {
+    sprintf('U = %.0f', 20),
+    sprintf('U = %.0f', 30),
+    sprintf('U = %.0f', 40),
+    sprintf('U = %.0f', 50),
+    sprintf('U = %.0f', 60),
+    sprintf('U = %.0f', 70),
+    sprintf('U = %.0f', 80)
+};
+
 figure;
 stairs(y1);
 hold on
@@ -35,5 +45,5 @@ stairs(y6);
 stairs(y7);
 xlabel('k');
 ylabel('T[°C]');
-
+legend(marks,'Location', 'northwest');
 matlab2tikz('../sprawozdanie/rysunki/zad2_lab.tex');
