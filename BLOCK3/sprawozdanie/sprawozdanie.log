@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  30 NOV 2021 08:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  30 NOV 2021 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1680,62 +1680,75 @@ LaTeX Font Info:    External font `plex10' loaded for size
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
-(./rysunki/punkt_pracy.tex)) (./laboratorium.tex [2
+(./rysunki/punkt_pracy.tex)) (./char_stat.tex [2
 
 ]
 Rozdzia\PlPrIeC {\l } 2.
-(./rysunki/zad1_lab.tex) (./rysunki/zad2_lab.tex)
+(./rysunki/skokowe_zad2.tex)
+Overfull \hbox (38.78818pt too wide) in paragraph at lines 2162--11
+ [][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3
+
+])
+(./laboratorium.tex [4]
+Rozdzia\PlPrIeC {\l } 3.
+(./rysunki/zad1_lab.tex) (./rysunki/zad2_lab.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
 
 ]
 (./rysunki/zad2Kstat_lab.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+ [6]
 (./rysunki/zad3.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
+ [7]
 (./rysunki/zad3pop.tex)
 Underfull \vbox (badness 1205) has occurred while \output is active []
 
- [6]
+ [8]
 (./rysunki/4DMC.tex) (./rysunki/4DMCU.tex)
 Underfull \vbox (badness 1990) has occurred while \output is active []
 
- [7]
-(./rysunki/4DMC1.tex) (./rysunki/4DMC1U.tex) [8] (./rysunki/4DMC2.tex)
-(./rysunki/4DMC2U.tex) [9] (./rysunki/4DMC3.tex) (./rysunki/4DMC3U.tex)
-[10] (./rysunki/4DMC4.tex) (./rysunki/4DMC4U.tex) [11]
+ [9]
+(./rysunki/4DMC1.tex) (./rysunki/4DMC1U.tex) [10] (./rysunki/4DMC2.tex)
+(./rysunki/4DMC2U.tex) [11] (./rysunki/4DMC3.tex) (./rysunki/4DMC3U.tex)
+[12] (./rysunki/4DMC4.tex) (./rysunki/4DMC4U.tex) [13]
 LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <12> on input line 167.
 
 (./rysunki/zad5_wyjscie_bez1.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
+ [14]
 (./rysunki/zad5_sterowanie_bez.tex)
 Underfull \vbox (badness 4229) has occurred while \output is active []
 
- [13]
+ [15]
 (./rysunki/zad5_wyjscie_z1.tex) (./rysunki/zad5_sterowanie_z.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
-[15] (./sprawozdanie.aux)
+ [16])
+[17] (./sprawozdanie.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 37948 strings out of 492983
- 907221 string characters out of 6134921
- 1367809 words of memory out of 5000000
- 40911 multiletter control sequences out of 15000+600000
+ 37981 strings out of 492983
+ 907787 string characters out of 6134921
+ 1386038 words of memory out of 5000000
+ 40938 multiletter control sequences out of 15000+600000
  551091 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,96p,10384b,2143s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,96p,10384b,2145s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sprawozdanie.dvi (16 pages, 1208808 bytes).
+Output written on sprawozdanie.dvi (18 pages, 1358372 bytes).

@@ -1,7 +1,9 @@
 \contentsline {chapter}{\numberline {1\relax .\kern .5em }Sprawdzenie poprawno\IeC {\'s}ci podanych warto\IeC {\'s}ci}{2}
-\contentsline {chapter}{\numberline {2\relax .\kern .5em }Laboratorium}{3}
-\contentsline {section}{\numberline {2.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{3}
-\contentsline {section}{\numberline {2.2\relax .\kern .5em }Wyznaczenie odpowiedzi skokowych}{3}
-\contentsline {section}{\numberline {2.3\relax .\kern .5em }Przekszta\IeC {\l }cenie i aproksymacja odpowiedzi skokowej}{5}
-\contentsline {section}{\numberline {2.4\relax .\kern .5em }DMC}{7}
-\contentsline {section}{\numberline {2.5\relax .\kern .5em }Dob\IeC {\'o}r parametru $D^z$}{12}
+\contentsline {chapter}{\numberline {2\relax .\kern .5em }Odpowiedzi skokowe}{3}
+\contentsline {section}{\numberline {2.1\relax .\kern .5em }Opowiedzi skokowe}{4}
+\contentsline {chapter}{\numberline {3\relax .\kern .5em }Laboratorium}{5}
+\contentsline {section}{\numberline {3.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{5}
+\contentsline {section}{\numberline {3.2\relax .\kern .5em }Wyznaczenie odpowiedzi skokowych}{5}
+\contentsline {section}{\numberline {3.3\relax .\kern .5em }Przekszta\IeC {\l }cenie i aproksymacja odpowiedzi skokowej}{7}
+\contentsline {section}{\numberline {3.4\relax .\kern .5em }DMC}{9}
+\contentsline {section}{\numberline {3.5\relax .\kern .5em }Dob\IeC {\'o}r parametru $D^z$}{14}
