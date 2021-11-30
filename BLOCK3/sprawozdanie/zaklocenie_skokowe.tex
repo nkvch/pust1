@@ -1,0 +1,40 @@
+%! TEX encoding = utf8
+\chapter{Regulacja z skokowym zakłóceniem}
+
+Parametr $D^Z$ został dobrany analogicznie do parametru D: przyjęto go jako wartość k, dla której odpowiedź skokowa toru zakłócenie-wyjście stabilizuje się:
+$D^Z=68$
+
+W doświadczeniach skok wartości zakłócenia następowował w chwili k=60 i wynosił 1. Użyto regulatora o najlepszych parametrach z poprzedniego podpunktu ($N_U=50$ $N=2$ $\lambda=0,4$)
+
+\section{Bez pomiaru zakłócenia}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/podpunkt5_bez_u_2.006103e+01.tex}
+\caption{Zakłócenie i sygnał sterujący}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/podpunkt5_bez_2.006103e+01.tex}
+\caption{Wyjście obiektu bez pomiaru zakłócenia błąd $E=20,06103$}
+\end{figure}
+
+\section{Z pomiaru zakłócenia}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/podpunkt5_z_u_1.098983e+01.tex}
+\caption{Zakłócenie i sygnał sterujący}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/podpunkt5_z_1.098983e+01.tex}
+\caption{Wyjście obiektu z pomiarem zakłócenia błąd $E=10,98983$}
+\end{figure}
+
+\section{Wnioski}
+Pomiar zakłócen znacznie polepszył regulację. Bez niego błąd wynosił E=20,06103, natomiast z pomiarem błąd zmalał prawie dwukrotnie (E=10,98983).
+\smallskip
+

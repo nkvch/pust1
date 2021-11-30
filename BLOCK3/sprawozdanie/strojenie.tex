@@ -1,0 +1,101 @@
+%! TEX encoding = utf8
+\chapter{Algorytm DMC}
+
+Prawo regulacji DMC przedstawia się następująco:
+
+\begin{equation}
+\triangle U(k)=K(Y^{zad}(k)-Y^0(k))
+\end{equation}
+
+Gdzie $\triangle U(k)$ to wektor $N_u$ (horyzont sterowania) przyszłych wartości sterowania, $Y^0(k)$ to przewidywana odpowiedź z modelu procesu, $K$ - macierz policzona raz na początku ze współczynników odpowiedzi skokowej, uwzględniając wybrany współczynnik $\lambda$ oraz horyzonty predykcji i sterowania.
+
+W przypadku algorytmu DMC z pomiarem zakłóceń $Y^0(k)$ oblicza się z następującego wzoru:
+\begin{equation}
+Y^0(k)=Y(k)+M^P \triangle U^P(k)+M^{Z^P}\triangle Z^P(k)
+\end{equation}
+
+W powyższym wzorze dwa pierwsze elementy sumy odnoszą się do toru sterowanie-wyjście a ostatni element do toru zakłócenie-wyjście: $M^{Z^P}$ macierz wyznaczana przy pomocy współczynników odpowiedzi skokowej dla zakłócenia, $\triangle Z^P(k)$ jest wektorem przyrostów mierzalnego zakłócenia.
+
+
+\section{Strojenie regulatora}
+Strojenie regulatora odwywało się przy skokowej zmianie sygnału wartości zadanej z  0 do 1 (w chwili k=30) oraz zerowym zakłóceniu.
+
+Choryzont dynamiki określono z odpowiedzi skowej toru sterowanie-wyjście (k dla którego wyjście się ustabilizowało): D=155.
+Kolejne parametry były modyfikowane do momentu uzyskania zadowalających efektów. Na początku przyjęto $N=N_u=D=155$ oraz $\lambda=1$, następnie zmniejszano kolejno wartość N i $N_U$. Na końcu modyfikowano wartości $\lambda$.
+
+\section{Wyniki strojenia}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_u_155_155_1_8.809637e+00.tex}
+\caption{Zakłócenie i sygnał sterujący przy parametrach regulatora: $N=155$ $N_u=155$ $\lambda=1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_155_155_1_8.809637e+00.tex}
+\caption{Wyjście obiektu przy parametrach regulatora: $N=155$ $N_u=155$ $\lambda=1$, błąd $E=8,809637$}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_u_20_20_1_8.810337e+00.tex}
+\caption{Zakłócenie i sygnał sterujący przy parametrach regulatora: $N=20$ $N_u=20$ $\lambda=1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_20_20_1_8.810337e+00.tex}
+\caption{Wyjście obiektu przy parametrach regulatora: $N=20$ $N_u=20$ $\lambda=1$, błąd $E=8,810337$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_u_50_5_1_8.502866e+00.tex}
+\caption{Zakłócenie i sygnał sterujący przy parametrach regulatora: $N=50$ $N_u=5$ $\lambda=1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_50_5_1_8.502866e+00.tex}
+\caption{Wyjście obiektu przy parametrach regulatora: $N=50$ $N_u=5$ $\lambda=1$, błąd $E=8,502866$}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_u_50_2_1_9.478717e+00.tex}
+\caption{Zakłócenie i sygnał sterujący przy parametrach regulatora: $N=50$ $N_u=2$ $\lambda=1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_50_2_1_9.478717e+00.tex}
+\caption{Wyjście obiektu przy parametrach regulatora: $N=50$ $N_u=2$ $\lambda=1$, błąd $E=9,478717$}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_u_50_2_4.000000e-01_8.312159e+00.tex}
+\caption{Zakłócenie i sygnał sterujący przy parametrach regulatora: $N=50$ $N_u=2$ $\lambda=0,4$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{rysunki/strojenie_50_2_4.000000e-01_8.312159e+00.tex}
+\caption{Wyjście obiektu przy parametrach regulatora: $N=50$ $N_u=2$ $\lambda=0,4$, błąd $E=8,312159$}
+\end{figure}
+
+\section{Wnioski}
+Jak można było powyżej zauważyć, regulator DMC od samego początku działał w sposób dobry (błąd wynosił E=8,809637).
+Zmiany parametru N nie dawały przez dłuższy czas zauważalnych zmian w przebiegach jak i w błędzie (dopiero przy N=20 błąd delikatnie wzrósł).
+Przy modyfikacji parametru $N_U$ można było zaobserwować większą poprawę regulacji. Dla $N_U=5$ wskaźnik jakości regulacji oraz uchyb zmalały.
+Jednak aby całkiem wyeliminiować uchyb zmniejszono $N_U$ do wartości 2, co spowodowało spowolnienie regulacji i tym samym wzrost błędu. 
+Zmniejszenie warości współczynika lambda do wartości 0,4 przyśpieszyło regulację.
+
+Najbardziej satysfakcjonujące wyniki uzyskano dla: $N_U=50$ $N=2$ $\lambda=0,4$. Dla tak dobranych parametrów wskaźnik jakości regulacji wynosił E=8,312159.
+
+\smallskip
+
