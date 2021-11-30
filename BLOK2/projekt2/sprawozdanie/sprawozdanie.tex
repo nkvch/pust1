@@ -23,6 +23,10 @@
 \usepackage{enumitem,amssymb}
 \definecolor{szary}{rgb}{0.95,0.95,0.95}
 \usepackage{siunitx}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+\makeatother
 \sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},per-mode=symbol,binary-units=true,range-phrase={-},range-units=single}
 \SendSettingsToPgf
 %konfiguracje pakietu listings
@@ -132,6 +136,7 @@ Wydział Elektroniki i Technik Informacyjnych}}\\
 \input{zaklocenie_skokowe}
 \input{zaklocenie_sin}
 \input{szum}
+\input{laboratorium}
 
 \end{document}
 

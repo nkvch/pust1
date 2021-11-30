@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  23 NOV 2021 17:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  25 NOV 2021 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1531,6 +1531,10 @@ Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count328
+)
 
 LaTeX Warning: Unused global option(s):
     [twosides].
@@ -1538,26 +1542,26 @@ LaTeX Warning: Unused global option(s):
 (./sprawozdanie.aux)
 \openout1 = `sprawozdanie.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 92.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    ... okay on input line 92.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -1598,9 +1602,9 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
 your preamble.
- on input line 88.
+ on input line 92.
 
-\c@lstlisting=\count328
+\c@lstlisting=\count329
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1612,48 +1616,48 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-binary.cfg
 File: siunitx-binary.cfg 2017/11/26 v2.7k siunitx: Binary units
 )
-\c__siunitx_mathsf_int=\count329
-LaTeX Font Info:    Try loading font information for OML+plm on input line 88.
+\c__siunitx_mathsf_int=\count330
+LaTeX Font Info:    Try loading font information for OML+plm on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMS+plsy on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 92.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-LaTeX Font Info:    Try loading font information for OMX+plex on input line 88.
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 92.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 88.
+(Font)              <10.95> on input line 92.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 92.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 88.
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+(Font)              <6> on input line 92.
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OT4+cmss on input line 88.
+LaTeX Font Info:    Try loading font information for OT4+cmss on input line 92.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
-\c__siunitx_mathtt_int=\count330
-LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 88.
+\c__siunitx_mathtt_int=\count331
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 92.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmtt.fd
@@ -1681,7 +1685,16 @@ Rozdzia\PlPrIeC {\l } 1.
 ]
 Rozdzia\PlPrIeC {\l } 2.
 (./rysunki/skokowe_wejscie_wyjscie.tex)
+Overfull \hbox (0.84415pt too wide) in paragraph at lines 1552--11
+ [][] 
+ []
+
 (./rysunki/skokowe_zaklocenie_wyjscie.tex)
+Overfull \hbox (0.84415pt too wide) in paragraph at lines 1552--21
+ [][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3
@@ -1693,21 +1706,148 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [4])
 (./odp_skokowe.tex [5]
 Rozdzia\PlPrIeC {\l } 3.
-(./rysunki/podpunkt3_odpowiedzSkokowa.tex)
 (./rysunki/podpunkt3_wejsciewyjscie.tex)
+(./rysunki/podpunkt3_zakloceniewyjscie.tex)) (./strojenie.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6
 
 ]
-(./rysunki/podpunkt3_zakloceniewyjscie.tex)) [7] (./sprawozdanie.aux) ) 
-Here is how much of TeX's memory you used:
- 42885 strings out of 492983
- 1019093 string characters out of 6134921
- 3787677 words of memory out of 5000000
- 45892 multiletter control sequences out of 15000+600000
- 548740 words of font info for 74 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 62i,16n,103p,10505b,12768s stack positions out of 5000i,500n,10000p,200000b,80000s
+[7]
+Rozdzia\PlPrIeC {\l } 4.
+(./rysunki/strojenie_u_155_155_1_8.809637e+00.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Output written on sprawozdanie.dvi (8 pages, 1176532 bytes).
+ [8
+
+]
+(./rysunki/strojenie_155_155_1_8.809637e+00.tex)
+(./rysunki/strojenie_u_20_20_1_8.810337e+00.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+(./rysunki/strojenie_20_20_1_8.810337e+00.tex)
+(./rysunki/strojenie_u_50_5_1_8.502866e+00.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+(./rysunki/strojenie_50_5_1_8.502866e+00.tex)
+(./rysunki/strojenie_u_50_2_1_9.478717e+00.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+(./rysunki/strojenie_50_2_1_9.478717e+00.tex)
+(./rysunki/strojenie_u_50_2_4.000000e-01_8.312159e+00.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+(./rysunki/strojenie_50_2_4.000000e-01_8.312159e+00.tex) [13])
+(./zaklocenie_skokowe.tex [14]
+Rozdzia\PlPrIeC {\l } 5.
+(./rysunki/podpunkt5_bez_u_2.006103e+01.tex)
+(./rysunki/podpunkt5_bez_2.006103e+01.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
+
+]
+(./rysunki/podpunkt5_z_u_1.098983e+01.tex)
+(./rysunki/podpunkt5_z_1.098983e+01.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16])
+(./zaklocenie_sin.tex [17]
+Rozdzia\PlPrIeC {\l } 6.
+(./rysunki/podpunkt6_bez_u_2.484831e+01.tex)
+(./rysunki/podpunkt6_bez_2.484831e+01.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18
+
+]
+(./rysunki/podpunkt6_z_u_2.230000e+01.tex)
+(./rysunki/podpunkt6_z_2.230000e+01.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19])
+(./szum.tex [20]
+Rozdzia\PlPrIeC {\l } 7.
+(./rysunki/podpunkt7_2_u.tex) (./rysunki/podpunkt7_2.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
+
+]
+(./rysunki/podpunkt7_1_u.tex) (./rysunki/podpunkt7_1.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+(./rysunki/podpunkt7_3_u.tex) (./rysunki/podpunkt7_3.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+(./rysunki/podpunkt7_4_u.tex) (./rysunki/podpunkt7_4.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+(./rysunki/podpunkt7_5_u.tex) (./rysunki/podpunkt7_5.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+(./rysunki/podpunkt7_6_u.tex) (./rysunki/podpunkt7_6.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26])
+(./laboratorium.tex [27]
+Rozdzia\PlPrIeC {\l } 8.
+(./rysunki/zad1_lab.tex) (./rysunki/zad2_lab.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28
+
+]
+(./rysunki/zad2Kstat_lab.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+(./rysunki/zad3.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+(./rysunki/zad3pop.tex)
+Underfull \vbox (badness 1205) has occurred while \output is active []
+
+ [31]
+(./rysunki/4DMC.tex) (./rysunki/4DMCU.tex)
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+ [32]
+(./rysunki/4DMC1.tex) (./rysunki/4DMC1U.tex) [33] (./rysunki/4DMC2.tex)
+(./rysunki/4DMC2U.tex) [34] (./rysunki/4DMC3.tex) (./rysunki/4DMC3U.tex)
+[35] (./rysunki/4DMC4.tex) (./rysunki/4DMC4U.tex) [36]
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 166.
+
+(./rysunki/zad5_wyjscie_bez1.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+(./rysunki/zad5_sterowanie_bez.tex)
+Underfull \vbox (badness 4229) has occurred while \output is active []
+
+ [38]
+(./rysunki/zad5_wyjscie_z1.tex) (./rysunki/zad5_sterowanie_z.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39])
+[40] (./sprawozdanie.aux) ) 
+Here is how much of TeX's memory you used:
+ 43860 strings out of 492983
+ 1036365 string characters out of 6134921
+ 3800808 words of memory out of 5000000
+ 46699 multiletter control sequences out of 15000+600000
+ 551091 words of font info for 81 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,16n,103p,10384b,12764s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on sprawozdanie.dvi (41 pages, 3196868 bytes).

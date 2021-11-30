@@ -5,3 +5,25 @@
 \contentsline {section}{\numberline {2.3\relax .\kern .5em }Charakterystyka statyczna}{4}
 \contentsline {section}{\numberline {2.4\relax .\kern .5em }Wzmocnienia statyczne}{5}
 \contentsline {chapter}{\numberline {3\relax .\kern .5em }Odpowiedzi skokowe dla DMC}{6}
+\contentsline {chapter}{\numberline {4\relax .\kern .5em }Algorytm DMC}{8}
+\contentsline {section}{\numberline {4.1\relax .\kern .5em }Strojenie regulatora}{8}
+\contentsline {section}{\numberline {4.2\relax .\kern .5em }Wyniki strojenia}{9}
+\contentsline {section}{\numberline {4.3\relax .\kern .5em }Wnioski}{13}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Regulacja z skokowym zak\IeC {\l }\IeC {\'o}ceniem}{15}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Bez pomiaru zak\IeC {\l }\IeC {\'o}cenia}{15}
+\contentsline {section}{\numberline {5.2\relax .\kern .5em }Z pomiaru zak\IeC {\l }\IeC {\'o}cenia}{16}
+\contentsline {section}{\numberline {5.3\relax .\kern .5em }Wnioski}{17}
+\contentsline {chapter}{\numberline {6\relax .\kern .5em }Regulacja z skokowym zak\IeC {\l }\IeC {\'o}ceniem sinusoidalnym}{18}
+\contentsline {section}{\numberline {6.1\relax .\kern .5em }Bez pomiaru zak\IeC {\l }\IeC {\'o}cenia}{18}
+\contentsline {section}{\numberline {6.2\relax .\kern .5em }Z pomiaru zak\IeC {\l }\IeC {\'o}cenia}{19}
+\contentsline {section}{\numberline {6.3\relax .\kern .5em }Wnioski}{20}
+\contentsline {chapter}{\numberline {7\relax .\kern .5em }Regulacja z skokowym zak\IeC {\l }\IeC {\'o}ceniem sinusoidalnym}{21}
+\contentsline {section}{\numberline {7.1\relax .\kern .5em }Szum na\IeC {\l }o\IeC {\.z}ony na zak\IeC {\l }\IeC {\'o}cenie skokowe}{21}
+\contentsline {section}{\numberline {7.2\relax .\kern .5em }Szum na\IeC {\l }o\IeC {\.z}ony na zak\IeC {\l }\IeC {\'o}cenie sinusoidalne}{24}
+\contentsline {section}{\numberline {7.3\relax .\kern .5em }Wnioski}{27}
+\contentsline {chapter}{\numberline {8\relax .\kern .5em }Laboratorium}{28}
+\contentsline {section}{\numberline {8.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{28}
+\contentsline {section}{\numberline {8.2\relax .\kern .5em }Wyznaczenie odpowiedzi skokowych}{28}
+\contentsline {section}{\numberline {8.3\relax .\kern .5em }Przekszta\IeC {\l }cenie i aproksymacja odpowiedzi skokowej}{30}
+\contentsline {section}{\numberline {8.4\relax .\kern .5em }DMC}{32}
+\contentsline {section}{\numberline {8.5\relax .\kern .5em }Dob\IeC {\'o}r parametru $D^z$}{37}

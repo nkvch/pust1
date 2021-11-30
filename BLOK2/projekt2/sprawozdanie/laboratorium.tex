@@ -1,0 +1,207 @@
+%! TEX encoding = utf8
+\chapter{Laboratorium}
+
+\section{Określenie wartości pomiaru temperatury w punkcie pracy}
+
+W celu określenia wartości pomiaru temperatury w punkcie pracy ustawiono moc wentylatora  $W1 = 50\%$,a moc grzałki $G1 = 25\%$.
+Po czasie około 5 minut temperatura odczytywana przez czujnik temperatury zaczeła się stabilizować  na poziomie  $T1 = 28,2^{\circ} C$. 
+Niestety z powodu ciągłego ruchu powietrza związanego z przemieszczaniem się osób w sali i dużej ilości tych osób wpływających na temperaturę sali oraz czułość stanowiska pomiarowego temperatura odczytywana przez czujnik zaczeła odbiegać i lekko oscylować wokół tej temperatury.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad1_lab.tex}
+\caption{Pomiar temperatury w punkcie pracy}
+\end{figure}
+
+\section{Wyznaczenie odpowiedzi skokowych}
+
+Rozpoczynając z punktu pracy wyznaczono odpowiedzi skokowe dla trzech różnych skoków sygnału zakłócenia  $Z = 10\%$  $Z = 20\%$ i $Z = 30\%$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad2_lab.tex}
+\caption{Odpowiedzi skokowe dla trzech różnych wartości sygnału sterującego}
+\end{figure}
+
+Analizując otrzymane wykresy można wywnioskować, że właściwości statyczne procesu są w przybliżeniu liniowe, zmiany wartości odpowiedzi skokowej dla tych samych chwil są w przybliżeniu proporcjonalne jak również sam kształt wykresów jest w przybliżeniu podobny. W celu sprawdzenia założeń narysowano charakterystykę statyczną procesu.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad2Kstat_lab.tex}
+\caption{Charakterystyka statyczna procesu}
+\end{figure}
+
+Która potwierdziła przypuszczenia, na jej podstawie można stwierdzić, że właściwości statyczne procesu są w dobrym przybliżeniu liniowe i w konsekwencji postanowiono wyznaczyć wzmocnienie statyczne procesu.
+
+\begin{equation}
+K_{stat} = 0,1890
+\end{equation}
+
+\section{Przekształcenie i aproksymacja odpowiedzi skokowej}
+
+W celu przekształcenia odpowiedzi skokowej w taki sposób aby można ją było wykorzystać w algorytmie DMC skorzystano z poniższego wzoru: 
+
+\begin{equation}
+S_i=\frac{Y(i)-Y_{pp}}{\triangle U} \textrm{ ,dla } i=1,2 \ldots D
+\label{step_norm}
+\end{equation}
+
+Dla odpowiedzi skokowej na torze wejście-wyjście otrzymanej w wyniku zmiany sygnału sterującego z $G1 = 25\%$ na $G1 = 35\%$ a następnie dokonano jej aproksymacji używając członu inercyjnego drugiego rzędu z opóźnieniem.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad3.tex}
+\caption{Aproksymacja odpowiedzi skokowej U-Y}
+\end{figure}
+
+Taki sam proces aproksymacji przeprowadzony został dla toru zakłócenie-wyjście dla skoku zakłócenia od $Z = 0$ do $Z = 10$.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad3pop.tex}
+\caption{Aproksymacja odpowiedzi skokowe Z-Y}
+\end{figure}
+
+Do wyznaczenia optymalnych parametrów aproksymacji posłużono się algorytmem genetycznym o losowej populacji początkowej tak aby zminimalizować błąd dopasowania.
+
+\section{DMC}
+
+Prawo regulacji DMC przedstawia się następująco:
+
+\begin{equation}
+\triangle U(k)=K(Y^{zad}(k)-Y^0(k))
+\end{equation}
+
+Gdzie $\triangle U(k)$ to wektor $N_u$ (horyzont sterowania) przyszłych wartości sterowania, $Y^0(k)$ to przewidywana odpowiedź z modelu procesu, $K$ - macierz policzona raz na początku ze współczynników odpowiedzi skokowej, uwzględniając wybrany współczynnik $\lambda$ oraz horyzonty predykcji i sterowania.
+
+W przypadku algorytmu DMC z pomiarem zakłóceń $Y^0(k)$ oblicza się z następującego wzoru:
+\begin{equation}
+Y^0(k)=Y(k)+M^P \triangle U^P(k)+M^{Z^P}\triangle Z^P(k)
+\end{equation}
+
+W powyższym wzorze dwa pierwsze elementy sumy odnoszą się do toru sterowanie-wyjście a ostatni element do toru zakłócenie-wyjście: $M^{Z^P}$ macierz wyznaczana przy pomocy współczynników odpowiedzi skokowej dla zakłócenia, $\triangle Z^P(k)$ jest wektorem przyrostów mierzalnego zakłócenia.
+
+Poniżej przedstawione są wyniki działania programu dla skoku wartości zadanej z punktu pracy 28,18 do 35 dla różnych parametrów regulatora:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 90$, $N_u = 10$,  $\lambda = 0.4$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMCU.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 90$, $N_u = 10$,  $\lambda = 0,4$}
+\end{figure}
+
+\begin{equation}
+E = 3,1023 * 10^3
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC1.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 60$, $N_u = 5$,  $\lambda = 1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC1U.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 60$, $N_u = 5$,  $\lambda = 1$}
+\end{figure}
+
+\begin{equation}
+E = 1,5950 * 10^3
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC2.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 60$, $N_u = 5$,  $\lambda = 2$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC2U.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 60$, $N_u = 5$,  $\lambda = 2$}
+\end{figure}
+
+\begin{equation}
+E = 1,6698 * 10^3
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC3.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 60$, $N_u = 5$,  $\lambda = 0,4$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC3U.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 60$, $N_u = 5$,  $\lambda = 0,4$}
+\end{figure}
+
+\begin{equation}
+E = 1,5041 * 10^3
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC4.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 30$, $N_u = 1$,  $\lambda = 0,4$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/4DMC4U.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 30$, $N_u = 1$,  $\lambda = 0,4$}
+\end{figure}
+
+\begin{equation}
+E = 1,2676 * 10^3
+\end{equation}
+
+\section{Dobór parametru $D^z$}
+
+W wyniku eksperymentów dobraliśmy wartość $D^z = 320$.
+
+Poniżej są przedstawione wyniki regulacji najpierw bez pomiaru zakłócenia, a potem z pomiarem dla skoków sygnału zakłócenia w chwili k=350 z wartości 0 do 30 oraz w k=600 z 30 do 10.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_wyjscie_bez1.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 30$, $N_u = 1$,  $\lambda = 0,4$ bez pomiaru zakłócenia}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_sterowanie_bez.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 30$, $N_u = 1$,  $\lambda = 0,4$ bez pomiaru zakłócenia}
+\end{figure}
+
+\begin{equation}
+E = 1,4576 * 10^3
+\end{equation}
+
+Włączamy pomiar zakłóceń.
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_wyjscie_z1.tex}
+\caption{Wyjście procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 30$, $N_u = 1$,  $\lambda = 0,4$ z pomiarem zakłócenia}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_sterowanie_z.tex}
+\caption{Sterowanie procesu z regulatorem DMC dla parametrów $D = 340$, $ N = 30$, $N_u = 1$,  $\lambda = 0,4$ z pomiarem zakłócenia}
+\end{figure}
+
+\begin{equation}
+E = 1,2734 * 10^3
+\end{equation}
+
+Jak widać, regulacja z pomiarem jest bardziej precyzyjna.
+

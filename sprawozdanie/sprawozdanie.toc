@@ -1,22 +1,22 @@
-\contentsline {chapter}{\numberline {1\relax .\kern .5em }Sprawdzenie poprawności podanych wartości}{2}
+\contentsline {chapter}{\numberline {1\relax .\kern .5em }Sprawdzenie poprawno\IeC {\'s}ci podanych warto\IeC {\'s}ci}{2}
 \contentsline {chapter}{\numberline {2\relax .\kern .5em }Odpowiedzi skokowe}{3}
 \contentsline {section}{\numberline {2.1\relax .\kern .5em }Opowiedzi skokowe}{3}
 \contentsline {section}{\numberline {2.2\relax .\kern .5em }Charakterystyka statyczna}{3}
 \contentsline {section}{\numberline {2.3\relax .\kern .5em }Wzmocnienie statyczne}{4}
-\contentsline {chapter}{\numberline {3\relax .\kern .5em }Przekształcenie odpowiedzi skokowej na potrzeby algorytmu DMC}{5}
-\contentsline {section}{\numberline {3.1\relax .\kern .5em }Przekształcenie odpowiedzi}{5}
+\contentsline {chapter}{\numberline {3\relax .\kern .5em }Przekszta\IeC {\l }cenie odpowiedzi skokowej na potrzeby algorytmu DMC}{5}
+\contentsline {section}{\numberline {3.1\relax .\kern .5em }Przekszta\IeC {\l }cenie odpowiedzi}{5}
 \contentsline {section}{\numberline {3.2\relax .\kern .5em }Wykres odpowiedzi skokowej}{5}
 \contentsline {chapter}{\numberline {4\relax .\kern .5em }Algorytmy regulacji}{7}
 \contentsline {section}{\numberline {4.1\relax .\kern .5em }Algorytm cyfrowy regulacji PID}{7}
 \contentsline {section}{\numberline {4.2\relax .\kern .5em }Algorytm DMC w wersji analitycznej}{7}
-\contentsline {chapter}{\numberline {5\relax .\kern .5em }Strojenie regulatorów}{8}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Strojenie regulator\IeC {\'o}w}{8}
 \contentsline {section}{\numberline {5.1\relax .\kern .5em }Strojenie regulatora PID}{8}
 \contentsline {section}{\numberline {5.2\relax .\kern .5em }Strojenie regulatora DMC}{10}
-\contentsline {chapter}{\numberline {6\relax .\kern .5em }Optymalizacja wskaźników jakości}{15}
+\contentsline {chapter}{\numberline {6\relax .\kern .5em }Optymalizacja wska\IeC {\'z}nik\IeC {\'o}w jako\IeC {\'s}ci}{15}
 \contentsline {section}{\numberline {6.1\relax .\kern .5em }Regulator PID}{15}
 \contentsline {section}{\numberline {6.2\relax .\kern .5em }Regulator DMC}{18}
 \contentsline {chapter}{\numberline {7\relax .\kern .5em }Laboratorium}{22}
-\contentsline {section}{\numberline {7.1\relax .\kern .5em }Określenie wartości pomiaru temperatury w punkcie pracy}{22}
+\contentsline {section}{\numberline {7.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{22}
 \contentsline {section}{\numberline {7.2\relax .\kern .5em }Wyznaczenie odpowiedzi skokowych}{22}
-\contentsline {section}{\numberline {7.3\relax .\kern .5em }Przekształcenie i aproksymacja odpowiedzi skokowej}{24}
-\contentsline {section}{\numberline {7.4\relax .\kern .5em }Dobranie nastaw regulatora PID i parametrów algorytmu DMC}{25}
+\contentsline {section}{\numberline {7.3\relax .\kern .5em }Przekszta\IeC {\l }cenie i aproksymacja odpowiedzi skokowej}{24}
+\contentsline {section}{\numberline {7.4\relax .\kern .5em }Dobranie nastaw regulatora PID i parametr\IeC {\'o}w algorytmu DMC}{25}
