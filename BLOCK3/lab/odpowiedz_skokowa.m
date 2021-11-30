@@ -46,4 +46,20 @@ stairs(y7);
 xlabel('k');
 ylabel('T[°C]');
 legend(marks,'Location', 'northwest');
-matlab2tikz('../sprawozdanie/rysunki/zad2_lab.tex');
+% matlab2tikz('../sprawozdanie/rysunki/zad2_lab_DRAFT.tex');
+
+stable_points = [
+    y1(end)
+    y2(end)
+    y3(end)
+    y4(end)
+    y5(end)
+    y6(end)
+    y7(end)
+];
+
+figure;
+plot(20:10:80, stable_points);
+xlabel('U');
+ylabel('Y');
+matlab2tikz('../sprawozdanie/rysunki/zad2_lab_char_stat.tex');

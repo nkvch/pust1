@@ -5,6 +5,5 @@
 \contentsline {chapter}{\numberline {3\relax .\kern .5em }Laboratorium}{5}
 \contentsline {section}{\numberline {3.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{5}
 \contentsline {section}{\numberline {3.2\relax .\kern .5em }Wyznaczenie odpowiedzi skokowych}{5}
-\contentsline {section}{\numberline {3.3\relax .\kern .5em }Przekszta\IeC {\l }cenie i aproksymacja odpowiedzi skokowej}{7}
-\contentsline {section}{\numberline {3.4\relax .\kern .5em }DMC}{9}
-\contentsline {section}{\numberline {3.5\relax .\kern .5em }Dob\IeC {\'o}r parametru $D^z$}{14}
+\contentsline {section}{\numberline {3.3\relax .\kern .5em }Testowanie regulator\IeC {\'o}w z laboratorium 1}{7}
+\contentsline {subsection}{\numberline {3.3.1\relax .\kern .5em }PID z laboratorium 1}{7}
