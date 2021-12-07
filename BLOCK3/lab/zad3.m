@@ -1,7 +1,7 @@
 clear all;
 
-fileID1 = fopen('./dane/z4_PID1.txt', 'r');
-fileID2 = fopen('./dane/z4_PIDwy1.txt', 'r');
+fileID1 = fopen('./dane/z3_DMCy.txt', 'r');
+fileID2 = fopen('./dane/z3_DMCu.txt', 'r');
 
 formatSpec = '%f';
 u = fscanf(fileID2,formatSpec);
@@ -24,12 +24,21 @@ xlabel('k');
 ylabel('T[°C]');
 ylim([30 48]);
 legend({'Y', 'Y zad'}, 'Location', 'northeast');
-% matlab2tikz('../sprawozdanie/rysunki/zad3_lab_DRAFT.tex');
+% matlab2tikz('../sprawozdanie/rysunki/zad3_lab_DMC.tex');
 
 figure;
 stairs(u);
 xlabel('k');
 ylabel('U[%]');
-% matlab2tikz('../sprawozdanie/rysunki/zad3_lab_U_DRAFT.tex');
+% matlab2tikz('../sprawozdanie/rysunki/zad3_lab_U_DMC.tex');
+
+E = 0;
+
+for i=1:800
+    E = E + (y(i) - yzad(i))^2;
+end
+
+E
+
 
 

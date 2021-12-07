@@ -45,9 +45,9 @@ W danym podejściu wykorzystaliśmy PID z laboratorium pierwszego, ale w celu st
 Parametry regulatora:
 
 \begin{equation}
-K = 30
-T_i = 35
-T_d = 4,5
+K = 30; 
+T_i = 35; 
+T_d = 4,5; 
 \end{equation}
 
 Wyniki działania regulacji:
@@ -67,5 +67,37 @@ Wyniki działania regulacji:
 Wartość wskaźnika jakości:
 
 \begin{equation}
-E = 15451,8898
+E = 19,3149
 \end{equation}
+
+\subsection{DMC z laboratorium 1}
+
+Wykorzystaliśmy parametry DMC z laboratorium drugiego:
+
+\begin{equation}
+N = 90; 
+N_u = 10; 
+\lambda = 0,4; 
+ = \end{equation}
+ 
+Wyniki działania regulacji:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad3_lab_DMC.tex}
+\caption{Regulacja DMC z laboratorium 1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad3_lab_U_DMC.tex}
+\caption{Sterowanie DMC z laboratorium 1}
+\end{figure}
+
+Wartość wskaźnika jakości:
+
+\begin{equation}
+E = 23,7559
+\end{equation}
+
+Jak widać, DMC działa gorzej, ponieważ jego działanie mocno zależy od odpowiedzi skokowej, która się zmieniła.
