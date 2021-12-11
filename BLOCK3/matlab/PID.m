@@ -1,4 +1,4 @@
-n = 1000; %czas symulacji
+n = 1500; %czas symulacji
 %punkt pracy
 Upp = 0;
 Ypp = 0;
@@ -15,10 +15,13 @@ Umin = -1;
 dU = 0.075;
 T=0.5;
 %nastawy regulatora PID w wersji ci¹g³ej
-%K = 1.1; Ti = 9.9; Td = 2.8; 
-%K = 1.212; Ti = 25; Td = 6; % Parametry ZN
+%K = 1.1; Ti = 9.9; Td = 2.8;
 K=0.332613; Ti=1.931338; Td=1.784287; %Parametry uzyskane algorytmem genetycznym
+% K=1.6680; Ti=3.5; Td=0.84; % parametry ZN
+% Tkr = 14*0.5; Kkr = 2.78
 %wyliczenie nastawów regulatora PID w wersji dyskretnej
+% K=0.3; Ti=4.5; Td=1.54;
+
 r2 = K*Td/T;
 r1 = K*(T/(2*Ti)-2*Td/T-1);
 r0 = K*(1+T/(2*Ti)+Td/T);
@@ -26,13 +29,20 @@ r0 = K*(1+T/(2*Ti)+Td/T);
 
 %wartosœci zadane
 Yzad(1:11)=0;
-%Yzad(12:n)=1.1;
-Yzad(12:150)=0.09;
-Yzad(151:300)=0.05;
-Yzad(301:500)=-0.1;
-Yzad(501:600)=-0.5;
-Yzad(601:800)=-0.3;
-Yzad(801:n)=0.1;
+Yzad(12:400)=0.08;
+Yzad(401:600)=-2.5;
+Yzad(601:700)=-0.5;
+Yzad(701:800)=0;
+Yzad(801:1000)=-0.5;
+Yzad(1001:1200)=-1.5;
+Yzad(1201:1400)=-2.5;
+Yzad(1401:n)=-2;
+
+% % dla skoku
+% Yzad(1:11)=0;
+% Yzad(12:1000)=-0.1;
+
+
 %pomniejszenuie zmiennych regulatora o wartoœci w punkcie pracy tak y,u
 %by³y w okolicach 0
 u = U- Upp;
@@ -85,6 +95,7 @@ xlabel('k');
 ylabel('U(k)');
 %title('Sygna³ steruj¹cy');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+matlab2tikz('../sprawozdanie/rysunki/PID_gen_U.tex');
 figure;
 stairs(Y);
 xlabel('k');
@@ -95,3 +106,4 @@ stairs(Yzad);
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+matlab2tikz('../sprawozdanie/rysunki/PID_gen.tex');

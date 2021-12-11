@@ -1,0 +1,295 @@
+\chapter{Strojenie prostych regulatorów PID i DMC}
+
+\section{Strojenie PID}
+
+Do strojenia wybraliśmy metodę Zieglera-Nicholsa, która rozpoczyna się od doprowadzenia układu do oscylacji krytycznych.
+
+\subsection{Doprowadzenie układu do oscylacji krytycznych}
+
+Wartość $K$, przy której układ osiągnął oscylacji krytycznych to \num{2,78}, $T_{kr} = 7$. 
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_osc_kryt.tex}
+\caption{Oscylacje krytyczne, $K_{kr} = 2,78$, $T_{kr} = 7$}
+\end{figure}
+
+\subsection{Regulacja wynikająca z ZN}
+
+Wyliczone zgodnie z metodą ZN parametry regulatora:
+
+\begin{equation}
+    K = 1,6680; T_i=3,5; T_d=0,84; 
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_regulacja.tex}
+\caption{Regulacja, $K = 1,6680; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_regulacja_U.tex}
+\caption{Sterowanie, $K = 1,6680; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\subsection{Dostrojenie metodą inżynierską}
+
+Zmniejszymy $K$ do 1 żeby zmniejszyć oscylacje:
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie1.tex}
+\caption{Regulacja, $K = 1; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie1_U.tex}
+\caption{Sterowanie, $K = 1; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{equation}
+    E = \num{3,2788e7}
+\end{equation}
+
+Błąd się zmniejszył, więc kontynuujemy zmniejszanie $K$:
+
+\begin{equation}
+    K = 0,4
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie2.tex}
+\caption{Regulacja, $K = 0,4; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie2_U.tex}
+\caption{Sterowanie, $K = 0,4; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{equation}
+    E = \num{2,4440e2}
+\end{equation}
+
+Kontynuujemy zmniejszanie $K$:
+
+\begin{equation}
+    K = 0,3
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie3.tex}
+\caption{Regulacja, $K = 0,3; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie3_U.tex}
+\caption{Sterowanie, $K = 0,3; T_i=3,5; T_d=0,84;$}
+\end{figure}
+
+\begin{equation}
+    E = \num{2,3993e2}
+\end{equation}
+
+Zwiększymy $T_d$, żeby uniknąć gwałtownych zmian sygnału sterującego:
+
+\begin{equation}
+    K = 0,3; T_d = 1,54
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie4.tex}
+\caption{Regulacja, $K = 0,3; T_i=3,5; T_d=1,54;$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie4_U.tex}
+\caption{Sterowanie, $K = 0,3; T_i=3,5; T_d=1,54;$}
+\end{figure}
+
+\begin{equation}
+    E = \num{2,4063e2}
+\end{equation}
+
+Zwiększymy $T_i$, żeby zmniejszyć uchyb:
+
+\begin{equation}
+    K = 0,3; T_i = 4,5; T_d = 1,54;
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie5.tex}
+\caption{Regulacja, $K = 0,3; T_i=4,5; T_d=1,54;$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/ZN_strojenie5_U.tex}
+\caption{Sterowanie, $K = 0,3; T_i=4,5; T_d=1,54;$}
+\end{figure}
+
+\begin{equation}
+    E = \num{2,3932e2}
+\end{equation}
+
+Zostańmy przy tych parametrach:
+
+\begin{equation}
+    K = 0,3; T_d = 1,54; T_i = 4,5;
+\end{equation}
+
+\section{Strojenie DMC}
+
+W wyniku badania odpowiedzi skokowej uzyskano wektor $s$ o długości 15. Rozpoczynamy więc badania od największych możliwych horyzontów predykcji i sterowania oraz parametru $\lambda$ równym 1:
+
+\begin{equation}
+    N = 15; N_u = 15; \lambda = 1
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu15_lambda1_U.tex}
+\caption{Regulacja DMC, $N = 15; N_u = 15; \lambda = 1$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu15_lambda1.tex}
+\caption{Sterowanie DMC, $N = 15; N_u = 15; \lambda = 1$}
+\end{figure}
+
+\begin{equation}
+    E = \num{689,3821}
+\end{equation}
+
+Będziemy zwiększać parametr $\lambda$ żeby uniknąć gwałtownych zmian sygnału sterującego:
+
+\begin{equation}
+    N = 15; N_u = 15; \lambda = 10
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu15_lambda10_U.tex}
+\caption{Regulacja DMC, $N = 15; N_u = 15; \lambda = 10$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu15_lambda10.tex}
+\caption{Sterowanie DMC, $N = 15; N_u = 15; \lambda = 10$}
+\end{figure}
+
+\begin{equation}
+    E = \num{415,6314}
+\end{equation}
+
+\begin{equation}
+    N = 15; N_u = 15; \lambda = 50
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu15_lambda50_U.tex}
+\caption{Regulacja DMC, $N = 15; N_u = 15; \lambda = 50$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu15_lambda50.tex}
+\caption{Sterowanie DMC, $N = 15; N_u = 15; \lambda = 50$}
+\end{figure}
+
+\begin{equation}
+    E = \num{276,9352}
+\end{equation}
+
+\begin{equation}
+    N = 14; N_u = 14; \lambda = 50
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N14_Nu14_lambda50_U.tex}
+\caption{Regulacja DMC, $N = 14; N_u = 14; \lambda = 50$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N14_Nu14_lambda50.tex}
+\caption{Sterowanie DMC, $N = 14; N_u = 14; \lambda = 50$}
+\end{figure}
+
+\begin{equation}
+    E = \num{293,5752}
+\end{equation}
+
+\begin{equation}
+    N = 15; N_u = 10; \lambda = 50
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu10_lambda50_U.tex}
+\caption{Regulacja DMC, $N = 15; N_u = 10; \lambda = 50$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu10_lambda50.tex}
+\caption{Sterowanie DMC, $N = 15; N_u = 10; \lambda = 50$}
+\end{figure}
+
+\begin{equation}
+    E = \num{276,9350}
+\end{equation}
+
+\begin{equation}
+    N = 15; N_u = 5; \lambda = 50
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu5_lambda50_U.tex}
+\caption{Regulacja DMC, $N = 15; N_u = 5; \lambda = 50$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu5_lambda50.tex}
+\caption{Sterowanie DMC, $N = 15; N_u = 5; \lambda = 50$}
+\end{figure}
+
+\begin{equation}
+    E = \num{276,8338}
+\end{equation}
+
+\begin{equation}
+    N = 15; N_u = 1; \lambda = 50
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu1_lambda50_U.tex}
+\caption{Regulacja DMC, $N = 15; N_u = 1; \lambda = 50$}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/DMC_N15_Nu1_lambda50.tex}
+\caption{Sterowanie DMC, $N = 15; N_u = 1; \lambda = 50$}
+\end{figure}
+
+\begin{equation}
+    E = \num{276,3756}
+\end{equation}

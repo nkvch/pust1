@@ -44,7 +44,7 @@ plot(inputs, responses);
 set(gcf,'Units','centimeters','Position', [ 1 1 15 10]);
 xlabel('u');
 ylabel('y');
-matlab2tikz('../sprawozdanie/rysunki/wykres_char_stat.tex');
+matlab2tikz('../sprawozdanie/rysunki/wykres_char_stat_AAAA.tex');
 
 % K_stat1=(responses(6) - responses(1))/(inputs(6) - inputs(1))
 
