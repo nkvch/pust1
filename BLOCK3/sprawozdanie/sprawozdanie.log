@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  7 DEC 2021 09:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2021.10.27)  14 DEC 2021 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1690,8 +1690,114 @@ Underfull \vbox (badness 8038) has occurred while \output is active []
  [3
 
 ])
-(./laboratorium.tex [4]
+(./regulatory.tex [4]
 Rozdzia\PlPrIeC {\l } 3.
+) (./strojenia.tex [5
+
+]
+Rozdzia\PlPrIeC {\l } 4.
+(./rysunki/ZN_osc_kryt.tex) (./rysunki/ZN_regulacja.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
+
+]
+(./rysunki/ZN_regulacja_U.tex) (./rysunki/ZN_strojenie1.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+(./rysunki/ZN_strojenie1_U.tex) (./rysunki/ZN_strojenie2.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+(./rysunki/ZN_strojenie2_U.tex) (./rysunki/ZN_strojenie3.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+(./rysunki/ZN_strojenie3_U.tex) (./rysunki/ZN_strojenie4.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+(./rysunki/ZN_strojenie4_U.tex) (./rysunki/ZN_strojenie5.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+(./rysunki/ZN_strojenie5_U.tex) (./rysunki/DMC_N15_Nu15_lambda1_U.tex) [12]
+(./rysunki/DMC_N15_Nu15_lambda1.tex) (./rysunki/DMC_N15_Nu15_lambda10_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+(./rysunki/DMC_N15_Nu15_lambda10.tex) (./rysunki/DMC_N15_Nu15_lambda50_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+(./rysunki/DMC_N15_Nu15_lambda50.tex) (./rysunki/DMC_N14_Nu14_lambda50_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+(./rysunki/DMC_N14_Nu14_lambda50.tex) (./rysunki/DMC_N15_Nu10_lambda50_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+(./rysunki/DMC_N15_Nu10_lambda50.tex) (./rysunki/DMC_N15_Nu5_lambda50_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+(./rysunki/DMC_N15_Nu5_lambda50.tex) (./rysunki/DMC_N15_Nu1_lambda50_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+(./rysunki/DMC_N15_Nu1_lambda50.tex)) (./rozmyte_algorytmy.tex [19]
+Rozdzia\PlPrIeC {\l } 5.
+) (./rozmyta_regulacja.tex [20
+
+]
+Rozdzia\PlPrIeC {\l } 6.
+(./rysunki/R_PID_2r.tex) (./rysunki/R_PID_2r_U.tex)
+Underfull \vbox (badness 5189) has occurred while \output is active []
+
+ [21
+
+]
+(./rysunki/R_PID_3r.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+(./rysunki/R_PID_3r_U.tex) [23] (./rysunki/R_PID_4r_bardzo_ladna.tex)
+(./rysunki/R_PID_3r_U.tex) [24] (./rysunki/R_PID_5r.tex)
+(./rysunki/R_PID_5r_U.tex) [25]
+Overfull \hbox (0.4876pt too wide) in paragraph at lines 231--232
+[]\OT4/cmr/m/n/10.95 Najlepszymi ho-ry-zon-ta-mi dla wszyst-kich ro-dza-jów roz
+-my-te-go DMC oka-za-ªy si¦ $\OML/plm/m/it/10.95 N \OT4/cmr/m/n/10.95 = 10\OML/
+plm/m/it/10.95 ; N[] \OT4/cmr/m/n/10.95 =
+ []
+
+(./rysunki/R_DMC_2r.tex) (./rysunki/R_DMC_2r_U.tex)
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [26]
+(./rysunki/R_DMC_3r.tex) (./rysunki/R_DMC_3r_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+(./rysunki/R_DMC_4r.tex) (./rysunki/R_DMC_4r_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+(./rysunki/R_DMC_5r.tex) (./rysunki/R_DMC_5r_U.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29])
+(./lambda.tex [30]
+Rozdzia\PlPrIeC {\l } 7.
+(./rysunki/R_DMC_2r_lambda.tex) (./rysunki/R_DMC_2r_lambda_U.tex) [31
+
+]
+(./rysunki/R_DMC_3r_lambda.tex) (./rysunki/R_DMC_3r_lambda_U.tex) [32]
+(./rysunki/R_DMC_4r_lambda.tex) (./rysunki/R_DMC_4r_lambda_U.tex)
+(./rysunki/R_DMC_5r_lambda.tex) [33] (./rysunki/R_DMC_5r_lambda_U.tex))
+(./laboratorium.tex [34]
+Rozdzia\PlPrIeC {\l } 8.
 (./rysunki/zad1_lab.tex) (./rysunki/zad2_lab.tex)
 Overfull \hbox (33.83157pt too wide) in paragraph at lines 3212--24
  [][] 
@@ -1700,7 +1806,7 @@ Overfull \hbox (33.83157pt too wide) in paragraph at lines 3212--24
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [35
 
 ]
 (./rysunki/zad2_lab_char_stat.tex)
@@ -1711,24 +1817,24 @@ Overfull \hbox (29.75175pt too wide) in paragraph at lines 37--34
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6]
+ [36]
 (./rysunki/zad3_lab.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
-(./rysunki/zad3_lab_U.tex) [8] (./rysunki/zad3_lab_DMC.tex)
+ [37]
+(./rysunki/zad3_lab_U.tex) [38] (./rysunki/zad3_lab_DMC.tex)
 (./rysunki/zad3_lab_U_DMC.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9])
-[10] (./sprawozdanie.aux) ) 
+ [39])
+[40] (./sprawozdanie.aux) ) 
 Here is how much of TeX's memory you used:
- 37875 strings out of 492983
- 905985 string characters out of 6134921
- 1519557 words of memory out of 5000000
- 40869 multiletter control sequences out of 15000+600000
+ 38506 strings out of 492983
+ 918742 string characters out of 6134921
+ 2069560 words of memory out of 5000000
+ 41334 multiletter control sequences out of 15000+600000
  548740 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,16n,96p,10384b,2159s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sprawozdanie.dvi (11 pages, 805188 bytes).
+Output written on sprawozdanie.dvi (41 pages, 8707900 bytes).

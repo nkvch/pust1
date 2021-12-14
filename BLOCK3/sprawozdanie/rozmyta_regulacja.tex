@@ -1,0 +1,303 @@
+\chapter{Strojenie rozmytych regulatorów}
+
+Strojenie regulatorów rozmytych jest czasochłonne, jeżeli chodzi o regulatory PID, natomiast tylko nieco bardziej skomplikowane jeżeli chodzi o regulatory DMC. Zacznijmy od strojenia PID.
+
+\section{Strojenie rozmytego PID}
+
+\subsection{2 regulatory lokalne}
+
+Parametry $PID_1$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,17;\\
+    	T_i = 3,4;\\
+    	T_d = 0,3.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_2$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,5;\\
+    	T_i = 5,6;\\
+    	T_d = 0,9.
+\end{matrix}
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_2r.tex}
+\caption{Regulacja rozmyta PID, 2 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_2r_U.tex}
+\caption{Sterowanie rozmyte PID, 2 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{117,8557}
+\end{equation}
+
+Regulacja nie jest najładniejsza, ale wskaźnik jakości jest znacznie mniejszy niż we wcześniejszych eksperymentach.
+
+\subsection{3 regulatory lokalne}
+
+Parametry $PID_1$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,1;\\
+    	T_i = 2,2;\\
+    	T_d = 0,5.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_2$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,15;\\
+    	T_i = 0,8;\\
+    	T_d = 0,5.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_3$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,8;\\
+    	T_i = 1,1;\\
+    	T_d = 1.
+\end{matrix}
+\end{equation}
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_3r.tex}
+\caption{Regulacja rozmyta PID, 3 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_3r_U.tex}
+\caption{Sterowanie rozmyte PID, 3 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{126,2527}
+\end{equation}
+
+Regulacja wygląda dużo lepiej, lecz wskażnik błędy się zwiększył.
+
+
+\subsection{4 regulatory lokalne}
+
+Parametry $PID_1$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,12;\\
+    	T_i = 3;\\
+    	T_d = 0,9.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_2$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,07;\\
+    	T_i = 1,3;\\
+    	T_d = 1,5.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_3$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,2;\\
+    	T_i = 3;\\
+    	T_d = 1.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_4$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,5;\\
+    	T_i = 1;\\
+    	T_d = 1.
+\end{matrix}
+\end{equation}
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_4r_bardzo_ladna.tex}
+\caption{Regulacja rozmyta PID, 4 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_3r_U.tex}
+\caption{Sterowanie rozmyte PID, 4 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{141,3047}
+\end{equation}
+
+
+\subsection{5 regulatory lokalne}
+
+Parametry $PID_1$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,12;\\
+    	T_i = 3;\\
+    	T_d = 1,05.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_2$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,2;\\
+    	T_i = 2,3;\\
+    	T_d = 0,8.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_3$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,4;\\
+    	T_i = 1,5;\\
+    	T_d = 0,3.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_4$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,3;\\
+    	T_i = 1,9;\\
+    	T_d = 1,7.
+\end{matrix}
+\end{equation}
+
+Parametry $PID_5$:
+
+\begin{equation}
+\begin{matrix}
+    	K = 0,7;\\
+    	T_i = 0,4;\\
+    	T_d = 0,7.
+\end{matrix}
+\end{equation}
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_5r.tex}
+\caption{Regulacja rozmyta PID, 4 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_PID_5r_U.tex}
+\caption{Sterowanie rozmyte PID, 4 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{133,7945}
+\end{equation}
+
+
+\section{Strojenie rozmytego DMC}
+
+Najlepszymi horyzontami dla wszystkich rodzajów rozmytego DMC okazały się $N = 10, N_u = 1$. Poniżej są przedstawione wyniki badań DMC z różną ilością regulatorów lokalnych oraz $\lambda = 1$.
+
+\subsection{2 regulatory lokalne}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_2r.tex}
+\caption{Regulacja rozmyta DMC, 2 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_2r_U.tex}
+\caption{Sterowanie rozmyte DMC, 2 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{145,7136}
+\end{equation}
+
+\subsection{3 regulatory lokalne}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_3r.tex}
+\caption{Regulacja rozmyta DMC, 3 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_3r_U.tex}
+\caption{Sterowanie rozmyte DMC, 3 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{127,8804}
+\end{equation}
+
+\subsection{4 regulatory lokalne}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_4r.tex}
+\caption{Regulacja rozmyta DMC, 4 regulatory}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_4r_U.tex}
+\caption{Sterowanie rozmyte DMC, 4 regulatory}
+\end{figure}
+
+\begin{equation}
+    E = \num{143,4687}
+\end{equation}
+
+\subsection{5 regulatorów lokalnych}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_5r.tex}
+\caption{Regulacja rozmyta DMC, 5 regulatorów}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/R_DMC_5r_U.tex}
+\caption{Sterowanie rozmyte DMC, 5 regulatorów}
+\end{figure}
+
+\begin{equation}
+    E = \num{139,3503}
+\end{equation}

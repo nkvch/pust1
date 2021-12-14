@@ -1,5 +1,5 @@
 n = 1500; %czas symulacji
-liczba_reg = 5;
+liczba_reg = 2;
 %punkt pracy
 Upp = 0;
 Ypp = 0;
