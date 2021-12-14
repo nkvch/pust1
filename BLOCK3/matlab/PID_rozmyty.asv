@@ -1,7 +1,9 @@
 n = 1500; %czas symulacji
+liczba_reg = 4;
 %punkt pracy
 Upp = 0;
 Ypp = 0;
+
 % wstępna definicja wektorów
 U = zeros(1, n);
 Y = zeros(1, n);
@@ -12,18 +14,38 @@ Y(1:11) = Ypp;
 %ograniczenia
 Umax = 1;
 Umin = -1;
-dU = 0.075;
 T=0.5;
 %nastawy regulatora PID w wersji cišgłej
-%K = 1.1; Ti = 9.9; Td = 2.8;
-%K=0.332613; Ti=1.931338; Td=1.784287; %Parametry uzyskane algorytmem genetycznym
-% K=2.78; Ti=3.5; Td=0.84; % parametry ZN
-% Tkr = 14*0.5; Kkr = 2.78
+if liczba_reg == 1
+    param = [-inf -inf inf inf];
+    K=0.332613; Ti=1.931338; Td=1.784287; %Parametry uzyskane algorytmem genetycznym
+elseif liczba_reg == 2
+
+    param = [-inf -inf -0.25 0.25; -0.25 0.25 inf inf];
+    K=[0.17 0.5];
+    Ti=[3.4 5.6];
+    Td=[0.3 0.9];
+elseif liczba_reg == 3
+    param = [-inf -inf -0.5 -0.1; -0.5 -0.1 0.1 0.5; 0.1 0.5 inf inf];
+    K=[0.1 0.15 0.8];
+    Ti=[2.2 0.8 1.1];
+    Td=[0.5 0.5 1];
+elseif liczba_reg == 4
+    param = [-inf -inf -0.7 -0.4; -0.7 -0.4 -0.1 0.2; -0.1 0.2 0.5 0.8; 0.5 0.8 inf inf];
+    K=[0.12 0.1 0.2 440000000000.4];
+    Ti=[3 1.4 3 1];
+    Td=[0.9 1.5 1 0.8];
+elseif liczba_reg == 5
+    param = [-inf -inf -0.7 -0.5; -0.7 -0.5 -0.3 -0.1; -0.3 -0.1 0.1 0.3; 0.1 0.3 0.5 0.7; 0.5 0.7 inf inf];
+    K=[0.12 0.2 0.4 0.3 0.7];
+    Ti=[3 1.9 1.5 1.9 0.4];
+    Td=[0.9 0.5 0.3 1.7 0.7];
+end
+
 %wyliczenie nastawów regulatora PID w wersji dyskretnej
-K=0.3; Ti=3.5; Td=0.84;
-r2 = K*Td/T;
-r1 = K*(T/(2*Ti)-2*Td/T-1);
-r0 = K*(1+T/(2*Ti)+Td/T);
+r2 = K.*Td./T;
+r1 = K.*(T./(2.*Ti)-2.*Td/T-1);
+r0 = K.*(1+T./(2.*Ti)+Td./T);
 
 
 %wartosci zadane
@@ -36,12 +58,6 @@ Yzad(801:1000)=-0.5;
 Yzad(1001:1200)=-1.5;
 Yzad(1201:1400)=-2.5;
 Yzad(1401:n)=-2;
-
-% % dla skoku
-% Yzad(1:11)=0;
-% Yzad(12:1000)=-0.1;
-
-
 %pomniejszenuie zmiennych regulatora o wartoci w punkcie pracy tak y,u
 %były w okolicach 0
 u = U- Upp;
@@ -53,22 +69,18 @@ umin = Umin-Upp;
 umax = Umax-Upp;
 E = 0;%wskanik jakoci regulacji
 E_abs = 0;
+w(1:size(param,1)) = 0;
 
 for k=12:n
     Y(k) = symulacja_obiektu10y_p3(U(k-5), U(k-6), Y(k-1), Y(k-2)); %symulacja obiektu
     y(k) = Y(k)-Ypp;
     e(k) = Yzad(k)-Ypp-y(k); %uchyb
-    
-    u(k) = r2*e(k-2)+r1*e(k-1)+r0*e(k)+u(k-1); %wyliczenie wartoci sterowania dla chwili k
-    du = u(k)-u(k-1); %wyznaczenie zmiany sygnału sterujšcego du
-    
-    %uwzględnienie ograniczeń zmian sygnału sterujšcego
-    if du>dU
-        du=dU;
+   
+    for i=1:size(param,1)
+        w(i)=trapmf(u(k-1),param(i,:)); 
     end
-    if du<-dU
-        du=-dU;
-    end
+    
+    du = sum(w.*(r2*e(k-2)+r1*e(k-1)+r0*e(k)))/sum(w); %wyliczenie wartoci sterowania dla chwili k
     
     u(k) = du+u(k-1);
     
@@ -94,15 +106,16 @@ xlabel('k');
 ylabel('U(k)');
 %title('Sygnał sterujšcy');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-matlab2tikz('../sprawozdanie/rysunki/ZN_strojenie4_U.tex');
+% matlab2tikz('../sprawozdanie/rysunki/R_PID_3r_U.tex');
+
 figure;
 stairs(Y);
 xlabel('k');
 ylabel('Y(k)');
 %title(sprintf('Wyjcie, błšd %d',E));
 hold on;
-stairs(Yzad);
+stairs(Yzad, '--');
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-matlab2tikz('../sprawozdanie/rysunki/ZN_strojenie4.tex');
+% matlab2tikz('../sprawozdanie/rysunki/R_PID_3r.tex');

@@ -1,4 +1,4 @@
-n = 1000; %czas symulacji
+n = 1500; %czas symulacji
 liczba_reg = 5;
 %punkt pracy
 Upp = 0;
@@ -19,34 +19,54 @@ T=0.5;
 if liczba_reg == 1
     param = [-1 -0.9 0.9 1];
     D={20};
+%     lambda={320};
     lambda={1};
     N={10};
     Nu={1};
-    
 elseif liczba_reg == 2
     param = [-1 -0.6 -0.25 0.25; -0.25 0.25 0.6 1];
     D={20,20};
+%     lambda={320,0.4};
     lambda={1,1};
     N={10,10};
     Nu={1,1};
 elseif liczba_reg == 3
     param = [-1 -0.75 -0.5 -0.1; -0.5 -0.1 0.1 0.5; 0.1 0.5 0.75 1];
     D={20,20,20};
+%     lambda={320,40,0.3};
     lambda={1,1,1};
     N={10,10,10};
     Nu={1,1,1};
 elseif liczba_reg == 4
     param = [-1 -0.9 -0.7 -0.4; -0.7 -0.4 -0.1 0.2; -0.1 0.2 0.5 0.8; 0.5 0.8 0.9 1];
     D={20,20,20,20};
+%     lambda={500,160,1,0.4};
     lambda={1,1,1,1};
     N={10,10,10,10};
     Nu={1,1,1,1};
 elseif liczba_reg == 5
-    param = [-1 -0.9 -0.7 -0.5; -0.7 -0.5 -0.3 -0.1; -0.3 -0.1 0.1 0.3; 0.1 0.3 0.5 0.7; 0.5 0.7 0.9 1];
+    param = [-1 -0.9 -0.7 -0.5;
+            -0.7 -0.5 -0.3 -0.1;
+            -0.3 -0.1 0.1 0.3; 
+             0.1 0.3 0.5 0.7; 
+             0.5 0.7 0.9 1];
     D={20,20,20,20,20};
+%     lambda={400,150,10,1,1};
     lambda={1,1,1,1,1};
     N={10,10,10,10,10};
     Nu={1,1,1,1,1};
+elseif liczba_reg == 6
+    param =[-1.0 -0.9 -0.7 -0.6;
+            -0.7 -0.6 -0.5 -0.4;
+            -0.4 -0.3 -0.1  0.0;
+            -0.1  0.0  0.2  0.3;
+             0.2  0.3  0.5  0.6; 
+             0.5  0.6  0.9  1.0];
+    D={20,20,20,20,20,20};
+    % lambda={250,300,100,1,1,1};
+    lambda={1,1,1,1,1,1};
+    N={10,10,10,10,10,10};
+    Nu={1,1,1,1,1,1};
 end
 
 %Wektory odpowiedzi skokowych
@@ -70,12 +90,14 @@ param(liczba_reg,3:4)=inf;
 
 %wartosœci zadane
 Yzad(1:11)=0;
-Yzad(12:150)=-2.5;
-Yzad(151:300)=-2;
-Yzad(301:500)=-1.5;
-Yzad(501:600)=0;
-Yzad(601:800)=-0.5;
-Yzad(801:n)=0.05;
+Yzad(12:400)=0.08;
+Yzad(401:600)=-2.5;
+Yzad(601:700)=-0.5;
+Yzad(701:800)=0;
+Yzad(801:1000)=-0.5;
+Yzad(1001:1200)=-1.5;
+Yzad(1201:1400)=-2.5;
+Yzad(1401:n)=-2;
 %pomniejszenuie zmiennych regulatora o wartoœci w punkcie pracy tak y,u
 %by³y w okolicach 0
 u = U- Upp;
@@ -156,7 +178,7 @@ xlabel('k');
 ylabel('U(k)');
 %title('Sygna³ steruj¹cy');
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
-
+% matlab2tikz('../sprawozdanie/rysunki/R_DMC_5r_lambda_U.tex');
 figure;
 stairs(Y);
 xlabel('k');
@@ -167,3 +189,4 @@ stairs(Yzad);
 legend('Y','Yzad')
 hold off;
 set(gcf,'Units','centimeters','Position', [ 1 1 14 8]);
+% matlab2tikz('../sprawozdanie/rysunki/R_DMC_5r_lambda.tex');
