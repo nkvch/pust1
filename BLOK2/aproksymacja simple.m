@@ -1,0 +1,10 @@
+fileID1 = fopen('zadanie2_1skokpop.txt', 'r');
+formatSpec = '%f';
+Yskok = fscanf(fileID1,formatSpec);
+fclose(fileID1);
+x(1:350)=0;
+plot(Yskok);
+dModel = fit(x, Yskok, 'poly2');
+dFit = dModel(x);
+hold on; 
+plot(x,dFit,'LineWidth',2);

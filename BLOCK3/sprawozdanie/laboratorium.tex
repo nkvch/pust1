@@ -78,7 +78,7 @@ Wykorzystaliśmy parametry DMC z laboratorium drugiego:
 N = 90; 
 N_u = 10; 
 \lambda = 0,4; 
- = \end{equation}
+\end{equation}
  
 Wyniki działania regulacji:
 
@@ -101,3 +101,181 @@ E = 23,7559
 \end{equation}
 
 Jak widać, DMC działa gorzej, ponieważ jego działanie mocno zależy od odpowiedzi skokowej, która się zmieniła.
+
+\section{Rozmyty algorytm PID}
+
+Dla tej samej trajektorii zmian sygnału wartości zadanej, został zastosowany rozmyty algorytm PID dla 3 regulatorów lokalnych. Dla każdego z regulatorów metodą inżynierską starano się 
+dobrać odpowiednie nastawy w taki sposób aby uzyskać lepszą jakość regulacji w porównaniu z regulatorem klasycznym.
+
+Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
+
+Regulator lokalny PID 1
+\begin{equation}
+K = ?; 
+T_i = ?; 
+T_d = ?; 
+\end{equation}
+
+Regulator lokalny PID 2
+\begin{equation}
+K = ?; 
+T_i = ?; 
+T_d = ?; 
+\end{equation}
+
+Regulator lokalny PID 3
+\begin{equation}
+K = ?; 
+T_i = ?; 
+T_d = ?: 
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad4_lab_wpPIDr.tex}
+\caption{Regulacja dla rozmytego PID}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad4_lab_spPIDr.tex}
+\caption{Sterowanie dla rozmytego PID}
+\end{figure}
+
+Wartość wskaźnika jakości:
+
+\begin{equation}
+E = ?
+\end{equation}
+
+Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
+
+Regulator lokalny PID 1
+\begin{equation}
+K = ?; 
+T_i = ?; 
+T_d = ?; 
+\end{equation}
+
+Regulator lokalny PID 2
+\begin{equation}
+K = ?; 
+T_i = ?; 
+T_d = ?; 
+\end{equation}
+
+Regulator lokalny PID 3
+\begin{equation}
+K = ?; 
+T_i = ?; 
+T_d = ?; 
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad4_lab_wpPID1r.tex}
+\caption{Regulacja dla rozmytego PID}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad4_lab_spPID1r.tex}
+\caption{Sterowanie dla rozmytego PID}
+\end{figure}
+
+Wartość wskaźnika jakości:
+
+\begin{equation}
+E = ?
+\end{equation}
+
+Osiągnięte wartości wskażnika jakośći regulacji są lepsze/gorsze od regulatora klasycznego. W przypadku regulacji rozmytej z regulatorem PID największym utrudnieniem jest 
+dobór nastaw dla każdego z regulatorów lokalnych. W przypadku stanowiska grzejąco-chłodzącego zadanie to jest bardzo czasochłonne tak aby uzyskać dostatecznie zadowalającą jakość regulacji.
+
+\section{Rozmyty algorytm DMC}
+
+Dla tej samej trajektorii zmian sygnału wartości zadanej, został zastosowany rozmyty algorytm DMC w najprostszej wersji analitycznej dla trzech regulatorów lokalnych. Dla każdego z regulatorów metodą inżynierską starano się 
+dobrać odpowiednie nastawy w taki sposób aby uzyskać lepszą jakość regulacji w porównaniu z regulatorem klasycznym.
+
+Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
+
+Regulator DMC 1
+\begin{equation}
+N = ?; 
+N_u = ?; 
+\lambda = ?; 
+\end{equation}
+
+Regulator DMC 2
+\begin{equation}
+N = ?; 
+N_u = ?; 
+\lambda = ?; 
+\end{equation}
+
+Regulator DMC 3
+\begin{equation}
+N = ?; 
+N_u = ?; 
+\lambda = ?; 
+\end{equation}
+
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_lab_wpDMCr.tex}
+\caption {Regulacja dla rozmytego DMC}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_lab_spDMCr.tex}
+\caption{Sterowanie dla rozmytego DMC}
+\end{figure}
+
+Wartość wskaźnika jakości:
+
+\begin{equation}
+E = ?
+\end{equation}
+
+Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
+
+Regulator DMC 1
+\begin{equation}
+N = ?; 
+N_u = ?; 
+\lambda = ?; 
+\end{equation}
+
+Regulator DMC 2
+\begin{equation}
+N = ?; 
+N_u = ?; 
+\lambda = ?; 
+\end{equation}
+
+Regulator DMC 3
+\begin{equation}
+N = ?; 
+N_u = ?; 
+\lambda = ?; 
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_lab_wpDMC1r.tex}
+\caption{Regulacja dla rozmytego DMC}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{./rysunki/zad5_lab_spDMC1r.tex}
+\caption{Sterowanie dla rozmytego DMC}
+\end{figure}
+
+\begin{equation}
+E = ?
+\end{equation}
+
+ Niestety zadanie to nie zostało poprawnie wykonane, udało się pobrać tylko cząstkowe przebiegi regulacji z powodu bardzo marnie działającej regulacji. Najprawdopodobniej zostały niepoprawnie dobrane odpowiedzi skokowe, bądź został popełniony błąd podczas implementacji algorytmu regulacji rozmytej DMC.
