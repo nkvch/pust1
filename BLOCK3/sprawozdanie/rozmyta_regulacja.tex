@@ -6,6 +6,8 @@ Strojenie regulatorów rozmytych jest czasochłonne, jeżeli chodzi o regulatory
 
 \subsection{2 regulatory lokalne}
 
+Poniżej są przedstawione najlepsze parametry dla regulatora PID z 2 regulatorami lokalnymi - czyli parametry dające najładnieszą z możliwych regulacji (ale nie zawsze minimalizują błąd).
+
 Parametry $PID_1$:
 
 \begin{equation}
@@ -45,6 +47,8 @@ Parametry $PID_2$:
 Regulacja nie jest najładniejsza, ale wskaźnik jakości jest znacznie mniejszy niż we wcześniejszych eksperymentach.
 
 \subsection{3 regulatory lokalne}
+
+Najlepsze parametry dla 3 regulatorów lokalnych.
 
 Parametry $PID_1$:
 
@@ -93,10 +97,12 @@ Parametry $PID_3$:
     E = \num{126,2527}
 \end{equation}
 
-Regulacja wygląda dużo lepiej, lecz wskażnik błędy się zwiększył.
+Regulacja wygląda dużo lepiej, lecz wskażnik błędy się zwiększył, co wskazuje na to że nie zawsze jest reprezentatywny. Wykres sygnału sterowania wygląda też dużo lepiej.
 
 
 \subsection{4 regulatory lokalne}
+
+Najlepsze parametry dla 4 regulatorów lokalnych.
 
 Parametry $PID_1$:
 
@@ -155,8 +161,11 @@ Parametry $PID_4$:
     E = \num{141,3047}
 \end{equation}
 
+Kosztem szybkości regulacji uniknęliśmy przesterowania, czego nie udało się zrobić z 3 regulatorami.
 
 \subsection{5 regulatory lokalne}
+
+Najlepsze parametry dla 5 regulatorów lokalnych.
 
 Parametry $PID_1$:
 
@@ -225,6 +234,7 @@ Parametry $PID_5$:
     E = \num{133,7945}
 \end{equation}
 
+Osiągnięty został kompromis pomiędzy szybkością i dokładnością regulacji.
 
 \section{Strojenie rozmytego DMC}
 
@@ -301,3 +311,6 @@ Najlepszymi horyzontami dla wszystkich rodzajów rozmytego DMC okazały się $N 
 \begin{equation}
     E = \num{139,3503}
 \end{equation}
+
+Jak można zauważyć wraz ze wzrostem ilości regulatorów regulacja się polepsza, natomiast cały czas wyraźnie występuje okres przeregulacji, którego nie udało się uniknąć nie edytując parametru $\ambda$.
+
