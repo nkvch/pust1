@@ -1,7 +1,28 @@
 \chapter{Algorytmy rozmytej regulacji}
 
-TODO: opis implementacji
+W przypadku obiektów nieliniowych użycie zwykłego regulatora liniowego może nie przyność zadowalających wyników (co widać w poprzednim podpunkcie). Rozwiązaniem w takich obiektach może być użycie nieliniowego regulatora rozmytego, który swój sposób działania opiera na zastosowaniu wielu prostych regulatorów liniowych (PID, DMC) pracyjących lokalnie (działających w pewnym obszarze).
 
-\begin{verbatim}
-tu jakiś kod ewentualnie
-\end{verbatim}
+Pierwszym krokiem projektowania jest wybranie zmiennej wybierającej (w wykonanych doświadczeniach jest to wartość sterowania u(k-1), użyta ze względu na odgórną znajomość granic tejże wartości). Następnie należy określić bazę reguł rozmytych:
+
+$Reg^1$: jeżeli $u(k-1)\in U^1$, to $u^1(k)= \dots$ 
+
+
+\t\vdots 
+
+
+$Reg^r$: jeżeli $u(k-1)\in U^r$, to $u^r(k)= \dots$ 
+
+
+Gdzie $U^1, \dots U^r$ to przedziały, w których pracuje lokalny regulator, a sterowanie obliczane jest z odpowiedniego wzoru (w zależności od tego, jakich regulatorów użyto).
+
+Kolejnym krokiem przy projektowaniu jest określenie współczynników przynależności ($w^i$) zależnych od wybranej funkcji przynależności (w eksperymentach jest to funkcja trapezoidalna użyta ze względu na fakt, iż chatakterystyka statyczna w pewnych przedziałach jest niemal liniowa i może wtedy działać tylko jeden regulator lokalny). Współczynniki te pozwalają określić w jakim stopniu dany lokalny regulator wpływa na wartość sterowania.
+
+Ostatecznie wzór na wartość sterowania w chwili k, przedstawia się następująco:
+
+\begin{equation}
+u(k)= \frac{\sum_{i=1}^{r}w^i(k)u^(k)}{\sum_{i=1}^{r}w^i(k)}
+\end{equation}
+
+%\begin{verbatim}
+%tu jakiś kod ewentualnie
+%\end{verbatim}
