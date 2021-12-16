@@ -67,7 +67,7 @@ Wyniki działania regulacji:
 Wartość wskaźnika jakości:
 
 \begin{equation}
-E = 19,3149
+E = 19,3149e+07
 \end{equation}
 
 \subsection{DMC z laboratorium 1}
@@ -97,7 +97,7 @@ Wyniki działania regulacji:
 Wartość wskaźnika jakości:
 
 \begin{equation}
-E = 23,7559
+E = 23,7559e+07
 \end{equation}
 
 Jak widać, DMC działa gorzej, ponieważ jego działanie mocno zależy od odpowiedzi skokowej, która się zmieniła.
@@ -111,23 +111,23 @@ Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
 
 Regulator lokalny PID 1
 \begin{equation}
-K = ?; 
-T_i = ?; 
-T_d = ?; 
+K = 30; 
+T_i = 35; 
+T_d = 4,5; 
 \end{equation}
 
 Regulator lokalny PID 2
 \begin{equation}
-K = ?; 
-T_i = ?; 
-T_d = ?; 
+K = 25; 
+T_i = 35; 
+T_d = 4,5; 
 \end{equation}
 
 Regulator lokalny PID 3
 \begin{equation}
-K = ?; 
-T_i = ?; 
-T_d = ?: 
+K = 28; 
+T_i = 35; 
+T_d = 4: 
 \end{equation}
 
 \begin{figure}[H]
@@ -145,30 +145,30 @@ T_d = ?:
 Wartość wskaźnika jakości:
 
 \begin{equation}
-E = ?
+E = 22,9549e+07
 \end{equation}
 
 Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
 
 Regulator lokalny PID 1
 \begin{equation}
-K = ?; 
-T_i = ?; 
-T_d = ?; 
+K = 21; 
+T_i = 60; 
+T_d = 0; 
 \end{equation}
 
 Regulator lokalny PID 2
 \begin{equation}
-K = ?; 
-T_i = ?; 
-T_d = ?; 
+K = 15; 
+T_i = 50; 
+T_d = 0; 
 \end{equation}
 
 Regulator lokalny PID 3
 \begin{equation}
-K = ?; 
-T_i = ?; 
-T_d = ?; 
+K = 21; 
+T_i = 55; 
+T_d = 0; 
 \end{equation}
 
 \begin{figure}[H]
@@ -186,10 +186,10 @@ T_d = ?;
 Wartość wskaźnika jakości:
 
 \begin{equation}
-E = ?
+E =23,2405e+07
 \end{equation}
 
-Osiągnięte wartości wskażnika jakośći regulacji są lepsze/gorsze od regulatora klasycznego. W przypadku regulacji rozmytej z regulatorem PID największym utrudnieniem jest 
+Osiągnięte wartości wskażnika jakośći regulacji są gorsze od regulatora klasycznego. W przypadku regulacji rozmytej z regulatorem PID największym utrudnieniem jest 
 dobór nastaw dla każdego z regulatorów lokalnych. W przypadku stanowiska grzejąco-chłodzącego zadanie to jest bardzo czasochłonne tak aby uzyskać dostatecznie zadowalającą jakość regulacji.
 
 \section{Rozmyty algorytm DMC}
@@ -197,69 +197,28 @@ dobór nastaw dla każdego z regulatorów lokalnych. W przypadku stanowiska grze
 Dla tej samej trajektorii zmian sygnału wartości zadanej, został zastosowany rozmyty algorytm DMC w najprostszej wersji analitycznej dla trzech regulatorów lokalnych. Dla każdego z regulatorów metodą inżynierską starano się 
 dobrać odpowiednie nastawy w taki sposób aby uzyskać lepszą jakość regulacji w porównaniu z regulatorem klasycznym.
 
-Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
-
-Regulator DMC 1
-\begin{equation}
-N = ?; 
-N_u = ?; 
-\lambda = ?; 
-\end{equation}
-
-Regulator DMC 2
-\begin{equation}
-N = ?; 
-N_u = ?; 
-\lambda = ?; 
-\end{equation}
-
-Regulator DMC 3
-\begin{equation}
-N = ?; 
-N_u = ?; 
-\lambda = ?; 
-\end{equation}
-
-
-\begin{figure}[H]
-\centering
-\input{./rysunki/zad5_lab_wpDMCr.tex}
-\caption {Regulacja dla rozmytego DMC}
-\end{figure}
-
-\begin{figure}[H]
-\centering
-\input{./rysunki/zad5_lab_spDMCr.tex}
-\caption{Sterowanie dla rozmytego DMC}
-\end{figure}
-
-Wartość wskaźnika jakości:
-
-\begin{equation}
-E = ?
-\end{equation}
 
 Wyniki działania regulacji dla następujących nastaw regulatorów lokalnych:
 
 Regulator DMC 1
 \begin{equation}
-N = ?; 
-N_u = ?; 
-\lambda = ?; 
+N = 20; 
+N_u = 20; 
+\lambda = 1; 
 \end{equation}
 
 Regulator DMC 2
 \begin{equation}
-N = ?; 
-N_u = ?; 
-\lambda = ?; 
+N = 20; 
+N_u = 20; 
+\lambda = 1; 
 \end{equation}
 
 Regulator DMC 3
 \begin{equation}
-N = ?; 
-N_u = ?; 
-\lambda = ?; 
+N = 20; 
+N_u = 20; 
+\lambda =1; 
 \end{equation}
 
 \begin{figure}[H]
@@ -274,8 +233,5 @@ N_u = ?;
 \caption{Sterowanie dla rozmytego DMC}
 \end{figure}
 
-\begin{equation}
-E = ?
-\end{equation}
 
  Niestety zadanie to nie zostało poprawnie wykonane, udało się pobrać tylko cząstkowe przebiegi regulacji z powodu bardzo marnie działającej regulacji. Najprawdopodobniej zostały niepoprawnie dobrane odpowiedzi skokowe, bądź został popełniony błąd podczas implementacji algorytmu regulacji rozmytej DMC.
