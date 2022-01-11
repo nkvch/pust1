@@ -31,7 +31,7 @@ while (length(y1) < 500)  %ILOSC POMIAROW
         yz1 = [yz1; YZ1];
         yz2 = [yz2; YZ2];
         
-        subplot(2,1,1); plot(y1); hold on; plot(y2); hold off; title('Wyjœcie'); xlabel('iteracja');
+        subplot(2,1,1); plot(y1); hold on; plot(y2); plot(yz1); plot(yz2); hold off; title('Wyjœcie'); xlabel('iteracja');
         subplot(2,1,2); stairs(u1); hold on; stairs(u2); hold off; title('Sterowanie'); xlabel('iteracja');
         drawnow
     end
