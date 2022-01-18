@@ -1,0 +1,2 @@
+\contentsline {chapter}{\numberline {1\relax .\kern .5em }Sprawdzenie punktu pracy}{2}
+\contentsline {chapter}{\numberline {2\relax .\kern .5em }Odpowiedzi skokowe poszczeg\IeC {\'o}lnych tor\IeC {\'o}w}{4}
