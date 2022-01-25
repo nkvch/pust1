@@ -33,4 +33,4 @@ for m = 1:4
 end
 
 set(gcf,'Units','centimeters','Position', [ 1 1 20 25]);
-matlab2tikz('../images/odp_skok_tory.tex');
+% matlab2tikz('../images/odp_skok_tory.tex');

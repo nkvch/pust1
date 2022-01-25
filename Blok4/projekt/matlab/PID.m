@@ -1,8 +1,8 @@
 function uk = PID(K, Ti, Td, ek, ek1, ek2, uk1)
     %ograniczenia
-    Umax = 1;
-    Umin = -1;
-    dU = 0.075;
+    Umax = 3;
+    Umin = -3;
+    dU = 1000;
 
     T=0.5;
     
