@@ -15,7 +15,7 @@ yzad(2, 200:N) = 1.5;
 yzad(2, 250:N) = 0.2;
 
 % trzecie wyjscie
-yzad(20:3, N) = 1.4;
+yzad(3, 20:N) = 1.4;
 yzad(3, 100:N) = 0.7;
 yzad(3, 170:N) = 1;
 
