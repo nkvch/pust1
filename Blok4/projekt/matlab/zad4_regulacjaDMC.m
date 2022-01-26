@@ -70,28 +70,3 @@ stairs(u(4,:));
 subplot(2, 3, 6)
 stairs(u(2,:));
 
-% powiazania = '';
-
-% for i=1:4
-%     curr_u = sprintf('u%d', i);
-%     if ~isnan(powiazania_u_y(curr_u))
-%         curr_y = sprintf('y%d', powiazania_u_y(curr_u));
-%         powiazania = strcat(powiazania, '_', curr_u, '_to_', curr_y);
-%     else
-%         powiazania = strcat(powiazania, '_', curr_u, sprintf('_is_%.2f', stala));
-%     end
-% end
-
-
-% parametry = '';
-
-% for i=1:3
-%     parametry = strcat(parametry, sprintf('_K%d_is_%.2f', i, K(i)), sprintf('_Ti%d_is_%.2f', i, Ti(i)), sprintf('_Td%d_is_%.2f', i, Td(i)));
-% end
-
-% blad = sprintf('_E_is_%.4f', E);
-
-% name = strcat('PID', powiazania, parametry, blad);
-
-% set(gcf,'Units','centimeters','Position', [ 1 1 20 10]);
-% matlab2tikz(strcat('../images/', name,'.tex'));

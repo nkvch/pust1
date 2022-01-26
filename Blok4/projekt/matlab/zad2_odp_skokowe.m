@@ -1,19 +1,19 @@
-N = 300;
+N_iter = 300;
 nu = 4;
 ny = 3;
 
-s_mn = zeros(nu, ny, N);
+s_mn = zeros(nu, ny, N_iter);
 
-y = zeros(ny, N);
-u = zeros(nu, N);
+y = zeros(ny, N_iter);
+u = zeros(nu, N_iter);
 
 figure;
 
 for m = 1:nu
-    u(m, 5:N) = 1;
+    u(m, 5:N_iter) = 1;
     for n = 1:ny
         subplot(nu, ny, (m - 1)*ny + n );
-        for k=5:N
+        for k=5:N_iter
             [y1, y2, y3] = symulacja_obiektu10_p4(...
                 u(1, k-1), u(1, k-2), u(1, k-3), u(1, k-4),...
                 u(2, k-1), u(2, k-2), u(2, k-3), u(2, k-4),...

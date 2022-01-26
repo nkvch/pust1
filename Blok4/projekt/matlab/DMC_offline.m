@@ -1,3 +1,4 @@
+clear;
 zad2_odp_skokowe;
 
 s = {};
@@ -8,7 +9,7 @@ for i=1:D
 end
 
 
-N=50; Nu=10; lambda=0.4;
+N=150; Nu=50; lambda=100;
 
 
 Mp = cell(N, D - 1);
@@ -39,3 +40,5 @@ psi = eye(ny*N);
 Lambda = eye(nu*Nu) * lambda;
 
 K = (M' * psi * M + Lambda)^(-1) * M' * psi;
+
+save('mainvars.mat');

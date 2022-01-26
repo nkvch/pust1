@@ -7,7 +7,7 @@ function duk = DMC(dUp, yk, yzadk)
         Yk((i-1)*ny+1:i*ny) = yk;
         Yzadk((i-1)*ny+1:i*ny) = yzadk; 
     end
-    
+
     Y0k = Yk + Mp * dUp;
     dUk = K * (Yzadk - Y0k);
 
