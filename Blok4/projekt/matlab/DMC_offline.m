@@ -9,7 +9,7 @@ for i=1:D
 end
 
 
-N=150; Nu=50; lambda=100;
+N=10; Nu=2; lambda=1;
 
 
 Mp = cell(N, D - 1);
@@ -35,7 +35,7 @@ end
 
 M = cell2mat(M);
 
-psi = eye(ny*N);
+psi = eye(ny*N) * 2;
 
 Lambda = eye(nu*Nu) * lambda;
 

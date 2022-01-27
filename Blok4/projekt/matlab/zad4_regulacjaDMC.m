@@ -25,9 +25,9 @@ dUp = zeros(nu*(D-1), 1);
 for k = 5:N_iter
     e(:, k) = yzad(:, k) - y(:, k - 1);
 
-    duk = DMC(dUp, y(:, k), yzad(:, k));
+    duk = DMC(dUp, y(:, k), yzad(:, k))
     dUp = circshift(dUp, nu);
-    dUp(1:nu) = duk;
+    dUp(1:nu) = duk
     u(:, k) = u(:, k-1) + duk;
 
     [y1, y2, y3] = symulacja_obiektu10_p4(...
@@ -46,27 +46,35 @@ end
 E = sum(sum(e.^2));
 
 figure;
-subplot(2, 3, 1)
+subplot(3, 1, 1)
 stairs(y(1,:));
 hold on;
 stairs(yzad(1,:));
 
-subplot(2, 3, 2)
+subplot(3, 1, 2)
 stairs(y(2,:));
 hold on;
 stairs(yzad(2,:));
 
-subplot(2, 3, 3)
+subplot(3, 1, 3)
 stairs(y(3,:));
 hold on;
 stairs(yzad(3,:));
 
-subplot(2, 3, 4)
-stairs(u(3,:));
 
-subplot(2, 3, 5)
-stairs(u(4,:));
+set(gcf,'Units','centimeters','Position', [ 1 1 20 20]);
 
-subplot(2, 3, 6)
+figure;
+subplot(4, 1, 1)
+stairs(u(1,:));
+
+subplot(4, 1, 2)
 stairs(u(2,:));
 
+subplot(4, 1, 3)
+stairs(u(3,:));
+
+subplot(4, 1, 4)
+stairs(u(4,:));
+
+set(gcf,'Units','centimeters','Position', [ 1 1 20 20]);

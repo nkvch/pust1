@@ -1,12 +1,15 @@
 function duk = DMC(dUp, yk, yzadk)
     load('mainvars.mat');
-    Yk = zeros(ny*N, 1);
-    Yzadk = zeros(ny*N, 1);
+    Yk = cell(N, 1);
+    Yzadk = cell(N, 1);
 
     for i=1:N
-        Yk((i-1)*ny+1:i*ny) = yk;
-        Yzadk((i-1)*ny+1:i*ny) = yzadk; 
+        Yk{i} = yk;
+        Yzadk{i} = yzadk; 
     end
+
+    Yk = cell2mat(Yk);
+    Yzadk = cell2mat(Yzadk);
 
     Y0k = Yk + Mp * dUp;
     dUk = K * (Yzadk - Y0k);
