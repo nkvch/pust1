@@ -9,7 +9,7 @@ for i=1:D
 end
 
 
-N=10; Nu=2; lambda=1;
+N=1; Nu=1; lambda=[0.001; 0.001; 0.001; 0.001]; mu = [10; 10; 10];
 
 
 Mp = cell(N, D - 1);
@@ -35,9 +35,9 @@ end
 
 M = cell2mat(M);
 
-psi = eye(ny*N) * 2;
+psi = diag(repmat(mu, N, 1));
 
-Lambda = eye(nu*Nu) * lambda;
+Lambda = diag(repmat(lambda, Nu, 1));
 
 K = (M' * psi * M + Lambda)^(-1) * M' * psi;
 

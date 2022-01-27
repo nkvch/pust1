@@ -1,41 +1,55 @@
-N = 300;
-yzad = zeros(3, N);
-u = zeros(4, N);
-y = zeros(3, N);
-e = zeros(3, N);
+N_iter = 300;
+yzad = zeros(3, N_iter);
+u = zeros(4, N_iter);
+y = zeros(3, N_iter);
+e = zeros(3, N_iter);
 
 % pierwsze wyjscie
-yzad(1, 50:N) = 1.5;
-yzad(1, 150:N) = 1.2;
-yzad(1, 200:N) = 0.5;
+yzad(1, 50:N_iter) = 1.5;
+yzad(1, 150:N_iter) = 1.2;
+yzad(1, 200:N_iter) = 0.5;
 
 % drugie wyjscie
-yzad(2, 70:N) = 0.4;
-yzad(2, 200:N) = 1.5;
-yzad(2, 250:N) = 0.2;
+yzad(2, 70:N_iter) = 0.4;
+yzad(2, 200:N_iter) = 1.5;
+yzad(2, 250:N_iter) = 0.2;
 
 % trzecie wyjscie
-yzad(3, 20:N) = 1.4;
-yzad(3, 100:N) = 0.7;
-yzad(3, 170:N) = 1;
+yzad(3, 20:N_iter) = 1.4;
+yzad(3, 100:N_iter) = 0.7;
+yzad(3, 170:N_iter) = 1;
+ 
+% optymal
+% powiazania_u_y = containers.Map({ 'u1', 'u2', 'u3', 'u4' }, [2, 3, NaN, 1]);
+% K = [
+%     0.1191   -2.2861   -0.6893
+% ];
+% Ti = [
+%     2.7240   -0.7111   -0.5518
+% ];
+% Td = [
+%     -9.3602   -6.9339   -2.2346
+% ];
+
+% stala = 0.3201;
 
 
+powiazania_u_y = containers.Map({ 'u1', 'u2', 'u3', 'u4' }, [2, 3, NaN, 1]);
 
 K = [
-    0.1 0.1 0.03
+    0.1191   -2.2861   -0.6893
 ];
 Ti = [
-    0.3 0.2 0.02
+    2.7240   -0.7111   -0.5518
 ];
 Td = [
-    0 1 30
+    -9.3602   -6.9339   -2.2346
 ];
 
-stala = 0;
+stala = 0.3201;
 
-powiazania_u_y = containers.Map({ 'u1', 'u2', 'u3', 'u4' }, [NaN, 3, 1, 2]);
 
-for k = 5:N
+for k = 5:N_iter
     e(:, k) = yzad(:, k) - y(:, k - 1);
     for m=1:4
         n = powiazania_u_y(sprintf('u%d', m));
@@ -61,30 +75,44 @@ end
 
 E = sum(sum(e.^2));
 
+y_titles = cell(3);
+
+for i=1:4
+    n = powiazania_u_y(sprintf('u%d', i));
+    if ~isnan(n)
+        y_titles{n} = sprintf('y%d , sterowane przez u%d', n, i);
+    end
+end
+
 figure;
-subplot(2, 3, 1)
+subplot(4, 1, 1);
 stairs(y(1,:));
+ylim([-0.5 2]);
 hold on;
 stairs(yzad(1,:));
+title(y_titles{1});
 
-subplot(2, 3, 2)
+subplot(4, 1, 2);
 stairs(y(2,:));
+ylim([-0.5 2]);
 hold on;
 stairs(yzad(2,:));
+title(y_titles{2});
 
-subplot(2, 3, 3)
+subplot(4, 1, 3);
 stairs(y(3,:));
+ylim([-0.5 2]);
 hold on;
 stairs(yzad(3,:));
+title(y_titles{3});
 
-subplot(2, 3, 4)
-stairs(u(3,:));
-
-subplot(2, 3, 5)
-stairs(u(4,:));
-
-subplot(2, 3, 6)
+subplot(4, 1, 4);
+stairs(u(1,:));
+hold on;
 stairs(u(2,:));
+stairs(u(3,:));
+stairs(u(4,:));
+legend('u1', 'u2', 'u3', 'u4');
 
 powiazania = '';
 
@@ -107,7 +135,7 @@ end
 
 blad = sprintf('_E_is_%.4f', E);
 
-name = strcat('PID', powiazania, parametry, blad);
+name = strcat('newPID', powiazania, parametry, blad);
 
-set(gcf,'Units','centimeters','Position', [ 1 1 20 10]);
+set(gcf,'Units','centimeters','Position', [ 1 1 20 25]);
 matlab2tikz(strcat('../images/', name,'.tex'));

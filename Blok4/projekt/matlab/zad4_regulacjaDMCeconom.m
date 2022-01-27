@@ -1,5 +1,5 @@
 N_iter = 300;
-DMC_offline;
+economDMC_offline;
 yzad = zeros(3, N_iter);
 u = zeros(4, N_iter);
 y = zeros(3, N_iter);
@@ -71,7 +71,7 @@ stairs(u(3,:));
 stairs(u(4,:));
 legend('u1', 'u2', 'u3', 'u4');
 
-name = sprintf('DMC_N_%d_Nu_%d_mu1_%.2f_mu2_%.2f_mu3_%.2f_la1_%.2f_la2_%.2f_la3_%.2f_la4_%.2f_E_%.4f', N, Nu, mu(1), mu(2), mu(3), lambda(1), lambda(2), lambda(3), lambda(4), E);
+name = sprintf('economDMC_N_%d_Nu_%d_mu1_%.2f_mu2_%.2f_mu3_%.2f_la1_%.2f_la2_%.2f_la3_%.2f_la4_%.2f_E_%.4f', N, Nu, mu(1), mu(2), mu(3), lambda(1), lambda(2), lambda(3), lambda(4), E);
 
 set(gcf,'Units','centimeters','Position', [ 1 1 20 25]);
 matlab2tikz(strcat('../images/', name,'.tex'));

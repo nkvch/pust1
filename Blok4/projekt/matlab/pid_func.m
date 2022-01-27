@@ -37,7 +37,7 @@ function E = PID_E(X)
         for m=1:4
             n = powiazania_u_y(sprintf('u%d', m));
             if isnan(n)
-                u(m, k) = 0;
+                u(m, k) = X(10);
             else
                 u(m, k) = PID(K(n), Ti(n), Td(n), e(n, k), e(n, k-1), e(n, k-2), u(m, k-1));
             end
