@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Wprowadzenie}{3}{0}{1}
+\beamer@sectionintoc {2}{PID}{6}{0}{2}
+\beamer@sectionintoc {3}{DMC}{11}{0}{3}
+\beamer@sectionintoc {4}{GPC}{18}{0}{4}
+\beamer@sectionintoc {5}{Wnioski}{26}{0}{5}
+\beamer@sectionintoc {6}{Bibliografia}{28}{0}{6}

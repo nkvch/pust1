@@ -1,219 +1,167 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.28)  27 JAN 2022 23:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.27)  28 JAN 2022 14:44
 entering extended mode
-**"C:/Users/kubao/Desktop/Nowy folder/main.tex"
-(C:/Users/kubao/Desktop/Nowy folder/main.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27>
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamer.cls
-Document Class: beamer 2021/10/18 v3.64 A class for typesetting presentations
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemodes.
-sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count182
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.tex
+(/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
+(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemodes.sty (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count79
 )
-\beamer@tempbox=\box50
-\beamer@tempcount=\count183
-\c@beamerpauses=\count184
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasedecode
-.sty
-\beamer@slideinframe=\count185
-\beamer@minimum=\count186
-\beamer@decode@box=\box51
+\beamer@tempbox=\box26
+\beamer@tempcount=\count80
+\c@beamerpauses=\count81
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count82
+\beamer@minimum=\count83
 )
-\beamer@commentbox=\box52
-\beamer@modecount=\count187
+\beamer@commentbox=\box27
+\beamer@modecount=\count84
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\headdp=\dimen138
-\footheight=\dimen139
-\sidebarheight=\dimen140
-\beamer@tempdim=\dimen141
-\beamer@finalheight=\dimen142
-\beamer@animht=\dimen143
-\beamer@animdp=\dimen144
-\beamer@animwd=\dimen145
-\beamer@leftmargin=\dimen146
-\beamer@rightmargin=\dimen147
-\beamer@leftsidebar=\dimen148
-\beamer@rightsidebar=\dimen149
-\beamer@boxsize=\dimen150
-\beamer@vboxoffset=\dimen151
-\beamer@descdefault=\dimen152
-\beamer@descriptionwidth=\dimen153
-\beamer@lastskip=\skip47
-\beamer@areabox=\box53
-\beamer@animcurrent=\box54
-\beamer@animshowbox=\box55
-\beamer@sectionbox=\box56
-\beamer@logobox=\box57
-\beamer@linebox=\box58
-\beamer@sectioncount=\count188
-\beamer@subsubsectionmax=\count189
-\beamer@subsectionmax=\count190
-\beamer@sectionmax=\count191
-\beamer@totalheads=\count192
-\beamer@headcounter=\count193
-\beamer@partstartpage=\count194
-\beamer@sectionstartpage=\count195
-\beamer@subsectionstartpage=\count196
-\beamer@animationtempa=\count197
-\beamer@animationtempb=\count198
-\beamer@xpos=\count199
-\beamer@ypos=\count266
-\beamer@ypos@offset=\count267
-\beamer@showpartnumber=\count268
-\beamer@currentsubsection=\count269
-\beamer@coveringdepth=\count270
-\beamer@sectionadjust=\count271
-\beamer@toclastsection=\count272
-\beamer@tocsectionnumber=\count273
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoption
-s.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count85
+\beamer@subsubsectionmax=\count86
+\beamer@subsectionmax=\count87
+\beamer@sectionmax=\count88
+\beamer@totalheads=\count89
+\beamer@headcounter=\count90
+\beamer@partstartpage=\count91
+\beamer@sectionstartpage=\count92
+\beamer@subsectionstartpage=\count93
+\beamer@animationtempa=\count94
+\beamer@animationtempb=\count95
+\beamer@xpos=\count96
+\beamer@ypos=\count97
+\beamer@ypos@offset=\count98
+\beamer@showpartnumber=\count99
+\beamer@currentsubsection=\count100
+\beamer@coveringdepth=\count101
+\beamer@sectionadjust=\count102
+\beamer@tocsectionnumber=\count103
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks14
 ))
-\beamer@paperwidth=\skip48
-\beamer@paperheight=\skip49
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+ (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count274
-\Gm@cntv=\count275
-\c@Gm@tempcnt=\count276
-\Gm@bindingoffset=\dimen154
-\Gm@wd@mp=\dimen155
-\Gm@odd@mp=\dimen156
-\Gm@even@mp=\dimen157
-\Gm@layoutwidth=\dimen158
-\Gm@layoutheight=\dimen159
-\Gm@layouthoffset=\dimen160
-\Gm@layoutvoffset=\dimen161
-\Gm@dimlist=\toks17
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
-sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 99.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen162
-\Gin@req@width=\dimen163
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
-sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
-y
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common.tex
-\pgfutil@everybye=\toks18
-\pgfutil@tempdima=\dimen164
-\pgfutil@tempdimb=\dimen165
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--common-lists.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
--latex.def
-\pgfutil@abb=\box59
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
-code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+ (/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
 ))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-filtered.code.tex
-\pgfkeys@tmptoks=\toks21
-))
-\pgf@x=\dimen166
-\pgf@y=\dimen167
-\pgf@xa=\dimen168
-\pgf@ya=\dimen169
-\pgf@xb=\dimen170
-\pgf@yb=\dimen171
-\pgf@xc=\dimen172
-\pgf@yc=\dimen173
-\pgf@xd=\dimen174
-\pgf@yd=\dimen175
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
 \w@pgf@writea=\write3
-\r@pgf@reada=\read2
-\c@pgf@counta=\count277
-\c@pgf@countb=\count278
-\c@pgf@countc=\count279
-\c@pgf@countd=\count280
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count281
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
-fg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+\r@pgf@reada=\read1
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
 Driver file for pgf: pgfsys-pdftex.def
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-s-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-ssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count282
-\pgfsyssoftpath@bigbuffer@items=\count283
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
-sprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -226,982 +174,1924 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-e.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
-code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
-code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
-r.code.tex
-\pgfmath@dimen=\dimen176
-\pgfmath@count=\count284
-\pgfmath@box=\box60
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.basic.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.trigonometric.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.random.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.comparison.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.base.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.round.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.misc.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
-ions.integerarithmetics.code.tex)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
-.code.tex
-\c@pgfmathroundto@lastzeros=\count285
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
-tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epoints.code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@picminx=\dimen177
-\pgf@picmaxx=\dimen178
-\pgf@picminy=\dimen179
-\pgf@picmaxy=\dimen180
-\pgf@pathminx=\dimen181
-\pgf@pathmaxx=\dimen182
-\pgf@pathminy=\dimen183
-\pgf@pathmaxy=\dimen184
-\pgf@xx=\dimen185
-\pgf@xy=\dimen186
-\pgf@yx=\dimen187
-\pgf@yy=\dimen188
-\pgf@zx=\dimen189
-\pgf@zy=\dimen190
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@path@lastx=\dimen191
-\pgf@path@lasty=\dimen192
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathusage.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@shorten@end@additional=\dimen193
-\pgf@shorten@start@additional=\dimen194
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-escopes.code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count286
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-egraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgflinewidth=\dimen195
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransformations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@pt@x=\dimen196
-\pgf@pt@y=\dimen197
-\pgf@pt@temp=\dimen198
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-equick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eobjects.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-earrows.code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowsep=\dimen199
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@max=\dimen256
-\pgf@sys@shading@range@num=\count287
-\pgf@shadingcount=\count288
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-eexternal.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box64
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-elayers.code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-etransparency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-epatterns.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
-erdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\xxcolor.s
-ty
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count113
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count114
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count115
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen157
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen161
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count116
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
-\XC@nummixins=\count289
-\XC@countmixins=\count290
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
+\XC@nummixins=\count117
+\XC@countmixins=\count118
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+\@linkdim=\dimen163
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+\Hy@SavedSpaceFactor=\count121
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
-.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen257
-\Hy@linkcounter=\count291
-\Hy@pagecounter=\count292
- (C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
-atches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count293
- (C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Option `bookmarks' set `true' on input line 4073.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4073.
-Package hyperref Info: Option `implicit' set `false' on input line 4073.
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4383.
+Package hyperref Info: Option `implicit' set `false' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count294
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip16
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count122
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen258
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
-))
-\Fld@menulength=\count295
-\Field@Width=\dimen259
-\Fld@charsize=\dimen260
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring OFF on input line 6096.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
-\Hy@abspage=\count296
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen164
+\Fld@menulength=\count123
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count124
 
 
 Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
-with kernel methods
-)
-\Fld@listcount=\count297
-\c@bookmark@seq@number=\count298
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-86.
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaserequir
-es.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecompat
-ibility.sty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasefont.s
-ty (C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaserequires.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasefont.sty (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks28
+\@emptytoks=\toks26
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\sansmath
-accent.sty
-Package: sansmathaccent 2020/01/31
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
-y
-Package: scrlfile 2021/06/25 v3.34 KOMA-Script package (file load hooks)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
-ok.sty
-Package: scrlfile-hook 2021/06/25 v3.34 KOMA-Script package (using LaTeX hooks)
-
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
-Package: scrlogo 2021/06/25 v3.34 KOMA-Script package (logo)
-)))))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetransl
-ator.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
-ty
-Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasemisc.s
-ty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetwoscr
-eens.sty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseoverla
-y.sty
-\beamer@argscount=\count299
-\beamer@lastskipcover=\skip50
-\beamer@trivlistdepth=\count300
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetitle.
-sty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasesectio
-n.sty
-\c@lecture=\count301
-\c@part=\count302
-\c@section=\count303
-\c@subsection=\count304
-\c@subsubsection=\count305
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframe.
-sty
-\beamer@framebox=\box65
-\beamer@frametitlebox=\box66
-\beamer@zoombox=\box67
-\beamer@zoomcount=\count306
-\beamer@zoomframecount=\count307
-\beamer@frametextheight=\dimen261
-\c@subsectionslide=\count308
-\beamer@frametopskip=\skip51
-\beamer@framebottomskip=\skip52
-\beamer@frametopskipautobreak=\skip53
-\beamer@framebottomskipautobreak=\skip54
-\beamer@envbody=\toks29
-\framewidth=\dimen262
-\c@framenumber=\count309
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseverbat
-im.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+ (/usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+))) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty (/usr/share/texlive/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasemisc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count127
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count128
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetitle.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count129
+\c@part=\count130
+\c@section=\count131
+\c@subsection=\count132
+\c@subsubsection=\count133
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count134
+\beamer@zoomframecount=\count135
+\beamer@frametextheight=\dimen167
+\c@subsectionslide=\count136
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen168
+\c@framenumber=\count137
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count138
+\beamer@autobreaklastheight=\dimen169
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box44
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasecolor.sty
+\beamer@bg@ht=\dimen170
+\beamer@bg@wd=\dimen171
+\beamer@bg@dp=\dimen172
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box45
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetoc.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks30
+ (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframes
-ize.sty
-\beamer@splitbox=\box68
-\beamer@autobreakcount=\count310
-\beamer@autobreaklastheight=\dimen263
-\beamer@frametitletoks=\toks30
-\beamer@framesubtitletoks=\toks31
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseframec
-omponents.sty
-\beamer@footins=\box69
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasecolor.
-sty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenotes.
-sty
-\beamer@frameboxcopy=\box70
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetoc.st
-y)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetempla
-tes.sty
-\beamer@sbttoks=\toks32
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseauxtem
-plates.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaseboxes.
-sty
-\bmb@box=\box71
-\bmb@colorbox=\box72
-\bmb@boxwidth=\dimen264
-\bmb@boxheight=\dimen265
-\bmb@prevheight=\dimen266
-\bmb@temp=\dimen267
-\bmb@dima=\dimen268
-\bmb@dimb=\dimen269
-\bmb@prevheight=\dimen270
-)
-\beamer@blockheadheight=\dimen271
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbaselocals
-tructure.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+\beamer@blockheadheight=\dimen177
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty (/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks33
+\@enLab=\toks31
 )
-\beamer@bibiconwidth=\skip55
-\c@figure=\count311
-\c@table=\count312
-\abovecaptionskip=\skip56
-\belowcaptionskip=\skip57
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasenaviga
-tion.sty
-\beamer@section@min@dim=\dimen272
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasetheore
-ms.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
-\@mathmargin=\skip58
+\c@figure=\count139
+\c@table=\count140
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen178
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks34
-\ex@=\dimen273
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+\@emptytoks=\toks32
+\ex@=\dimen179
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen274
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+\pmbraise@=\dimen180
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count313
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count314
-\leftroot@=\count315
-LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count316
-\DOTSCASE@=\count317
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box73
-\strutbox@=\box74
-\big@size=\dimen275
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count318
-\c@MaxMatrixCols=\count319
-\dotsspace@=\muskip17
-\c@parentequation=\count320
-\dspbrk@lvl=\count321
-\tag@help=\toks35
-\row@=\count322
-\column@=\count323
-\maxfields@=\count324
-\andhelp@=\toks36
-\eqnshift@=\dimen276
-\alignsep@=\dimen277
-\tagshift@=\dimen278
-\tagwidth@=\dimen279
-\totwidth@=\dimen280
-\lineht@=\dimen281
-\@envbody=\toks37
-\multlinegap=\skip59
-\multlinetaggap=\skip60
-\mathdisplay@stack=\toks38
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+\inf@bad=\count141
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count142
+\leftroot@=\count143
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count144
+\DOTSCASE@=\count145
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count146
+\c@MaxMatrixCols=\count147
+\dotsspace@=\muskip11
+\c@parentequation=\count148
+\dspbrk@lvl=\count149
+\tag@help=\toks33
+\row@=\count150
+\column@=\count151
+\maxfields@=\count152
+\andhelp@=\toks34
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
-Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks39
-\thm@bodyfont=\toks40
-\thm@headfont=\toks41
-\thm@notefont=\toks42
-\thm@headpunct=\toks43
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
-\dth@everypar=\toks44
-)
-\c@theorem=\count325
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerbasethemes
-.sty))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemedefau
-lt.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemed
-efault.sty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolortheme
-default.sty)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnertheme
-default.sty
-\beamer@dima=\dimen282
-\beamer@dimb=\dimen283
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beameroutertheme
-default.sty)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/polski\polski.sty
-Package: polski 2021/08/25 v1.3.6 Polish language package
+\c@theorem=\count153
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texlive/texmf-dist/tex/latex/polski/polski.sty
+Package: polski 2017/05/04 v1.3.4 Polish language package
 
    Switching to Polish text encoding and Polish maths fonts.
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/base\ot4enc.def
-File: ot4enc.def 2021/04/29 v2.0v Standard LaTeX file
-Now handling font encoding OT4 ...
-... no UTF-8 mapping file for font encoding OT4
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot4enc.def
+File: ot4enc.def 2017/04/05 v2.0i Standard LaTeX file
 )
-LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
-362.
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/polski\ot4cmss.fd
+LaTeX Font Info:    Try loading font information for OT4+cmss on input line 360.
+ (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 362.
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 360.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 362.
+(Font)                  OT1/cmss/m/n --> OT4/cmss/m/n on input line 360.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 362.
+(Font)                  OT1/cmr/m/it --> OT4/cmr/m/it on input line 360.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 362.
+(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 360.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 362.
+(Font)                  OT1/cmss/bx/n --> OT4/cmss/bx/n on input line 360.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 362.
+(Font)                  OT1/cmr/bx/it --> OT4/cmr/bx/it on input line 360.
 LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
-(Font)              `operators' in the math version `normal' on input line 362.
-
+(Font)              `operators' in the math version `normal' on input line 360.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 362.
+(Font)                  OT1/cmr/m/n --> OT4/cmr/m/n on input line 360.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 362.
+(Font)                  OML/cmm/m/it --> OML/plm/m/it on input line 360.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 362.
+(Font)                  OMS/cmsy/m/n --> OMS/plsy/m/n on input line 360.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 362.
+(Font)                  OMX/cmex/m/n --> OMX/plex/m/n on input line 360.
 LaTeX Font Info:    Encoding `OT1' has changed to `OT4' for symbol font
-(Font)              `operators' in the math version `bold' on input line 362.
+(Font)              `operators' in the math version `bold' on input line 360.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 362.
+(Font)                  OT1/cmr/bx/n --> OT4/cmr/bx/n on input line 360.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 362.
+(Font)                  OML/cmm/b/it --> OML/plm/b/it on input line 360.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 362.
+(Font)                  OMS/cmsy/b/n --> OMS/plsy/b/n on input line 360.
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box53
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen190
+\pgf@nodesepend=\dimen191
+) (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen192
+\pgffor@skip=\dimen193
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count154
+\pgfplotmarksize=\dimen194
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
-sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-shapes.code.tex
-File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box75
+\tikz@lastx=\dimen195
+\tikz@lasty=\dimen196
+\tikz@lastxsaved=\dimen197
+\tikz@lastysaved=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen256
+\tikz@figbox=\box54
+\tikz@figbox@bg=\box55
+\tikz@tempbox=\box56
+\tikz@tempbox@bg=\box57
+\tikztreelevel=\count155
+\tikznumberofchildren=\count156
+\tikznumberofcurrentchild=\count157
+\tikz@fig@count=\count158
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count159
+\pgfmatrixcurrentcolumn=\count160
+\pgf@matrix@numberofcolumns=\count161
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-plot.code.tex
-File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\tikz@expandcount=\count162
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen257
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.markings.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen258
+\pgfdecoratedremainingdistance=\dimen259
+\pgfdecoratedinputsegmentcompleteddistance=\dimen260
+\pgfdecoratedinputsegmentremainingdistance=\dimen261
+\pgf@decorate@distancetomove=\dimen262
+\pgf@decorate@repeatstate=\count163
+\pgfdecorationsegmentamplitude=\dimen263
+\pgfdecorationsegmentlength=\dimen264
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-0-65.sty
-Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen284
-\pgf@nodesepend=\dimen285
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
-mp-version-1-18.sty
-Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
-y
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
-ty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
-.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
-code.tex
-Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
-.tex)
-\pgffor@iter=\dimen286
-\pgffor@skip=\dimen287
-\pgffor@stack=\toks45
-\pgffor@toks=\toks46
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z\tikz.code.tex
-Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count326
-\pgfplotmarksize=\dimen288
-)
-\tikz@lastx=\dimen289
-\tikz@lasty=\dimen290
-\tikz@lastxsaved=\dimen291
-\tikz@lastysaved=\dimen292
-\tikz@lastmovetox=\dimen293
-\tikz@lastmovetoy=\dimen294
-\tikzleveldistance=\dimen295
-\tikzsiblingdistance=\dimen296
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count327
-\tikznumberofchildren=\count328
-\tikznumberofcurrentchild=\count329
-\tikz@fig@count=\count330
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-matrix.code.tex
-File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count331
-\pgfmatrixcurrentcolumn=\count332
-\pgf@matrix@numberofcolumns=\count333
-)
-\tikz@expandcount=\count334
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryarrows.code.tex
-File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryarrows.code.tex
-File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen297
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.markings.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
-decorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen298
-\pgfdecoratedremainingdistance=\dimen299
-\pgfdecoratedinputsegmentcompleteddistance=\dimen300
-\pgfdecoratedinputsegmentremainingdistance=\dimen301
-\pgf@decorate@distancetomove=\dimen302
-\pgf@decorate@repeatstate=\count335
-\pgfdecorationsegmentamplitude=\dimen303
-\pgfdecorationsegmentlength=\dimen304
-)
-\tikz@lib@dec@box=\box80
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.markings.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarymath.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryfpu.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryfpu.code.tex))
-\tikz@math@for@depth=\count336
-\tikz@math@dimen=\dimen305
-\tikz@math@toks=\toks47
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryarrows.meta.code.tex
-File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen306
-\pgfarrowlength=\dimen307
-\pgfarrowwidth=\dimen308
-\pgfarrowlinewidth=\dimen309
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+\tikz@lib@dec@box=\box58
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.markings.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymath.code.tex
+\tikz@math@for@depth=\count164
+\tikz@math@dimen=\dimen265
+\tikz@math@toks=\toks45
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen266
+\pgfarrowlength=\dimen267
+\pgfarrowwidth=\dimen268
+\pgfarrowlinewidth=\dimen269
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count337
-\rotFPtop=\skip64
-\rotFPbot=\skip65
-\rot@float@box=\box81
-\rot@mess@toks=\toks48
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/overpic\overpic.sty
-Package: overpic 2020/02/22 1.3 picture overlays (RN)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/eepic\epic.sty
+\c@r@tfl@t=\count165
+\rotFPtop=\skip57
+\rotFPbot=\skip58
+\rot@float@box=\box59
+\rot@mess@toks=\toks46
+) (/usr/share/texlive/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2017/10/06 1.0 picture overlays
+ (/usr/share/texlive/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count338
-\d@lta=\count339
-\@delta=\dimen310
-\@@delta=\dimen311
-\@gridcnt=\count340
-\@joinkind=\count341
-\@dotgap=\dimen312
-\@ddotgap=\dimen313
-\@x@diff=\count342
-\@y@diff=\count343
-\x@diff=\dimen314
-\y@diff=\dimen315
-\@dotbox=\box82
-\num@segments=\count344
-\num@segmentsi=\count345
-\@datafile=\read3
-)
-\OVP@box=\box83
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.rev
-ision.tex)
-Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.cod
-e.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore
-.code.tex
-\t@pgfplots@toka=\toks49
-\t@pgfplots@tokb=\toks50
-\t@pgfplots@tokc=\toks51
-\pgfplots@tmpa=\dimen316
-\c@pgfplots@coordindex=\count346
-\c@pgfplots@scanlineindex=\count347
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplots
-sysgeneric.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplot
-slibrary.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompat
-ib\pgfplotsoldpgfsupp_loader.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructure.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsliststructureext.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count348
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsmatrix.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgf
-plotstableshared.code.tex
-\c@pgfplotstable@counta=\count349
-\t@pgfplotstable@a=\toks52
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructur
-e\pgfplotsdeque.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sbinary.data.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-sutil.verb.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibr
-arypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count350
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibra
-rypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-scolormap.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplot
-scolor.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstac
-kedplots.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplot
-handlers.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
-plothandler.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmesh
-plotimage.code.tex)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sca
-ling.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoor
-dprocessing.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.err
-orbars.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mar
-kers.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstick
-s.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pat
-hs.code.tex)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorat
-ions\pgflibrarydecorations.pathreplacing.code.tex))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
-rarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count351
-\pgfplots@xmin@reg=\dimen317
-\pgfplots@xmax@reg=\dimen318
-\pgfplots@ymin@reg=\dimen319
-\pgfplots@ymax@reg=\dimen320
-\pgfplots@zmin@reg=\dimen321
-\pgfplots@zmax@reg=\dimen322
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
-z/libraries\tikzlibraryplotmarks.code.tex
-File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
-aryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlib
-rarypgfplots.groupplots.code.tex
-\pgfplots@group@current@plot=\count352
-\pgfplots@group@current@row=\count353
-\pgfplots@group@current@column=\count354
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count355
-\lst@gtempboxa=\box84
-\lst@token=\toks53
-\lst@length=\count356
-\lst@currlwidth=\dimen323
-\lst@column=\count357
-\lst@pos=\count358
-\lst@lostspace=\dimen324
-\lst@width=\dimen325
-\lst@newlines=\count359
-\lst@lineno=\count360
-\lst@maxwidth=\dimen326
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count361
-\lst@skipnumbers=\count362
-\lst@framebox=\box85
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2020/03/24 1.8d listings configuration
+\@@multicnt=\count166
+\d@lta=\count167
+\@delta=\dimen270
+\@@delta=\dimen271
+\@gridcnt=\count168
+\@joinkind=\count169
+\@dotgap=\dimen272
+\@ddotgap=\dimen273
+\@x@diff=\count170
+\@y@diff=\count171
+\x@diff=\dimen274
+\y@diff=\dimen275
+\@dotbox=\box60
+\num@segments=\count172
+\num@segmentsi=\count173
+\@datafile=\read2
+)) (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2017/06/05 v1.15 Data Visualization (1.15)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks47
+\t@pgfplots@tokb=\toks48
+\t@pgfplots@tokc=\toks49
+\pgfplots@tmpa=\dimen276
+\c@pgfplots@coordindex=\count174
+\c@pgfplots@scanlineindex=\count175
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgflibraryfpu.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count176
+)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count177
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count178
+\t@pgfplotstable@a=\toks50
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count179
+ (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count180
+\pgfplots@xmin@reg=\dimen277
+\pgfplots@xmax@reg=\dimen278
+\pgfplots@ymin@reg=\dimen279
+\pgfplots@ymax@reg=\dimen280
+\pgfplots@zmin@reg=\dimen281
+\pgfplots@zmax@reg=\dimen282
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+ (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.groupplots.code.tex
+\pgfplots@group@current@plot=\count181
+\pgfplots@group@current@row=\count182
+\pgfplots@group@current@column=\count183
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count184
+\lst@gtempboxa=\box61
+\lst@token=\toks51
+\lst@length=\count185
+\lst@currlwidth=\dimen283
+\lst@column=\count186
+\lst@pos=\count187
+\lst@lostspace=\dimen284
+\lst@width=\dimen285
+\lst@newlines=\count188
+\lst@lineno=\count189
+\lst@maxwidth=\dimen286
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count190
+\lst@skipnumbers=\count191
+\lst@framebox=\box62
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/matlab-prettifier\matla
-b-prettifier.sty
-Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab 
-source code
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/matlab-prettifier/matlab-prettifier.sty
+Package: matlab-prettifier 2014/06/19 v0.3 A package for prettyprinting Matlab source code
+ (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
-\netBracketCount@mlpr=\count363
-\blkLvl@mlpr=\count364
-\blkLvlAtClassdef@mlpr=\count365
-\emHeight@mlpr=\skip66
-\jayDepth@mlpr=\skip67
-\sectionRuleOffset@mlpr=\skip68
-\toks@mlpr=\toks54
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2021-10-15 v3.0.33 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen327
-\l__siunitx_angle_marker_box=\box86
-\l__siunitx_angle_unit_box=\box87
-\l__siunitx_compound_count_int=\count366
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
-ns.sty
-Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
-s (CN)
+\netBracketCount@mlpr=\count192
+\blkLvl@mlpr=\count193
+\blkLvlAtClassdef@mlpr=\count194
+\emHeight@mlpr=\skip59
+\jayDepth@mlpr=\skip60
+\sectionRuleOffset@mlpr=\skip61
+\toks@mlpr=\toks52
+) (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+ (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\c_max_int=\count195
+\l_tmpa_int=\count196
+\l_tmpb_int=\count197
+\g_tmpa_int=\count198
+\g_tmpb_int=\count199
+\g__intarray_font_int=\count266
+\g__prg_map_int=\count267
+\c_log_iow=\count268
+\l_iow_line_count_int=\count269
+\l__iow_line_target_int=\count270
+\l__iow_one_indent_int=\count271
+\l__iow_indent_int=\count272
+\c_zero_dim=\dimen287
+\c_max_dim=\dimen288
+\l_tmpa_dim=\dimen289
+\l_tmpb_dim=\dimen290
+\g_tmpa_dim=\dimen291
+\g_tmpb_dim=\dimen292
+\c_zero_skip=\skip62
+\c_max_skip=\skip63
+\l_tmpa_skip=\skip64
+\l_tmpb_skip=\skip65
+\g_tmpa_skip=\skip66
+\g_tmpb_skip=\skip67
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count273
+\c__fp_leading_shift_int=\count274
+\c__fp_middle_shift_int=\count275
+\c__fp_trailing_shift_int=\count276
+\c__fp_big_leading_shift_int=\count277
+\c__fp_big_middle_shift_int=\count278
+\c__fp_big_trailing_shift_int=\count279
+\c__fp_Bigg_leading_shift_int=\count280
+\c__fp_Bigg_middle_shift_int=\count281
+\c__fp_Bigg_trailing_shift_int=\count282
+\c__fp_rand_size_int=\count283
+\c__fp_rand_four_int=\count284
+\c__fp_rand_eight_int=\count285
+\l__sort_length_int=\count286
+\l__sort_min_int=\count287
+\l__sort_top_int=\count288
+\l__sort_max_int=\count289
+\l__sort_true_max_int=\count290
+\l__sort_block_int=\count291
+\l__sort_begin_int=\count292
+\l__sort_end_int=\count293
+\l__sort_A_int=\count294
+\l__sort_B_int=\count295
+\l__sort_C_int=\count296
+\l__tl_build_start_index_int=\count297
+\l__tl_build_index_int=\count298
+\l__tl_analysis_normal_int=\count299
+\l__tl_analysis_index_int=\count300
+\l__tl_analysis_nesting_int=\count301
+\l__tl_analysis_type_int=\count302
+\l__regex_internal_a_int=\count303
+\l__regex_internal_b_int=\count304
+\l__regex_internal_c_int=\count305
+\l__regex_balance_int=\count306
+\l__regex_group_level_int=\count307
+\l__regex_mode_int=\count308
+\c__regex_cs_in_class_mode_int=\count309
+\c__regex_cs_mode_int=\count310
+\l__regex_catcodes_int=\count311
+\l__regex_default_catcodes_int=\count312
+\c__regex_catcode_D_int=\count313
+\c__regex_catcode_S_int=\count314
+\c__regex_catcode_L_int=\count315
+\c__regex_catcode_O_int=\count316
+\c__regex_catcode_A_int=\count317
+\c__regex_all_catcodes_int=\count318
+\l__regex_show_lines_int=\count319
+\l__regex_min_state_int=\count320
+\l__regex_max_state_int=\count321
+\l__regex_left_state_int=\count322
+\l__regex_right_state_int=\count323
+\l__regex_capturing_group_int=\count324
+\l__regex_min_pos_int=\count325
+\l__regex_max_pos_int=\count326
+\l__regex_curr_pos_int=\count327
+\l__regex_start_pos_int=\count328
+\l__regex_success_pos_int=\count329
+\l__regex_curr_char_int=\count330
+\l__regex_curr_catcode_int=\count331
+\l__regex_last_char_int=\count332
+\l__regex_case_changed_char_int=\count333
+\l__regex_curr_state_int=\count334
+\l__regex_step_int=\count335
+\l__regex_min_active_int=\count336
+\l__regex_max_active_int=\count337
+\l__regex_replacement_csnames_int=\count338
+\l__regex_match_count_int=\count339
+\l__regex_min_submatch_int=\count340
+\l__regex_submatch_int=\count341
+\l__regex_zeroth_submatch_int=\count342
+\g__regex_trace_regex_int=\count343
+\c_empty_box=\box63
+\l_tmpa_box=\box64
+\l_tmpb_box=\box65
+\g_tmpa_box=\box66
+\g_tmpb_box=\box67
+\l__box_top_dim=\dimen293
+\l__box_bottom_dim=\dimen294
+\l__box_left_dim=\dimen295
+\l__box_right_dim=\dimen296
+\l__box_top_new_dim=\dimen297
+\l__box_bottom_new_dim=\dimen298
+\l__box_left_new_dim=\dimen299
+\l__box_right_new_dim=\dimen300
+\l__box_internal_box=\box68
+\l__coffin_internal_box=\box69
+\l__coffin_internal_dim=\dimen301
+\l__coffin_offset_x_dim=\dimen302
+\l__coffin_offset_y_dim=\dimen303
+\l__coffin_x_dim=\dimen304
+\l__coffin_y_dim=\dimen305
+\l__coffin_x_prime_dim=\dimen306
+\l__coffin_y_prime_dim=\dimen307
+\c_empty_coffin=\box70
+\l__coffin_aligned_coffin=\box71
+\l__coffin_aligned_internal_coffin=\box72
+\l_tmpa_coffin=\box73
+\l_tmpb_coffin=\box74
+\l__coffin_display_coffin=\box75
+\l__coffin_display_coord_coffin=\box76
+\l__coffin_display_pole_coffin=\box77
+\l__coffin_display_offset_dim=\dimen308
+\l__coffin_display_x_dim=\dimen309
+\l__coffin_display_y_dim=\dimen310
+\l__coffin_bounding_shift_dim=\dimen311
+\l__coffin_left_corner_dim=\dimen312
+\l__coffin_right_corner_dim=\dimen313
+\l__coffin_bottom_corner_dim=\dimen314
+\l__coffin_top_corner_dim=\dimen315
+\l__coffin_scaled_total_height_dim=\dimen316
+\l__coffin_scaled_width_dim=\dimen317
+) (/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count344
+\l__driver_tmp_box=\box78
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count345
+\g__xparse_grabber_int=\count346
+\l__xparse_m_args_int=\count347
+\l__xparse_mandatory_args_int=\count348
+\l__xparse_v_nesting_int=\count349
 )
-\l__siunitx_number_exponent_fixed_int=\count367
-\l__siunitx_number_min_decimal_int=\count368
-\l__siunitx_number_min_integer_int=\count369
-\l__siunitx_number_round_precision_int=\count370
-\l__siunitx_number_group_minimum_int=\count371
-\l__siunitx_table_tmp_box=\box88
-\l__siunitx_table_tmp_dim=\dimen328
-\l__siunitx_table_column_width_dim=\dimen329
-\l__siunitx_table_integer_box=\box89
-\l__siunitx_table_decimal_box=\box90
-\l__siunitx_table_before_box=\box91
-\l__siunitx_table_after_box=\box92
-\l__siunitx_table_before_dim=\dimen330
-\l__siunitx_table_carry_dim=\dimen331
-\l__siunitx_unit_tmp_int=\count372
-\l__siunitx_unit_position_int=\count373
-\l__siunitx_unit_total_int=\count374
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-08-27 L3 programming layer (loader) 
-
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count375
-\l__pdf_internal_box=\box93
-))
-Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
+Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen318
+\extrarowheight=\dimen319
+\NC@list=\toks53
+\extratabsurround=\skip68
+\backup@length=\skip69
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
 )
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen332
-\ar@mcellbox=\box94
-\extrarowheight=\dimen333
-\NC@list=\toks55
-\extratabsurround=\skip69
-\backup@length=\skip70
-\ar@cellbox=\box95
-))
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen334
-\TX@old@table=\dimen335
-\TX@old@col=\dimen336
-\TX@target=\dimen337
-\TX@delta=\dimen338
-\TX@cols=\count376
-\TX@ftn=\toks56
-)
-(C:\Users\kubao\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+\l__siunitx_tmp_box=\box79
+\l__siunitx_tmp_dim=\dimen320
+\l__siunitx_tmp_int=\count350
+\l__siunitx_number_mantissa_length_int=\count351
+\l__siunitx_number_uncert_length_int=\count352
+\l__siunitx_round_int=\count353
+\l__siunitx_process_decimal_int=\count354
+\l__siunitx_process_uncertainty_int=\count355
+\l__siunitx_process_fixed_int=\count356
+\l__siunitx_process_integer_min_int=\count357
+\l__siunitx_process_precision_int=\count358
+\l__siunitx_group_min_int=\count359
+\l__siunitx_angle_marker_box=\box80
+\l__siunitx_angle_unit_box=\box81
+\l__siunitx_angle_marker_dim=\dimen321
+\l__siunitx_angle_unit_dim=\dimen322
+\l__siunitx_unit_int=\count360
+\l__siunitx_unit_denominator_int=\count361
+\l__siunitx_unit_numerator_int=\count362
+\l__siunitx_unit_prefix_int=\count363
+\l__siunitx_unit_prefix_base_int=\count364
+\l__siunitx_unit_prefix_gram_int=\count365
+\l__siunitx_number_product_int=\count366
+\c__siunitx_one_fill_skip=\skip70
+\l__siunitx_table_unit_align_skip=\skip71
+\l__siunitx_table_exponent_dim=\dimen323
+\l__siunitx_table_integer_dim=\dimen324
+\l__siunitx_table_mantissa_dim=\dimen325
+\l__siunitx_table_marker_dim=\dimen326
+\l__siunitx_table_result_dim=\dimen327
+\l__siunitx_table_uncert_dim=\dimen328
+\l__siunitx_table_fill_pre_dim=\dimen329
+\l__siunitx_table_fill_post_dim=\dimen330
+\l__siunitx_table_fill_mid_dim=\dimen331
+\l__siunitx_table_pre_box=\box82
+\l__siunitx_table_post_box=\box83
+\l__siunitx_table_mantissa_box=\box84
+\l__siunitx_table_result_box=\box85
+\l__siunitx_table_number_align_skip=\skip72
+\l__siunitx_table_text_align_skip=\skip73
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7250.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7253.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7265.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7268.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7283.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7292.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7301.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7310.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7322.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7334.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7346.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7349.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7364.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7376.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7423.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7425.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7429.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7431.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7432.
+.................................................
+\g__file_internal_ior=\read3
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen332
+\TX@old@table=\dimen333
+\TX@old@col=\dimen334
+\TX@target=\dimen335
+\TX@delta=\dimen336
+\TX@cols=\count367
+\TX@ftn=\toks54
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerthemeMarburg.sty (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.sty
+\beamer@sidebarwidth=\dimen337
+\beamer@headheight=\dimen338
+)) (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for OT4+cmr on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmr.fd
+File: ot4cmr.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 46.
 
-Package siunitx Info: Option "detect-weight" has been deprecated in this
-(siunitx)             release.
-(siunitx)             
-(siunitx)             Use "reset-text-series = false, text-series-to-math =
-(siunitx)             true" as a replacement.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(14.22636pt, 278.83713pt, 71.13187pt)
+* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
+* \paperwidth=364.19536pt
+* \paperheight=273.14662pt
+* \textwidth=278.83713pt
+* \textheight=244.6939pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count368
+\scratchdimen=\dimen339
+\scratchbox=\box86
+\nofMPsegments=\count369
+\nofMParguments=\count370
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count371
+\MPscratchDim=\dimen340
+\MPnumerator=\count372
+\makeMPintoPDFobject=\count373
+\everyMPtoPDFconversion=\toks56
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+ (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+)) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box87
+Package hyperref Info: Link coloring OFF on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count374
+)
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
+ (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.out) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
 
+LaTeX Font Info:    Encoding `OT4' has changed to `OT1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT4/cmr/m/n --> OT1/cmss/m/n on input line 46.
+LaTeX Font Info:    Encoding `OT4' has changed to `OT1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT4/cmr/bx/n --> OT1/cmss/bx/n on input line 46.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT4/cmr/m/n on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT4/cmr/bx/n --> OT4/cmss/bx/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT4/cmss/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT4/cmss/m/n --> OT4/cmss/m/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT4/cmss/bx/n --> OT4/cmss/m/n on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT4/cmr/m/it --> OT4/cmss/m/it on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT4/cmr/bx/it --> OT4/cmss/m/it on input line 46.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT4/cmtt/m/n --> OT4/cmtt/m/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT4/cmtt/m/n on input line 46.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT4/cmss/m/n --> OT4/cmss/bx/n on input line 46.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT4/cmss/m/it --> OT4/cmss/bx/it on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT4/cmr/bx/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT4/cmss/bx/n --> OT4/cmss/bx/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT4/cmss/m/n --> OT4/cmss/bx/n on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT4/cmss/m/it --> OT4/cmss/bx/it on input line 46.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT4/cmtt/m/n --> OT4/cmtt/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 46.
+LaTeX Font Info:    Encoding `OT4' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `normal' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT4/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 46.
+LaTeX Font Info:    Encoding `OT4' has changed to `OT1' for symbol font
+(Font)              `pureletters' in the math version `bold' on input line 46.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT4/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 46.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-environment-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+) (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
-! LaTeX Error: File `beamerthemeMagburg.sty' not found.
+\c@lstlisting=\count375
+(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.nav)
+\c__siunitx_mathsf_int=\count376
+LaTeX Font Info:    Try loading font information for OML+plm on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/polski/omlplm.fd
+File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Try loading font information for OMS+plsy on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/polski/omsplsy.fd
+File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    Try loading font information for OMX+plex on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/polski/omxplex.fd
+File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10.95> on input line 46.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <8> on input line 46.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <6> on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+\c__siunitx_mathtt_int=\count377
+LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/polski/ot4cmtt.fd
+File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
+)
+Missing character: There is no Ã in font plss12!
+Missing character: There is no ³ in font plss12!
+Missing character: There is no Ä in font plss12!
+Missing character: There is no Ä in font plss12!
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss12!
+Missing character: There is no ³ in font plss12!
+Missing character: There is no Ä in font plss12!
+Missing character: There is no … in font plss12!
+Missing character: There is no Å in font plss12!
+Missing character: There is no ¼ in font plss12!
+Missing character: There is no Å in font plss12!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+] (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/Spis_treÅ›ci.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [2
 
-Enter file name: X
+]) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/Wprowadzenie.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [3
 
-! Emergency stop.
-<read *> 
-         
-l.27 \usetheme{Magburg}
-                       
-*** (cannot \read from terminal in nonstop modes)
+]
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no ¼ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [4
 
- 
+]
+Missing character: There is no Å in font plss10!
+Missing character: There is no ¼ in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [5
+
+]) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/PID.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [6
+
+]
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no ‡ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [7
+
+]
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+<images/PIDtory.png, id=296, 506.6428pt x 632.3625pt>
+File: images/PIDtory.png Graphic file (type png)
+<use images/PIDtory.png>
+Package pdftex.def Info: images/PIDtory.png  used on input line 22.
+(pdftex.def)             Requested size: 126.66039pt x 158.09024pt.
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [8
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/PIDtory.png>]
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+<images/MPID.jpg, id=329, 397.16522pt x 189.94858pt>
+File: images/MPID.jpg Graphic file (type jpg)
+<use images/MPID.jpg>
+Package pdftex.def Info: images/MPID.jpg  used on input line 32.
+(pdftex.def)             Requested size: 278.01375pt x 132.96309pt.
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [9
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/MPID.jpg>]
+Missing character: There is no Å in font plss10!
+<images/innypid.png, id=362, 579.16376pt x 564.1075pt>
+File: images/innypid.png Graphic file (type png)
+<use images/innypid.png>
+Package pdftex.def Info: images/innypid.png  used on input line 42.
+(pdftex.def)             Requested size: 231.66139pt x 225.63899pt.
+
+Overfull \vbox (33.6395pt too high) detected at line 42
+ []
+
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+[10
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/innypid.png>]) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/DMC.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [11
+
+]
+Missing character: There is no Ä in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no º in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no „ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [12
+
+]
+<images/wielowymiarowa_odp_DMC.png, id=468, 304.13625pt x 115.93312pt>
+File: images/wielowymiarowa_odp_DMC.png Graphic file (type png)
+<use images/wielowymiarowa_odp_DMC.png>
+Package pdftex.def Info: images/wielowymiarowa_odp_DMC.png  used on input line 22.
+(pdftex.def)             Requested size: 243.30933pt x 92.74661pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [13
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/wielowymiarowa_odp_DMC.png>]
+<images/model_DMC.png, id=502, 229.60782pt x 57.96657pt>
+File: images/model_DMC.png Graphic file (type png)
+<use images/model_DMC.png>
+Package pdftex.def Info: images/model_DMC.png  used on input line 31.
+(pdftex.def)             Requested size: 206.64513pt x 52.16942pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [14
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/model_DMC.png>]
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+<images/cel_DMC.png, id=535, 423.83344pt x 52.69687pt>
+File: images/cel_DMC.png Graphic file (type png)
+<use images/cel_DMC.png>
+Package pdftex.def Info: images/cel_DMC.png  used on input line 46.
+(pdftex.def)             Requested size: 254.302pt x 31.61835pt.
+Missing character: There is no Å in font plss10!
+Missing character: There is no ¼ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no ‡ in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+<images/wyjscia_DMC.png, id=536, 322.20375pt x 47.42719pt>
+File: images/wyjscia_DMC.png Graphic file (type png)
+<use images/wyjscia_DMC.png>
+Package pdftex.def Info: images/wyjscia_DMC.png  used on input line 46.
+(pdftex.def)             Requested size: 225.54108pt x 33.19879pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [15
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/cel_DMC.png> </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/wyjscia_DMC.png>]
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+<images/SISODMC.png, id=570, 387.69844pt x 143.78719pt>
+File: images/SISODMC.png Graphic file (type png)
+<use images/SISODMC.png>
+Package pdftex.def Info: images/SISODMC.png  used on input line 56.
+(pdftex.def)             Requested size: 271.38704pt x 100.65034pt.
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [16
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/SISODMC.png>]
+Missing character: There is no Å in font plss10!
+<images/innydmc.png, id=602, 570.13pt x 543.02875pt>
+File: images/innydmc.png Graphic file (type png)
+<use images/innydmc.png>
+Package pdftex.def Info: images/innydmc.png  used on input line 66.
+(pdftex.def)             Requested size: 228.04796pt x 217.20764pt.
+
+Overfull \vbox (35.60814pt too high) detected at line 66
+ []
+
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+[17
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/innydmc.png>]) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/GPC.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [18
+
+]
+Missing character: There is no Ä in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no „ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [19
+
+]
+<images/odp_GPC.png, id=708, 350.81062pt x 64.74188pt>
+File: images/odp_GPC.png Graphic file (type png)
+<use images/odp_GPC.png>
+Package pdftex.def Info: images/odp_GPC.png  used on input line 21.
+(pdftex.def)             Requested size: 245.56575pt x 45.319pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [20
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/odp_GPC.png>]
+<images/model_GPC.png, id=741, 245.41687pt x 39.14626pt>
+File: images/model_GPC.png Graphic file (type png)
+<use images/model_GPC.png>
+Package pdftex.def Info: images/model_GPC.png  used on input line 36.
+(pdftex.def)             Requested size: 171.79062pt x 27.40218pt.
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+<images/macierze_GPC.png, id=742, 253.69781pt x 62.48344pt>
+File: images/macierze_GPC.png Graphic file (type png)
+<use images/macierze_GPC.png>
+Package pdftex.def Info: images/macierze_GPC.png  used on input line 36.
+(pdftex.def)             Requested size: 177.58725pt x 43.7381pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [21
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/model_GPC.png> </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/macierze_GPC.png>]
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+<images/postac_GPC.png, id=776, 201.00093pt x 38.39343pt>
+File: images/postac_GPC.png Graphic file (type png)
+<use images/postac_GPC.png>
+Package pdftex.def Info: images/postac_GPC.png  used on input line 45.
+(pdftex.def)             Requested size: 180.89915pt x 34.55376pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [22
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/postac_GPC.png>]
+Missing character: There is no Ä in font plss10!
+Missing character: There is no … in font plss10!
+File: images/cel_DMC.png Graphic file (type png)
+<use images/cel_DMC.png>
+Package pdftex.def Info: images/cel_DMC.png  used on input line 60.
+(pdftex.def)             Requested size: 254.302pt x 31.61835pt.
+Missing character: There is no Å in font plss10!
+<images/referencyjna_GPC.png, id=809, 326.72063pt x 45.92157pt>
+File: images/referencyjna_GPC.png Graphic file (type png)
+<use images/referencyjna_GPC.png>
+Package pdftex.def Info: images/referencyjna_GPC.png  used on input line 60.
+(pdftex.def)             Requested size: 212.36588pt x 29.84865pt.
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [23
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/referencyjna_GPC.png>]
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ä in font plss10!
+<images/SISOGPC.png, id=842, 383.18156pt x 166.37157pt>
+File: images/SISOGPC.png Graphic file (type png)
+<use images/SISOGPC.png>
+Package pdftex.def Info: images/SISOGPC.png  used on input line 71.
+(pdftex.def)             Requested size: 268.22525pt x 116.45929pt.
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [24
+
+ </home/sstankev/studia/pust/pust1/Blok4/Prezentacja/images/SISOGPC.png>]
+Missing character: There is no Å in font plss10!
+File: images/innydmc.png Graphic file (type png)
+<use images/innydmc.png>
+Package pdftex.def Info: images/innydmc.png  used on input line 81.
+(pdftex.def)             Requested size: 228.04796pt x 217.20764pt.
+
+Overfull \vbox (35.60814pt too high) detected at line 81
+ []
+
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+[25
+
+]) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/Wnioski.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [26
+
+]
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [27
+
+]) (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/Bibliografia.tex (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.toc)
+Missing character: There is no Å in font plss12!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [28
+
+]
+Missing character: There is no Ã in font plss10!
+Missing character: There is no ³ in font plss10!
+Missing character: There is no Å in font plss10!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Ã in font plss8!
+Missing character: There is no ³ in font plss8!
+Missing character: There is no Ä in font plss8!
+Missing character: There is no … in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no ¼ in font plss8!
+Missing character: There is no Å in font plss8!
+Missing character: There is no Å in font plss8!
+ [29
+
+])
+\tf@nav=\write6
+\openout6 = `main.nav'.
+
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+\tf@snm=\write8
+\openout8 = `main.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 60.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 60.
+ (/home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 60.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 60.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D4C706B55C20A4557C251B3454C733DF;250.
+ ) 
 Here is how much of TeX's memory you used:
- 38454 strings out of 478927
- 924399 string characters out of 2852534
- 1272267 words of memory out of 3000000
- 55673 multiletter control sequences out of 15000+600000
- 404523 words of font info for 30 fonts, out of 8000000 for 9000
+ 43759 strings out of 492982
+ 1032982 string characters out of 6134895
+ 1146797 words of memory out of 5000000
+ 46504 multiletter control sequences out of 15000+600000
+ 539906 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,0n,124p,774b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 69i,15n,119p,10427b,710s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plss8.pfb>
+Output written on /home/sstankev/studia/pust/pust1/Blok4/Prezentacja/main.pdf (29 pages, 252590 bytes).
+PDF statistics:
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 1008 compressed objects within 11 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+
