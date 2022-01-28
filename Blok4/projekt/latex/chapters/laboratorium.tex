@@ -1,0 +1,370 @@
+%! TEX encoding = utf8
+\chapter{Laboratorium}
+
+%%%%%%%%%%%%%% Podpunkt 1
+\section{Określenie wartości pomiaru temperatury w punkcie pracy}
+
+W celu określenia wartości pomiaru temperatury w punkcie pracy, ustawiono moc wentylatorów  $W1 = W2 = 50\%$ oraz moc grzałek $G1 = 25\%$  $G2 = 30\%$.
+Po pewnym czasie temperatury, odczytywane przez czujniki zaczeły się stabilizować  na poziomie:  $T1 = 29,81^{\circ} C$ oraz $T3 = 31,43^{\circ} C$.
+
+
+Niestety z powodu ciągłego ruchu powietrza związanego z przemieszczaniem się osób w sali i dużej ilości tych osób wpływających na temperaturę sali oraz czułość stanowiska pomiarowego temperatury odczytywane przez czujnik zaczeły lekko oscylować wokół temperatur w punkcie pracy.
+
+\begin{figure}[H]
+\centering
+\input{../images/laby/wykres_punkt_pracy.tex}
+\caption{Pomiar temperatury w punkcie pracy}
+\end{figure}
+
+%%%%%%%%%%%%%% Podpunkt 2
+\section{Mechanizm zabezpieczający przed uszkodzeniem stanowiska}
+
+Zadaniem tego mechanizmu jest wyłączanie grzałki w moncie, gdy czujnik przy tej grzałce przekroczy temperaturę $250^{\circ} C$. 
+W mechanizmie w tym uwzględniono również ograniczenia sygnału sterującego tzn. moc grzałki może przyjmować wartości z zakresu 0-100\% (w programie odpowiada to wartościom 0-1000). W programie wartości temperatur odpowiadają 100-krotnie większej wartości niż w rzeczywistości, dlatego też temperarura $250^{\circ} C$ zapisana jest jako 25000.
+
+Implementacja przedstawia się w następujący sposób:
+
+
+
+\begin{lstlisting}[style=customc,frame=single, caption=Mechanizm zabezpieczający , label=lst:overheat_lock] 
+//mechanizm zabezpieczajacy
+IF D100 >= 25000 THEN // T1>250  
+	D114 := 0; //G1=0%
+END_IF;
+
+IF D102 >= 25000 THEN // T3>250 
+	D115 := 0; //G2=0%
+END_IF;
+
+// zabezpieczenie sygnalu sterujacego
+IF(D114>=1000) THEN //G1>100%
+	D114 := 1000; //G1=100%
+	ELSIF(D114<=0) THEN //G1<0%
+	D114:=0; //G1=0%
+END_IF;
+
+
+IF(D115>=1000) THEN //G2>100%
+	D115 := 1000; //G2=100%
+	ELSIF(D115<=0) THEN //G2<0%
+	D115:=0; //G2=0%
+END_IF;
+\end{lstlisting}
+
+
+%%%%%%%%%%%%%% Podpunkt3
+\section{Regulator PID}
+
+W zadaniu tym użyto dwóch regulatorów PID (jeden ustala wartość sterowania grzałką G1, biorąc pod uwagę sygnał wyjściowy T1, natomiast drugi wyznacza G2, a bierze pod uwagę wartość T3). Dla każdego z regulatorów wartość sterowania jest liczona z wzoru: 
+\begin{equation}
+u(k)=r_2e(k-2) + r_1e(k-1) + r_0e(k) + u(k-1)
+\label{control_rule}
+\end{equation}
+Współczynniki regulacji $r_i$ są wyliczane ze standardowych wzorów.
+\begin{lstlisting}[style=customc,frame=single, caption=Wyznaczenie współczynników regulacji , label=lst:overheat_lock] 
+//Wspolczynniki K, Ti i Td dla regulatorow
+K_1 := 6.0;
+K_2 := 6.0;
+
+TI_1 := 100.0;
+TI_2 := 110.0;
+
+TD_1 := 0.0;
+TD_2 := 0.0;
+
+TProb := 4.0; //czas probkowania
+
+//Wartosci uchybow w potrzednich chwilach probkowania
+E0_1 := 0;
+E1_1 := 0;
+E2_1 := 0;
+E0_2 := 0;
+E1_2 := 0;
+E2_2 := 0;
+
+
+//wyliczenie wspolczynnikow ri dla PID1
+R0_1 := K_1 * (1 + (TProb/(2*TI_1))+TD_1/TProb);
+R1_1 := K_1 * (TProb/(2*TI_1) - 2*TD_1/TProb - 1);
+R2_1 := K_1 * TD_1 / TProb;
+
+//wyliczenie wspolczynnikow ri dla PID2
+R0_2 := K_2 * (1 + (TProb/(2*TI_2))+TD_2/TProb);
+R1_2 := K_2 * (TProb/(2*TI_2) - 2*TD_2/TProb - 1);
+R2_2 := K_2 * TD_2 / TProb;
+\end{lstlisting}
+
+\begin{lstlisting}[style=customc,frame=single, caption=Implementacja algorytmu PID , label=lst:overheat_lock] 
+T1_act := D100; //pobrane aktualnej wartosci T1
+T3_act := D102; //pobrane aktualnej wartosci T3
+
+
+// PID 1
+E2_1 := E1_1; //przesuniecia wartosci uchybow w chwili k-2, k-1
+E1_1 := E0_1;
+E0_1 := y_zad1 - T1_act; //wyliczenie aktualnego uchybu
+
+//wyliczenie nowego sterowania zgodnie ze wzorem
+U_1 := R2_1*E2_1 + R1_1*E1_1 + R0_1*E0_1 + U_1; 
+D114 := REAL_TO_INT(U_1); //zadanie nowej wartosci sterowania
+
+// PID 2
+E2_2 := E1_2;
+E1_2 := E0_2;
+E0_2 := y_zad2 - T3_act;
+
+//wyliczenie nowego sterowania zgodnie ze wzorem
+U_2 := R2_2*E2_2 + R1_2*E1_2 + R0_2*E0_2 + U_2; 
+D115 := REAL_TO_INT(U_2); //zadanie nowej wartosci sterowania
+\end{lstlisting}
+
+Po każdym wyliczeniu nowej wartości sterowania, wykonywany jest mechanizm zabezpieczający z podpunktu drugiego.
+
+\begin{figure}[H]
+\centering
+\input{../images/laby/pid_u_2.tex}
+\caption{Sygnały stejące: PID1: K=3 $T_i$=100 $T_d$=1.3 PID2: K=2 $T_i$=90 $T_d$=1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{../images/laby/pid_y_2.tex}
+\caption{Wyjścia obiektu: PID1: K=3 $T_i$=100 $T_d$=1.3 PID2: K=2 $T_i$=90 $T_d$=1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{../images/laby/pid_u_3.tex}
+\caption{Sygnały stejące: PID1: K=1 $T_i$=10 $T_d$=3 PID2: K=3 $T_i$=9 $T_d$=2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\input{../images/laby/pid_y_3.tex}
+\caption{Wyjścia obiektu: PID1: K=1 $T_i$=10 $T_d$=3 PID2: K=3 $T_i$=9 $T_d$=2}
+\end{figure}
+
+
+Żaden z powyższych zestawów regulatorów nie działa w sposób zadowalający. Sygnały wyjściowe zbliżają się do wartości zadanej, jednakże wartość ta ciągle oscyluje (oscylacje są dość duże). Rozwiązaniem tego problemu może być próba dostrojenia regulatorów.
+
+%%%%%%%%%%%%%% Podpunkt4
+\section{Regulator DMC}
+Implementacja regulatora DMC w wersji 2x2 zaczeła się od wyznaczenia współczynników s. Do tego celu należy zebrać przebiegi wyjść na skok sygnału sterującego (kolejno skok na wejściu pierszym G1 przy stałym G2 oraz skok na wejściu G2 przy stałym G1). Następnie dla każdego z przebiegów należy zostosować wzór:
+\begin{equation}
+S_i=\frac{Y(i)-Y_{pp}}{\triangle U} \textrm{ ,dla } i=1,2 \ldots D
+\label{step_norm}
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\input{../images/laby/odpowiedzi_skokowe.tex}
+\caption{Odpowiedzi skokowe}
+\end{figure}
+
+Implementacja samego algorytmu regulacji DMC została wykonana w wersji oszczędnej, składającej się z dwóch części:
+1. Wyliczenie $K_e$ i $K_u$ W Matlab:
+\begin{lstlisting}[style=Matlab-editor]
+clear all;
+close all;
+load('wspolczynnikis.mat')
+czas_symulacji = 100;
+nu=2; %liczba wejsc
+ny=2; %liczba wyjsc
+
+%Macierz odopowiedzi skokowych , kazdy wspolczynnik si to macierz 2x2
+for i=1:length(s11)
+    S(i)={[s11(i) s12(i);...
+           s21(i) s22(i)]};
+end
+    
+%Parametry dobrane eksperymentalnie
+D=480; N=15; Nu=10;
+lambda1=1; lambda2=1;
+psi1=1; psi2=1;
+
+%Punkty pracy W1=W2=50 (500) G1=25 (250) G2=30 (300)  T1= 29,81 T3=31,43
+u1pp=250;
+u2pp=300;
+
+y1pp=2981;
+y2pp=3143;
+
+
+%Macierz Mp
+for i=1:(D-1)
+    for j=1:N
+        if j+i>D
+            Mp{j,i}=S{D}-S{i};
+        else
+            Mp{j,i}=S{j+i}-S{i};
+        end
+    end
+end
+
+%Macierz M
+for i=1:Nu
+    M(i:N,i)=S(1:N-i+1);
+    M(1:i-1,i)={[0 0; 0 0]};
+end
+
+
+
+%Macierz psi
+for i=1:N
+   for j=1:N
+       if i == j
+           Psi{i,j} =[psi1 0; 0 psi2];
+       else
+           Psi{i,j} =[0 0; 0 0];
+       end
+       
+   end
+end
+
+
+%Macierz Lambd
+for i=1:Nu
+   for j=1:Nu
+       if i == j
+           Lambda{i,j} =[lambda1 0; 0 lambda2];
+       else
+           Lambda{i,j} =[0 0; 0 0];
+       end
+       
+   end
+end
+
+%zamiana na macierze
+Lambda_m = cell2mat(Lambda);
+Mp_m = cell2mat(Mp);
+M_m = cell2mat(M);
+Psi_m = cell2mat(Psi);
+
+%wyliczenie macierzy K
+K=(M_m'*Psi_m*M_m+Lambda_m)^(-1)*M_m'*Psi_m;
+
+%obliczenie Ku
+K1 = K(1:ny,:);
+Ku = K1*Mp_m;
+
+%zapis do pliku tekstowego, tak aby latwo przekopiowac do GXWorks3
+fileID = fopen('wiersz1.txt','w');
+% petla do zapisu Ku1
+for i=1:length(K1)
+    fprintf( fileID, 'KU_1[%d] := %d;\n', i-1, Ku(1,i));
+end
+fclose(fileID);
+
+fileID = fopen('wiersz2.txt','w');
+% petla do zapisu Ku2
+for i=1:length(K1)
+    fprintf( fileID, 'KU_2[%d] := %d;\n', i-1, Ku(2,i));
+end
+fclose(fileID);
+
+
+
+%obliczenie Ke (macierz rozmiaru 2x2)
+Ke(1,1)=sum(K1(1,1:2:N*ny));
+Ke(1,2)=sum(K1(1,2:2:N*ny));
+Ke(2,1)=sum(K1(2,1:2:N*ny));
+Ke(2,2)=sum(K1(2,2:2:N*ny));
+\end{lstlisting} 
+
+2. Wyznczanie na bieżąco wartości sterowania:
+\begin{lstlisting}[style=customc,frame=single, label=lst:overheat_lock] 
+KE_11 := -0.171922435496501;
+KE_21 := 0.679020850746672;
+KE_12 :=-0.318796410782815;
+KE_22 :=0.202188351028979;
+
+//wyznaczenie przyrostow (rozpisane dzialania macierzowe)
+dU1 := KE_11*(y_zad1-T1_act)+KE_12*(y_zad2-T3_act);
+dU2 := KE_21*(y_zad1-T1_act)+KE_22*(y_zad2-T3_act);
+
+FOR IND := 0 TO 29 BY 1 DO
+	dU1 := dU1 - KU_1[IND] *DUP[IND];
+	dU2 := dU2 - KU_2[IND] *DUP[IND];
+END_FOR;
+
+// przesuniecie wartosci w wektorze dup
+FOR IND := 30 TO 2 BY -1 DO
+	DUP[IND] := DUP[IND-2];
+END_FOR;
+DUP[0] := dU1; 
+DUP[1] := du2;
+
+U_1 := U_1 +dU1; //nowa wartosc to stara plus przyrost
+U_2 := U_2 +dU2; //nowa wartosc to stara plus przyrost
+
+D114 := REAL_TO_INT(U_1); //zadanie nowej wartosci sterowania
+D115 := REAL_TO_INT(U_2); //zadanie nowej wartosci sterowania
+
+//mechanizm zabezpieczajacy
+\end{lstlisting} 
+Wartości Ke i Ku są przekopiowane z Matlaba.  Ku jest przeniesione jako 2 wektory danych (KU\_1, KU\_2). 
+
+Tutaj tak samo jak w imlementacji regulatora PID, na sam koniec jest wykonywany mechanizm zabezpieczający.
+Niestety powyższego algorytmu nie udało się przetestować w realnych warunkach na stanowisku laboratoryjnym.
+
+%%%%%%%%%%%%%% Podpunkt4
+\section{Panel operatora}
+
+ \begin{figure}[h]
+    \centering
+    \includegraphics[width=160mm]{../images/laby/podpunkt5.jpg}
+    \caption{Wygląd interfejsu użytkownika}
+    \label{fig:normal}
+    \end{figure}  
+
+Na interfejsie użytkownika po prawej stronie można zauważyć słupki, które obrazują wartości grzałek G1, G2 (od 0 do 100\%). Po prawej stronie pod tytułem widnieją wartości zmierzonych temperatur (T1 oraz T3), pod nimi są wartości zadane tych wyjść. Na samym dole są 3 przyciski zmieniające stan automatu (a zboku widnieje napis mówiący, w którym stanie aktualnie się znajduje) opisanego w następnym podrozdziale.
+
+%%%%%%%%%%%%%% Podpunkt4
+\section{Automat stanów}
+
+\begin{lstlisting}[style=customc,frame=single, caption=Implementacja automatu stanów , label=lst:overheat_lock] 
+CASE Stan1 OF
+	//M11 przycisk do zmiany na stan 1
+	//M12 przycisk do zmiany na stan 2
+	//M13 przycisk do zmiany na stan 3
+	1:
+	y_zad1 := 2981; //wartosci zadane dla stanu 1
+	y_zad2 := 3143;
+	IF M12 THEN
+		Stan1 := 2;
+	END_IF;
+	IF M13 THEN
+		Stan1 := 3;
+	END_IF;
+	2:
+	y_zad1 := 3500; //wartosci zadane dla stanu 2
+	y_zad2 := 5000;
+	IF M11 THEN
+		Stan1 := 1;
+	END_IF;
+	IF M13 THEN
+		Stan1 := 3;
+	END_IF;
+	3:
+	y_zad1 := 4000; //wartosci zadane dla stanu 3
+	y_zad2 := 3500;
+	IF M12 THEN
+		Stan1 := 2;
+	END_IF;
+	IF M11 THEN
+		Stan1 := 1;
+	END_IF;
+	
+END_CASE;
+\end{lstlisting} 
+
+Zmiana stanu automatu odbywa się po wciśnięciu przycisków (widocznych na panelu operatora). Każdy z tych przycisków posiada nazwę, która informuje na jaki stan zmienia się obecny stan.
+W każdym stanie zdefiniowane są inne wartości temperatór zadanych:
+
+1. W stanie pierwszym: $T1^{zad}=29,81^{\circ} C$  $T3^{zad}=31,43^{\circ} C$
+
+2. W stanie drugim: $T1^{zad}=35^{\circ} C$  $T3^{zad}=50^{\circ} C$
+
+2. W stanie trzecim: $T1^{zad}=40^{\circ} C$  $T3^{zad}=35^{\circ} C$
+
+
