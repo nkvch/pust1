@@ -19,7 +19,7 @@ yz1 = [];
 yz2 = [];
 
 figure(1);
-while (length(y1) < 500)  %ILOSC POMIAROW
+while (length(y1) < 300)  %ILOSC POMIAROW
     if (t.BytesAvailable ~= 0)
         temp = fscanf(t);
         %disp(temp);
