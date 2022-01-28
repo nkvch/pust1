@@ -1,0 +1,59 @@
+\documentclass{beamer}
+
+\usepackage{polski}
+\usepackage{amsmath} %\ldots np.
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,decorations.markings,math,arrows.meta}
+\usepackage{rotating}
+\usepackage[percent]{overpic}
+%\usepackage[cp1250]{inputenc}
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usetikzlibrary{pgfplots.groupplots}
+\usepackage{listings}
+\usepackage{matlab-prettifier}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{placeins} %\FloatBarrier
+\definecolor{szary}{rgb}{0.95,0.95,0.95}
+\sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},per-mode=symbol,range-phrase={-},range-units=single}
+\SendSettingsToPgf
+
+% Theme choice:
+\usetheme{Marburg}
+\usecolortheme{orchid}
+
+% Title page details: 
+\title{Dobór pętli regulacji w przypadku większej liczby sygnałów sterujących niż do wyjściowych.} 
+\author{Jakub Ostrysz, Bednarz Rafał, Stankevich Stanislau}
+\date{\today}
+\logo{\includegraphics[height=.5cm]{images/eiti_logo.png}}
+
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Spis treści}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\pgfplotsset{compat=1.18}
+\begin{document}
+
+% Title page frame
+\begin{frame}
+    \titlepage 
+\end{frame}
+
+\input{Spis_treści}
+\input{Wprowadzenie}
+\input{PID}
+\input{DMC}
+\input{GPC}
+\input{Wnioski}
+\end{document}
