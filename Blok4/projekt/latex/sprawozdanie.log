@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.27)  28 JAN 2022 01:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.27)  28 JAN 2022 11:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1469,24 +1469,22 @@ LaTeX Font Info:    Try loading font information for OT4+cmtt on input line 92.
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-No file sprawozdanie.toc.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.toc
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 1.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 1.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 1.
+)
 \tf@toc=\write4
 \openout4 = `sprawozdanie.toc'.
 
-(/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/sprawdzenie_pp.tex [1
+ (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/sprawdzenie_pp.tex [1
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
-(/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/sprawdzenie_punktu_pracy.tex
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <5> on input line 326.
-)
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10> on input line 8.
-LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <7> on input line 8.
-) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/odp_skokowe_torow.tex [2
+(/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/sprawdzenie_punktu_pracy.tex)) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/odp_skokowe_torow.tex [2
 
 ]
 Rozdzia\PlPrIeC {\l } 2.
@@ -1503,8 +1501,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Overfull \vbox (55.56415pt too high) has occurred while \output is active []
 
- [4]) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex
+ [4]) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/regulatory.tex
 Rozdzia\PlPrIeC {\l } 3.
+) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex [5
+
+]
+Rozdzia\PlPrIeC {\l } 4.
 (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.01_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_370.8381.tex)
 Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--29
  [][] 
@@ -1513,519 +1515,33 @@ Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--29
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [6
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_242.6835.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--39
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:39: Missing $ inserted.
-<inserted text> 
-                $
-l.39 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:39: Missing { inserted.
-<to be read again> 
-                   \par 
-l.39 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:39: Missing $ inserted.
-<inserted text> 
-                $
-l.39 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:39: Missing } inserted.
-<inserted text> 
-                }
-l.39 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (102.79414pt too wide) in paragraph at lines 39--39
- []\OT4/cmr/m/n/10 Rys. 3.2.newPID$[]1[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]$  
- []
-
-[7] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_1.00_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_349.5016.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--49
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:49: Missing $ inserted.
-<inserted text> 
-                $
-l.49 ...s_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:49: Missing $ inserted.
-<inserted text> 
-                $
-l.49 ...s_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (147.34981pt too wide) in paragraph at lines 49--49
- []\OT4/cmr/m/n/10 Rys. 3.3.../images/newPID$[]1[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10$  
- []
-
-[8] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.20_K2_is_4.00_Ti2_is_1.50_Td2_is_0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_96.3728.tex)
+ [7] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.20_K2_is_4.00_Ti2_is_1.50_Td2_is_0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_96.3728.tex)
 Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--59
  [][] 
  []
 
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:59: Missing $ inserted.
-<inserted text> 
-                $
-l.59 ..._0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:59: Missing { inserted.
-<to be read again> 
-                   \par 
-l.59 ..._0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:59: Missing $ inserted.
-<inserted text> 
-                $
-l.59 ..._0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:59: Missing } inserted.
-<inserted text> 
-                }
-l.59 ..._0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (147.84981pt too wide) in paragraph at lines 59--59
- []\OT4/cmr/m/n/10 Rys. 3.4.../images/newPID$[]1[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 50[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 50[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]$  
- []
-
-[9] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.80_K2_is_3.00_Ti2_is_0.10_Td2_is_2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_93.0067.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--69
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:69: Missing $ inserted.
-<inserted text> 
-                $
-l.69 ..._2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:69: Missing { inserted.
-<to be read again> 
-                   \par 
-l.69 ..._2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:69: Missing $ inserted.
-<inserted text> 
-                $
-l.69 ..._2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:69: Missing } inserted.
-<inserted text> 
-                }
-l.69 ..._2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (147.84981pt too wide) in paragraph at lines 69--69
- []\OT4/cmr/m/n/10 Rys. 3.5.../images/newPID$[]1[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 50[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 80[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]$  
- []
-
-[10] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.60_Ti1_is_1.00_Td1_is_1.00_K2_is_3.00_Ti2_is_0.10_Td2_is_1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_143.3710.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--79
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:79: Missing $ inserted.
-<inserted text> 
-                $
-l.79 ..._1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:79: Missing { inserted.
-<to be read again> 
-                   \par 
-l.79 ..._1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:79: Missing $ inserted.
-<inserted text> 
-                $
-l.79 ..._1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:79: Missing } inserted.
-<inserted text> 
-                }
-l.79 ..._1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (147.84981pt too wide) in paragraph at lines 79--79
- []\OT4/cmr/m/n/10 Rys. 3.6.../images/newPID$[]1[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 60[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]$  
- []
-
-[11] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_2561.8711.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--91
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:91: Missing $ inserted.
-<inserted text> 
-                $
-l.91 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:91: Missing { inserted.
-<to be read again> 
-                   \par 
-l.91 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:91: Missing $ inserted.
-<inserted text> 
-                $
-l.91 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:91: Missing } inserted.
-<inserted text> 
-                }
-l.91 ..._0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (147.84981pt too wide) in paragraph at lines 91--91
- []\OT4/cmr/m/n/10 Rys. 3.7.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]$  
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_1.00_K2_is_0.10_Ti2_is_0.10_Td2_is_1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00_E_is_48.2639.tex)
+[8] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_1.00_K2_is_0.10_Ti2_is_0.10_Td2_is_1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00_E_is_48.2639.tex)
 Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--102
  [][] 
  []
 
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:102: Missing $ inserted.
-<inserted text> 
-                $
-l.102 ..._1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:102: Missing $ inserted.
-<inserted text> 
-                $
-l.102 ..._1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[14] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_E_is_206.3874.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--113
- [][] 
- []
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:113: Missing $ inserted.
-<inserted text> 
-                $
-l.113 ....00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:113: Missing { inserted.
-<to be read again> 
-                   \par 
-l.113 ....00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:113: Missing $ inserted.
-<inserted text> 
-                $
-l.113 ....00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:113: Missing } inserted.
-<inserted text> 
-                }
-l.113 ....00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (152.84982pt too wide) in paragraph at lines 113--113
- []\OT4/cmr/m/n/10 Rys. 3.9.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 30[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 03[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 01[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]\OT4/cmr/m/n/10 0\OML/plm/m/it/10 :\OT4/cmr/m/n/10 00[]$  
- []
-
-[15] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_10.00_E_is_39.3311.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--124
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:124: Missing $ inserted.
-<inserted text> 
-                $
-l.124 ...1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_10.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:124: Missing $ inserted.
-<inserted text> 
-                $
-l.124 ...1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_10.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (157.34984pt too wide) in paragraph at lines 124--124
- []\OT4/cmr/m/n/10 Rys. 3.10.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 30[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 03[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 02[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]\OT4/cmr/m/n/10 0\OML/plm/m/it/10 :\OT4/cmr/m/n/10 00$  
- []
-
-[16] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_20.00_E_is_37.0808.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--135
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:135: Missing $ inserted.
-<inserted text> 
-                $
-l.135 ...1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_20.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:135: Missing $ inserted.
-<inserted text> 
-                $
-l.135 ...1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_20.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (157.34984pt too wide) in paragraph at lines 135--135
- []\OT4/cmr/m/n/10 Rys. 3.11.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 30[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 03[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 02[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]\OT4/cmr/m/n/10 0\OML/plm/m/it/10 :\OT4/cmr/m/n/10 00$  
- []
-
-[17] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_30.00_E_is_35.5433.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--146
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:146: Missing $ inserted.
-<inserted text> 
-                $
-l.146 ...1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_30.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:146: Missing $ inserted.
-<inserted text> 
-                $
-l.146 ...1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_30.00}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (157.34984pt too wide) in paragraph at lines 146--146
- []\OT4/cmr/m/n/10 Rys. 3.12.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 30[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 03[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 02[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]\OT4/cmr/m/n/10 0\OML/plm/m/it/10 :\OT4/cmr/m/n/10 00$  
- []
-
-[18] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_E_is_34.9696.tex)
+ [10] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_E_is_34.9696.tex)
 Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--157
  [][] 
  []
 
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:157: Missing $ inserted.
-<inserted text> 
-                $
-l.157 ....00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:157: Missing { inserted.
-<to be read again> 
-                   \par 
-l.157 ....00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:157: Missing $ inserted.
-<inserted text> 
-                $
-l.157 ....00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:157: Missing } inserted.
-<inserted text> 
-                }
-l.157 ....00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (157.84984pt too wide) in paragraph at lines 157--157
- []\OT4/cmr/m/n/10 Rys. 3.13.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 30[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 20[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 10[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 04[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]\OT4/cmr/m/n/10 0\OML/plm/m/it/10 :\OT4/cmr/m/n/10 00[]$  
- []
-
-[19] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_1.00_Ti1_is_1.00_Td1_is_1.00_K2_is_1.00_Ti2_is_1.00_Td2_is_1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_3335.7707.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--168
- [][] 
- []
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:168: Missing $ inserted.
-<inserted text> 
-                $
-l.168 ...1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:168: Missing { inserted.
-<to be read again> 
-                   \par 
-l.168 ...1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:168: Missing $ inserted.
-<inserted text> 
-                $
-l.168 ...1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex:168: Missing } inserted.
-<inserted text> 
-                }
-l.168 ...1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
-                                                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (152.84982pt too wide) in paragraph at lines 168--168
- []\OT4/cmr/m/n/10 Rys. 3.14.../images/newPID$[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 3[]3[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 1[]4[]\OML/plm/m/it/10 o[]\OT4/cmr/m/n/10 2[]1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 1[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 2[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 i\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]\OML/plm/m/it/10 d\OT4/cmr/m/n/10 3[]\OML/plm/m/it/10 s[]:\OT4/cmr/m/n/10 00[]$  
- []
-
-[20] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex)
+[11] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
 Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--181
  [][] 
  []
@@ -2033,244 +1549,94 @@ Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--181
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--187
+ [12] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--192
+ [][] 
+ []
+
+[13] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--203
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--193
+ [14] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--214
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--199
+ [15] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--226
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--205
+ [16] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--324
  [][] 
  []
 
 
+LaTeX Warning: Command \k invalid in math mode on input line 324.
+
+Missing character: There is no ¦ in font plmi10!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--211
+ [17] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--334
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Command \k invalid in math mode on input line 334.
 
- [26] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4310.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--218
+Missing character: There is no ¦ in font plmi10!
+[18] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--344
  [][] 
  []
 
 
+LaTeX Warning: Command \k invalid in math mode on input line 344.
+
+Missing character: There is no ¦ in font plmi10!
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_20_Nu_20_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0778.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--224
+ [19] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--375
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Warning: Command \k invalid in math mode on input line 375.
 
- [28] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_2_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4326.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--230
- [][] 
- []
-
+Missing character: There is no ¦ in font plmi10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_50_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0746.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--237
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.5422.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--244
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.10_la2_0.10_la3_0.10_la4_0.10_E_9.8142.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--251
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.7947.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--258
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_5_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4496.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--264
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--272
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--278
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--284
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--290
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--296
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [39] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--302
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4310.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--309
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_1_Nu_1_mu1_100.00_mu2_100.00_mu3_100.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--316
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_20_Nu_20_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0778.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--323
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_2_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_16.5070.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--329
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_2_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4326.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--335
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_50_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0746.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--341
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.5422.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--347
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.10_la2_0.10_la3_0.10_la4_0.10_E_9.8142.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--353
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.7947.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--359
- [][] 
- []
-
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49] [50] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.aux) ) 
+ [20]) [21] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.aux) ) 
 Here is how much of TeX's memory you used:
- 40141 strings out of 492982
- 966436 string characters out of 6134895
- 1577105 words of memory out of 5000000
- 42987 multiletter control sequences out of 15000+600000
+ 39156 strings out of 492982
+ 934564 string characters out of 6134895
+ 1547388 words of memory out of 5000000
+ 42087 multiletter control sequences out of 15000+600000
  548740 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,96p,10437b,2135s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plit.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plti10.pfb>
-Output written on /home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.pdf (51 pages, 1078188 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plti10.pfb>
+Output written on /home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.pdf (22 pages, 394679 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 155 compressed objects within 2 object streams
+ 122 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
