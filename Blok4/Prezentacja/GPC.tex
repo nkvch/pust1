@@ -1,28 +1,64 @@
 % Lists frame
 \section{GPC}
 \begin{frame}{Wielowymiarowy GPC}
-Schemat projektowania wielowymiarwego algorytmu GPC:
+Projekt pętli regulacji z zastosowaniem wielowymiarwego algorytmu GPC:
 \begin{itemize}
     \item Wyznaczenie wielowymiarowej odpowiedzi impulsowej
-    \item Wyznaczenie modelu obiktu w postaci dyskretnego równania różnicowego
-    \item Wyznaczenie predyktora minimalnowariancyjnego
-    \item Wyznaczenie składowej wymuszanej i swobodnej predykcji wyjść
-    \item Wyznaczenie odpowiedzi swobodnej
+    \item Model w postacji odpowiedzi skokowej
+    \item Rozwiązanie problemu optymalizacji
     \item Wyznaczenie wektora optymalnych przyrostów sterowań
 \end{itemize}
 Wszystkie sygnały sterujące wpływają na sygnały wyjściowe. 
 \end{frame}
 
-
 \begin{frame}{Wielowymiarowy GPC}
 Wyznaczenie wielowymiarowej odpowiedzi impulsowej:
 	\begin{center}
 		\begin{figure}[H]
-            		\includegraphics[scale=0.25]{images/PIDtory.png}
-          			 \caption{Wielowymiarowa odpowiedź impulsowa}
+            		\includegraphics[scale=0.7]{images/odp_GPC.png}
 		\end{figure}
 	\end{center}
 \end{frame}
+
+\begin{frame}{Wielowymiarowy GPC}
+Model w postacji odpowiedzi skokowej:
+	\begin{center}
+		\begin{figure}[H]
+            		\includegraphics[scale=0.7]{images/model_GPC.png}
+		\end{figure}
+	\end{center}
+gdzie A, B i C są macierzami wielomianowymi
+\begin{center}
+		\begin{figure}[H]
+            		\includegraphics[scale=0.7]{images/macierze_GPC.png}
+		\end{figure}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Wielowymiarowy GPC}
+Model w przypadku działania szumów białych:
+	\begin{center}
+		\begin{figure}[H]
+            		\includegraphics[scale=0.9]{images/postac_GPC.png}
+		\end{figure}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Wielowymiarowy GPC}
+Rozwiązanie problemu optymalizacji:
+	\begin{center}
+		\begin{figure}[H]
+            		\includegraphics[scale=0.6]{images/cel_DMC.png}
+		\end{figure}
+	\end{center}
+Zastosowanie terjektorii referencyjnej w miejsce trajektorii wartości zadanych
+	\begin{center}
+		\begin{figure}[H]
+            		\includegraphics[scale=0.65]{images/referencyjna_GPC.png}
+		\end{figure}
+	\end{center}
+\end{frame}
+
 
 \begin{frame}{Wielowymiarowy GPC}
 Określenie pętli regulacji:
@@ -38,8 +74,8 @@ Określenie pętli regulacji:
 Wyniki działania:
 	\begin{center}
 		\begin{figure}[H]
-            		\includegraphics[scale=0.5]{images/PID_wyniki.png} %%do poprawy jak już będą ładne
-          			 \caption{Wyniki regulacji}
+            		\includegraphics[scale=0.4]{images/wyniki_DMC.png} %%do poprawy jak już będą ładne
+          			 \caption{Wyniki wielowymiarowej regulacji z zastosowaniem algorytmu GPC}
 		\end{figure}
 	\end{center}
 \end{frame}
