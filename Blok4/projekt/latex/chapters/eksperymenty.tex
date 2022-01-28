@@ -23,6 +23,21 @@ Patrząc na wykresy z poprzedniego zadania można zobaczyć że wejście 3 ma na
 
 \subsection{$u_1 - y_2; u_2 - y_3; u_3 = const = 0; u_4 - y_1$}
 
+
+Zaczniemy dobór od następujących parametrów regulatorów:
+
+\begin{math}
+K_1 = 0,1;\\
+    Ti_1 = 0,1;\\
+    Td_1 = 0,1;\\
+    K_2 = 0,01;\\
+    Ti_2 = 0,1;\\
+    Td_2 = 0,1;\\
+    K_3 = 0,1;\\
+    Ti_3 = 0,1;\\
+    Td_3 = 0,1.
+\end{math}
+
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.01_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_370.8381.tex}
@@ -63,6 +78,9 @@ Patrząc na wykresy z poprzedniego zadania można zobaczyć że wejście 3 ma na
     E = 96,3728
 \end{equation}
 
+Jak widać na pierwszym zestawie wykresów, regulacja pierwszego i drugiego wyjścia jest zbyt "luźna". Więc warto było zwiększyć parametry całkowania w obu wypadkach a dodatkowo zwiększyć parametry różniczkowania żeby pozbyć się przesterowań.
+Przedstawiona wyżej regulacja jest lepsza od poprzedniej i jest to najlepsza regulacja PID którą dało się uzyskać przy takim podłączeniu regulatorów do wejść.
+
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.80_K2_is_3.00_Ti2_is_0.10_Td2_is_2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_93.0067.tex}
@@ -83,9 +101,27 @@ Patrząc na wykresy z poprzedniego zadania można zobaczyć że wejście 3 ma na
 %     E = 143,371
 % \end{equation}
 
-Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na drugim wyjściu spowodowany wzrostem wartości zadanej wyjścia pierwszego. W drugim podejściu spróbowaliśmy użyć do sterowania poszczególnymi wyjściami tych wejść, które rzeczywiście mają na nich największy wpływ. Wyjątkiem jest wyjście 3, które nie może być sterowane przez wejście 3, które ma jeszcze większy wpływ na wyjście pierwsze.
+Jak można zauważyć, regulacja ta nie jest najładniejsza. Widać duży skok na drugim wyjściu spowodowany wzrostem wartości zadanej wyjścia pierwszego. W drugim podejściu spróbowaliśmy użyć do sterowania poszczególnymi wyjściami tych wejść, które rzeczywiście mają na nich największy wpływ. Wyjątkiem jest wyjście 3, które nie może być sterowane przez wejście 3, które ma jeszcze większy wpływ na wyjście pierwsze.
 
 \subsection{$u_1 = const = 0; u_2 - y_3; u_3 - y_1; u_4 - y_2$}
+
+\includegraphics[scale=0.5]{../images/pid2.png}
+
+Zaczniemy od następujących domyślnych parametrów regulatorów:
+
+\medskip
+
+\begin{math}
+K_1 = 0,1; \\
+    Ti_1 = 0,1; \\
+    Td_1 = 1; \\
+    K_2 = 0,1; \\
+    Ti_2 = 0,1; \\
+    Td_2 = 1; \\
+    K_3 = 0,1; \\
+    Ti_3 = 0,1; \\
+    Td_3 = 1. \\
+\end{math}
 
 % \begin{figure}[H]
 %     \centering
@@ -108,6 +144,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
     E = 48,2639
 \end{equation}
 
+Ogólnie regulacja jest lepsza. Zostają kwestie oscylacji na wyjściach natomiast teraz już każde wyjście z mniejszą bądź większą dokładnością śledzi wartość zadaną.
 
 % \begin{figure}[H]
 %     \centering
@@ -152,6 +189,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 %     E = 35,5433
 % \end{equation}
 
+Najlepsza regulacja którą dało się uzyskać przy danej konfiguracji jest zaprezentowana na następnej stronie:
 
 \begin{figure}[H]
     \centering
@@ -175,7 +213,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \end{equation}
 
 
-\section{DMC}
+\section{DMC - wyniki eksperymentów}
 
 \begin{figure}[H]
     \centering
@@ -318,12 +356,12 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 %     E = 8,4496
 % \end{equation}
 
-\section{DMC oszczędny}
+\section{DMC oszczędny - wyniki ekperymentów}
 
 \begin{figure}[H]
     \centering
     \input{../images/economDMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex}
-    \caption{$DMC oszczędny. N = 150; Nu = 50; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+    \caption{DMC oszczędny.$ N = 150; Nu = 50; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 \end{figure}
 
 \begin{equation}
@@ -333,7 +371,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 \begin{figure}[H]
     \centering
     \input{../images/economDMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex}
-    \caption{$DMC oszczędny. N = 100; Nu = 50; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+    \caption{DMC oszczędny.$ N = 100; Nu = 50; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 \end{figure}
 
 \begin{equation}
@@ -343,7 +381,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 \begin{figure}[H]
     \centering
     \input{../images/economDMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex}
-    \caption{$DMC oszczędny. N = 10; Nu = 10; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+    \caption{DMC oszczędny.$ N = 10; Nu = 10; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 \end{figure}
 
 \begin{equation}
@@ -353,7 +391,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex}
-%     \caption{$DMC oszczędny. N = 10; Nu = 1; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+%     \caption{DMC oszczędny.$ N = 10; Nu = 1; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 % \end{figure}
 
 % \begin{equation}
@@ -363,7 +401,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex}
-%     \caption{$DMC oszczędny. N = 10; Nu = 2; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+%     \caption{DMC oszczędny.$ N = 10; Nu = 2; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 % \end{figure}
 
 % \begin{equation}
@@ -374,7 +412,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 \begin{figure}[H]
     \centering
     \input{../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex}
-    \caption{$DMC oszczędny. N = 1; Nu = 1; \mu = [10 10 10]; \lambda = [0,001 0,001 0,001 0,001].$}
+    \caption{DMC oszczędny.$ N = 1; Nu = 1; \mu = [10 10 10]; \lambda = [0,001 0,001 0,001 0,001].$}
 \end{figure}
 
 \begin{equation}
@@ -384,7 +422,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4310.tex}
-%     \caption{$DMC oszczędny. N = 1; Nu = 1; \mu = [10 10 10]; \lambda = [0,01 0,01 0,01 0,01].$}
+%     \caption{DMC oszczędny.$ N = 1; Nu = 1; \mu = [10 10 10]; \lambda = [0,01 0,01 0,01 0,01].$}
 % \end{figure}
 
 % \begin{equation}
@@ -395,7 +433,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_1_Nu_1_mu1_100.00_mu2_100.00_mu3_100.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex}
-%     \caption{$DMC oszczędny. N = 1; Nu = 1; \mu = [100 100 100]; \lambda = [0 0 0 0].$}
+%     \caption{DMC oszczędny.$ N = 1; Nu = 1; \mu = [100 100 100]; \lambda = [0 0 0 0].$}
 % \end{figure}
 
 % \begin{equation}
@@ -405,7 +443,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_20_Nu_20_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0778.tex}
-%     \caption{$DMC oszczędny. N = 20; Nu = 20; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+%     \caption{DMC oszczędny.$ N = 20; Nu = 20; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 % \end{figure}
 
 % \begin{equation}
@@ -415,7 +453,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_2_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_16.5070.tex}
-%     \caption{$DMC oszczędny. N = 2; Nu = 1; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+%     \caption{DMC oszczędny.$ N = 2; Nu = 1; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 % \end{figure}
 
 % \begin{equation}
@@ -425,7 +463,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_2_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4326.tex}
-%     \caption{$DMC oszczędny. N = 2; Nu = 2; \mu = [10 10 10]; \lambda = [0,01 0,01 0,01 0,01].$}
+%     \caption{DMC oszczędny.$ N = 2; Nu = 2; \mu = [10 10 10]; \lambda = [0,01 0,01 0,01 0,01].$}
 % \end{figure}
 
 % \begin{equation}
@@ -435,7 +473,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_50_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0746.tex}
-%     \caption{$DMC oszczędny. N = 50; Nu = 50; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+%     \caption{DMC oszczędny.$ N = 50; Nu = 50; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 % \end{figure}
 
 % \begin{equation}
@@ -445,7 +483,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.5422.tex}
-%     \caption{$DMC oszczędny. N = 5; Nu = 2; \mu = [1 1 1]; \lambda = [0,01 0,01 0,01 0,01].$}
+%     \caption{DMC oszczędny.$ N = 5; Nu = 2; \mu = [1 1 1]; \lambda = [0,01 0,01 0,01 0,01].$}
 % \end{figure}
 
 % \begin{equation}
@@ -455,7 +493,7 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.10_la2_0.10_la3_0.10_la4_0.10_E_9.8142.tex}
-%     \caption{$DMC oszczędny. N = 5; Nu = 2; \mu = [1 1 1]; \lambda = [0,1 0,1 0,1 0,1].$}
+%     \caption{DMC oszczędny.$ N = 5; Nu = 2; \mu = [1 1 1]; \lambda = [0,1 0,1 0,1 0,1].$}
 % \end{figure}
 
 % \begin{equation}
@@ -465,9 +503,18 @@ Jak można zauważyć, regulacja nie jest najładniejsza. Widać duży skok na d
 % \begin{figure}[H]
 %     \centering
 %     \input{../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.7947.tex}
-%     \caption{$DMC oszczędny. N = 5; Nu = 2; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
+%     \caption{DMC oszczędny.$ N = 5; Nu = 2; \mu = [1 1 1]; \lambda = [1 1 1 1].$}
 % \end{figure}
 
 % \begin{equation}
 %     E = 13,7947
 % \end{equation}
+
+
+\section{Regulaja DMC - komentarz ogólny}
+
+Jak widać wyniki są nie do porównania z regulatorami PID. Regulacja jest szybsza i lepszej jakości, przy czym zmniejszając horyzonty do najmniejszych możliwych wartości oraz odpowiednio zmniejszając lambdę (pozwalając na gwałtowne skoki strerowania) i zwiększając $\psi$ (zwiększając moc regulacji) udało się uzyskać idealnej matematycznie regulacji, w której wyjścia zmnieniają się w kednej chwili i idealnie śledzą wartość zadaną. Tutaj warto zauważyć że było to możliwe dla tego że regulacja była bez ograniczeń, oraz dla tego że obiekt jest pewnym matematycznym modelem, nie mający odpowiedników w rzeczywistości. Regulacja klasycznego regulatora DMC nie róźniła się od regulacji DMC oszczędnego. Więc w obu tych przypadkach wartość błędu optymalna jest równa:
+
+\begin{equation}
+    E = 8,43
+\end{equation}

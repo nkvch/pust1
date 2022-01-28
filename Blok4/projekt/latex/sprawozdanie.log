@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.27)  28 JAN 2022 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2021.10.27)  28 JAN 2022 18:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1521,15 +1521,12 @@ File: ../images/MPID.jpg Graphic file (type jpg)
 <use ../images/MPID.jpg>
 Package pdftex.def Info: ../images/MPID.jpg  used on input line 9.
 (pdftex.def)             Requested size: 397.16425pt x 189.9481pt.
-
-Underfull \vbox (badness 3302) has occurred while \output is active []
-
- [5
+[5
 
  <../images/MPID.jpg>]) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/eksperymenty.tex [6]
 Rozdzia\PlPrIeC {\l } 4.
 (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.01_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_370.8381.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--29
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--44
  [][] 
  []
 
@@ -1538,45 +1535,62 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.20_K2_is_4.00_Ti2_is_1.50_Td2_is_0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_96.3728.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--59
- [][] 
- []
-
-[9] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_1.00_K2_is_0.10_Ti2_is_0.10_Td2_is_1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00_E_is_48.2639.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--104
+] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.20_K2_is_4.00_Ti2_is_1.50_Td2_is_0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_96.3728.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--74
  [][] 
  []
 
 
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
+ [9]
+<../images/pid2.png, id=50, 791.95876pt x 543.02875pt>
+File: ../images/pid2.png Graphic file (type png)
+<use ../images/pid2.png>
+Package pdftex.def Info: ../images/pid2.png  used on input line 108.
+(pdftex.def)             Requested size: 395.97841pt x 271.5137pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--125
+
+ []
+
+(/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_1.00_K2_is_0.10_Ti2_is_0.10_Td2_is_1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00_E_is_48.2639.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--140
+ [][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [10 <../images/pid2.png>]
+Underfull \vbox (badness 1067) has occurred while \output is active []
 
  [11] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_E_is_34.9696.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--159
- [][] 
- []
-
-[12] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--183
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3100--197
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [12] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--221
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1067) has occurred while \output is active []
+
  [13] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--194
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--232
  [][] 
  []
 
 [14] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--205
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--243
  [][] 
  []
 
@@ -1584,7 +1598,7 @@ Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--205
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--216
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--254
  [][] 
  []
 
@@ -1592,7 +1606,7 @@ Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--216
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/DMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--228
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--266
  [][] 
  []
 
@@ -1600,62 +1614,49 @@ Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--228
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--326
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--364
  [][] 
  []
 
-
-LaTeX Warning: Command \k invalid in math mode on input line 326.
-
-Missing character: There is no ¦ in font plmi10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--336
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--374
  [][] 
  []
 
-
-LaTeX Warning: Command \k invalid in math mode on input line 336.
-
-Missing character: There is no ¦ in font plmi10!
 [19] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--346
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--384
  [][] 
  []
 
-
-LaTeX Warning: Command \k invalid in math mode on input line 346.
-
-Missing character: There is no ¦ in font plmi10!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex)
-Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--377
+Overfull \hbox (13.18242pt too wide) in paragraph at lines 3094--415
  [][] 
  []
 
 
-LaTeX Warning: Command \k invalid in math mode on input line 377.
-
-Missing character: There is no ¦ in font plmi10!
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/laboratorium.tex [22]
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/chapters/laboratorium.tex [23]
 Rozdzia\PlPrIeC {\l } 5.
 (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/wykres_punkt_pracy.tex) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [23
+) [24
 
-] [24] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_u_2.tex)
+] [25] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_u_2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_y_2.tex) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_u_3.tex) [26] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_y_3.tex) [27] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/odpowiedzi_skokowe.tex)
+ [26] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_y_2.tex) (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_u_3.tex) [27] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/pid_y_3.tex) [28] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/../images/laby/odpowiedzi_skokowe.tex)
 LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 169.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1664,7 +1665,7 @@ Overfull \hbox (20.75232pt too wide) in paragraph at lines 174--175
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
 
-[28]
+[29]
 Overfull \hbox (41.44781pt too wide) in paragraph at lines 185--186
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
  []
@@ -1672,8 +1673,8 @@ Overfull \hbox (41.44781pt too wide) in paragraph at lines 185--186
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29] [30]
-<../images/laby/podpunkt5.jpg, id=121, 579.96675pt x 347.49825pt>
+ [30] [31]
+<../images/laby/podpunkt5.jpg, id=126, 579.96675pt x 347.49825pt>
 File: ../images/laby/podpunkt5.jpg Graphic file (type jpg)
 <use ../images/laby/podpunkt5.jpg>
 Package pdftex.def Info: ../images/laby/podpunkt5.jpg  used on input line 315.
@@ -1682,24 +1683,24 @@ Package pdftex.def Info: ../images/laby/podpunkt5.jpg  used on input line 315.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[31]) [32] [33 <../images/laby/podpunkt5.jpg>] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.aux)
+[32]) [33] [34 <../images/laby/podpunkt5.jpg>] (/home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 39953 strings out of 492982
- 945009 string characters out of 6134895
- 1609570 words of memory out of 5000000
- 42847 multiletter control sequences out of 15000+600000
+ 39959 strings out of 492982
+ 945112 string characters out of 6134895
+ 1609719 words of memory out of 5000000
+ 42851 multiletter control sequences out of 15000+600000
  549335 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,21n,96p,10437b,2139s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/pltt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plitt.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plme.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plit.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plitt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/pltt10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on /home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.pdf (34 pages, 640045 bytes).
+Output written on /home/sstankev/studia/pust/pust1/Blok4/projekt/latex/sprawozdanie.pdf (35 pages, 649131 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 196 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

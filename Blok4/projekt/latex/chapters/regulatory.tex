@@ -12,11 +12,17 @@ Ponieważ regulator PID to jest regulator o jednym wejściu i jednym wyjściu, w
 
 Regulator DMC z natury jest wielowymiarowy. Prawo regulacji wielowymiarowego DMC w wersji klasycznej wygląda następująco:
 
+\medskip
+
 \begin{math}
     \Delta U(k) = K(Y^{zad}(k) - Y^0(k))
 \end{math}
 
+\medskip
+
 Wektor przyrostów sterowania wynacza przyrosty na całym horyzoncie sterowania i ma długośś $n_uN_U$.
+
+\medskip
 
 \begin{math}
     \Delta U(k) = \begin{bmatrix}
@@ -31,7 +37,11 @@ Wektor przyrostów sterowania wynacza przyrosty na całym horyzoncie sterowania 
     \end{bmatrix}
 \end{math}
 
+\medskip
+
 Wektory $Y^{zad}(k)$ i $Y(k)$ są wektorami wyjść i wyjść zadanych o długości $n_yN$.
+
+\medskip
 
 \begin{math}
     Y^{zad}(k) = \begin{bmatrix}
@@ -46,6 +56,8 @@ Wektory $Y^{zad}(k)$ i $Y(k)$ są wektorami wyjść i wyjść zadanych o długo�
     \end{bmatrix}
 \end{math}
 
+\medskip
+
 \begin{math}
     Y(k) = \begin{bmatrix}
         y_1(k) \\
@@ -59,19 +71,31 @@ Wektory $Y^{zad}(k)$ i $Y(k)$ są wektorami wyjść i wyjść zadanych o długo�
     \end{bmatrix}
 \end{math}
 
+\medskip
+
 $K$ jest macierzą następującą:
+
+\medskip
 
 \begin{math}
     K = (M^T \varPsi M + \varLambda )^{-1} M^T \varPsi 
 \end{math}
 
+\medskip
+
 $Y^0$ jest wektorem wyjść modelu.
+
+\medskip
 
 \begin{math}
     Y^0(k) = Y(k) + M^p \Delta U^p(k)
 \end{math}
 
+\medskip
+
 W którym $\Delta U^p(k)$ jest wektorem przeszłych przyrostów, natomiast $M^p$:
+
+\medskip
 
 \begin{math}
     M^p = \begin{bmatrix}
@@ -82,7 +106,11 @@ W którym $\Delta U^p(k)$ jest wektorem przeszłych przyrostów, natomiast $M^p$
     \end{bmatrix}
 \end{math}
 
+\medskip
+
 Przy czym każdy element $s_i$ jest macierzą o rozmiarze $n_y$ x $n_u$.
+
+\medskip
 
 \begin{math}
     s_i = \begin{bmatrix}
@@ -92,7 +120,11 @@ Przy czym każdy element $s_i$ jest macierzą o rozmiarze $n_y$ x $n_u$.
     \end{bmatrix}
 \end{math}
 
+\medskip
+
 Macierz $M$ wygląda następująco:
+
+\medskip
 
 \begin{math}
     M = \begin{bmatrix}
@@ -102,3 +134,7 @@ Macierz $M$ wygląda następująco:
         s_N & s_{N - 1} & \cdots & s_{N - N_u - 1} \\
     \end{bmatrix}
 \end{math}
+
+\medskip
+
+Kierując się tą samą logiką wyznacza się macierz $K_e$ w przypadku uproszczonej wersji DMC, czyli tzw. DMC oszczędnego.

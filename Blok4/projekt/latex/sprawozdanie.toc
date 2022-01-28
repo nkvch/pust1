@@ -5,14 +5,15 @@
 \contentsline {section}{\numberline {3.2\relax .\kern .5em }DMC}{5}
 \contentsline {chapter}{\numberline {4\relax .\kern .5em }Eksperymentalne wyznaczenie nastaw}{7}
 \contentsline {section}{\numberline {4.1\relax .\kern .5em }PID}{7}
-\contentsline {subsection}{\numberline {4.1.1\relax .\kern .5em }$u_1 - y_2; u_2 - y_3; u_3 = const = 0; u_4 - y_1$}{8}
-\contentsline {subsection}{\numberline {4.1.2\relax .\kern .5em }$u_1 = const = 0; u_2 - y_3; u_3 - y_1; u_4 - y_2$}{11}
-\contentsline {section}{\numberline {4.2\relax .\kern .5em }DMC}{14}
-\contentsline {section}{\numberline {4.3\relax .\kern .5em }DMC oszcz\IeC {\k e}dny}{19}
-\contentsline {chapter}{\numberline {5\relax .\kern .5em }Laboratorium}{23}
-\contentsline {section}{\numberline {5.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{23}
-\contentsline {section}{\numberline {5.2\relax .\kern .5em }Mechanizm zabezpieczaj\IeC {\k a}cy przed uszkodzeniem stanowiska}{23}
-\contentsline {section}{\numberline {5.3\relax .\kern .5em }Regulator PID}{24}
-\contentsline {section}{\numberline {5.4\relax .\kern .5em }Regulator DMC}{28}
-\contentsline {section}{\numberline {5.5\relax .\kern .5em }Panel operatora}{31}
-\contentsline {section}{\numberline {5.6\relax .\kern .5em }Automat stan\IeC {\'o}w}{31}
+\contentsline {subsection}{\numberline {4.1.1\relax .\kern .5em }$u_1 - y_2; u_2 - y_3; u_3 = const = 0; u_4 - y_1$}{7}
+\contentsline {subsection}{\numberline {4.1.2\relax .\kern .5em }$u_1 = const = 0; u_2 - y_3; u_3 - y_1; u_4 - y_2$}{10}
+\contentsline {section}{\numberline {4.2\relax .\kern .5em }DMC - wyniki eksperyment\IeC {\'o}w}{14}
+\contentsline {section}{\numberline {4.3\relax .\kern .5em }DMC oszcz\IeC {\k e}dny - wyniki ekperyment\IeC {\'o}w}{19}
+\contentsline {section}{\numberline {4.4\relax .\kern .5em }Regulaja DMC - komentarz og\IeC {\'o}lny}{23}
+\contentsline {chapter}{\numberline {5\relax .\kern .5em }Laboratorium}{24}
+\contentsline {section}{\numberline {5.1\relax .\kern .5em }Okre\IeC {\'s}lenie warto\IeC {\'s}ci pomiaru temperatury w punkcie pracy}{24}
+\contentsline {section}{\numberline {5.2\relax .\kern .5em }Mechanizm zabezpieczaj\IeC {\k a}cy przed uszkodzeniem stanowiska}{24}
+\contentsline {section}{\numberline {5.3\relax .\kern .5em }Regulator PID}{25}
+\contentsline {section}{\numberline {5.4\relax .\kern .5em }Regulator DMC}{29}
+\contentsline {section}{\numberline {5.5\relax .\kern .5em }Panel operatora}{32}
+\contentsline {section}{\numberline {5.6\relax .\kern .5em }Automat stan\IeC {\'o}w}{32}
