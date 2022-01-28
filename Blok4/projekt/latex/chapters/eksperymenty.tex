@@ -15,99 +15,346 @@ $PID_3$ - pid, kontrolujący wyjście numer 3.
 
 \smallskip
 
-Patrząc na wykresy z poprzedniego zadania można zobaczyć że wejście 3 ma największy wpływ zarówno na wyjścia 1 i 3. Biorąc to pod uwage najpierw spróbowaliśmy ustawić stałą na to wejście i nie podłączać do niego regulatora.
+$K^i, T_i^i, T_d^i$ - parametry pida $i$.
 
-\subsection{u1 -> y2; u2 -> y3; u3 = const; u4 -> y1}
+\smallskip
+
+Patrząc na wykresy z poprzedniego zadania można zobaczyć że wejście 3 ma największy wpływ zarówno na wyjścia 1 i 3. Biorąc to pod uwage najpierw spróbowaliśmy ustawić stałą (zero) na to wejście i nie podłączać do niego regulatora, żeby nie regulować jednym wejściem dwóch wyjść jednocześnie.
+
+\subsection{$u_1 - y_2; u_2 - y_3; u_3 = const = 0; u_4 - y_1$}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.01_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_370.8381.tex}
-    \caption{gre}
+    \caption{$u_3 = 0; K_1 = 0,1; Ti_1 = 0,1; Td_1 = 0,1; K_2 = 0,01; Ti_2 = 0,1, Td_2 = 0,1; K_3 = 0,1; Ti_3 = 0,1; Td_3 = 0,1.$}
 \end{figure}
+
+\begin{equation}
+    E = 370,8381
+\end{equation}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_242.6835.tex}
-    \caption{gre}
+    \caption{newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
 \end{figure}
+
+\begin{equation}
+    E = 242,6835
+\end{equation}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_1.00_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_349.5016.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_1.00_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10}
 \end{figure}
+
+\begin{equation}
+    E = 349,5016
+\end{equation}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.20_K2_is_4.00_Ti2_is_1.50_Td2_is_0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_96.3728.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.20_K2_is_4.00_Ti2_is_1.50_Td2_is_0.20_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
 \end{figure}
+
+\begin{equation}
+    E = 96,3728
+\end{equation}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.80_K2_is_3.00_Ti2_is_0.10_Td2_is_2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_93.0067.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.50_Ti1_is_2.00_Td1_is_0.80_K2_is_3.00_Ti2_is_0.10_Td2_is_2.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
 \end{figure}
+
+\begin{equation}
+    E = 93,0067
+\end{equation}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.60_Ti1_is_1.00_Td1_is_1.00_K2_is_3.00_Ti2_is_0.10_Td2_is_1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_143.3710.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_to_y2_u2_to_y3_u3_is_0.00_u4_to_y1_K1_is_0.60_Ti1_is_1.00_Td1_is_1.00_K2_is_3.00_Ti2_is_0.10_Td2_is_1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
 \end{figure}
 
-\section{PID u1 = const; u2 -> y3; u3 = y1; u4 -> y2}
+\begin{equation}
+    E = 143,3710
+\end{equation}
+
+\subsection{PID u1 = const; u2 -> y3; u3 = y1; u4 -> y2}
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_E_is_2561.8711.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_0.10_K2_is_0.10_Ti2_is_0.10_Td2_is_0.10_K3_is_0.10_Ti3_is_0.10_Td3_is_0.10_}
 \end{figure}
+
+\begin{equation}
+    E = 2561,8711
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.10_Td1_is_1.00_K2_is_0.10_Ti2_is_0.10_Td2_is_1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00_E_is_48.2639.tex}
-    \caption{gre}
+    \caption{K1_is_0.10_Ti1_is_0.10_Td1_is_1.00_K2_is_0.10_Ti2_is_0.10_Td2_is_1.00_K3_is_0.10_Ti3_is_0.10_Td3_is_1.00}
 \end{figure}
+
+\begin{equation}
+    E = 48,2639
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_E_is_206.3874.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.01_Td3_is_10.00_}
 \end{figure}
+
+\begin{equation}
+    E = 206,3874
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_10.00_E_is_39.3311.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_10.00}
 \end{figure}
+
+\begin{equation}
+    E = 39,3311
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_20.00_E_is_37.0808.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_20.00}
 \end{figure}
+
+\begin{equation}
+    E = 37,0808
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_30.00_E_is_35.5433.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.03_Ti3_is_0.02_Td3_is_30.00}
 \end{figure}
+
+\begin{equation}
+    E = 35,5433
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_E_is_34.9696.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_0.10_Ti1_is_0.30_Td1_is_0.00_K2_is_0.10_Ti2_is_0.20_Td2_is_1.00_K3_is_0.10_Ti3_is_0.04_Td3_is_10.00_}
 \end{figure}
+
+\begin{equation}
+    E = 34,9696
+\end{equation}
 
 
 \begin{figure}[H]
     \centering
     \input{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_1.00_Ti1_is_1.00_Td1_is_1.00_K2_is_1.00_Ti2_is_1.00_Td2_is_1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_E_is_3335.7707.tex}
-    \caption{gre}
+    \caption{../images/newPID_u1_is_0.00_u2_to_y3_u3_to_y1_u4_to_y2_K1_is_1.00_Ti1_is_1.00_Td1_is_1.00_K2_is_1.00_Ti2_is_1.00_Td2_is_1.00_K3_is_1.00_Ti3_is_1.00_Td3_is_1.00_}
+\end{figure}
+
+\begin{equation}
+    E = 3335,7707
+\end{equation}
+
+
+\section{DMC}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex}
+    \caption{DMC}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4310.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_20_Nu_20_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0778.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_2_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4326.tex}
+    \caption{DMC}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_50_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0746.tex}
+    \caption{DMC}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.5422.tex}
+    \caption{DMC}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.10_la2_0.10_la3_0.10_la4_0.10_E_9.8142.tex}
+    \caption{DMC}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.7947.tex}
+    \caption{DMC}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/DMC_N_5_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4496.tex}
+    \caption{DMC}
+\end{figure}
+
+\section{DMC oszczędny}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_100_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0725.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_10_Nu_10_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0854.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_10_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.1638.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_10_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.9256.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_150_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0710.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_1_Nu_1_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4310.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_1_Nu_1_mu1_100.00_mu2_100.00_mu3_100.00_la1_0.00_la2_0.00_la3_0.00_la4_0.00_E_8.4300.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_20_Nu_20_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0778.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_2_Nu_1_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_16.5070.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_2_Nu_2_mu1_10.00_mu2_10.00_mu3_10.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.4326.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_50_Nu_50_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_14.0746.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.01_la2_0.01_la3_0.01_la4_0.01_E_8.5422.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_0.10_la2_0.10_la3_0.10_la4_0.10_E_9.8142.tex}
+    \caption{DMC oszczędny}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \input{../images/economDMC_N_5_Nu_2_mu1_1.00_mu2_1.00_mu3_1.00_la1_1.00_la2_1.00_la3_1.00_la4_1.00_E_13.7947.tex}
+    \caption{DMC oszczędny}
 \end{figure}
